@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.UI;
 public class PlayerHealth : MonoBehaviour
 {
@@ -35,6 +33,10 @@ public class PlayerHealth : MonoBehaviour
             {
                 hearts[i].enabled = false;
             }
+        }
+        if(health == 0)
+        {
+            gameObject.SetActive(false); //This is what happens if the player dies
         }
     }
 

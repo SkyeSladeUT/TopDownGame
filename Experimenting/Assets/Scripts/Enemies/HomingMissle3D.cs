@@ -15,4 +15,8 @@ public class HomingMissle3D : MonoBehaviour {
 		var rocketTargetRotation = Quaternion.LookRotation(rocketTarget.position - transform.position);
 		rocketRigidbody.MoveRotation (Quaternion.RotateTowards(transform.rotation, rocketTargetRotation, turnR));
 	}
+	void OnCollisionEnter(Collision collision)
+    {
+		
+	}
 }
