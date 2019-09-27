@@ -8,6 +8,8 @@ public class Boomerang : MonoBehaviour {
  
     GameObject player;//Reference To The Main Character
     GameObject weapon;//Reference To The Main Character's Weapon
+
+    public float flyingtime = 0.5f;
  
     Transform itemToRotate;//The Weapon That Is A Child Of The Empty Game Object
      
@@ -33,7 +35,7 @@ public class Boomerang : MonoBehaviour {
     IEnumerator Boom()
     {
         go = true;
-        yield return new WaitForSeconds(1.5f);//Any Amount Of Time You Want
+        yield return new WaitForSeconds(flyingtime);//Any Amount Of Time You Want
         go = false;
     }
      

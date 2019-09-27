@@ -986,7 +986,6 @@ GameObject:
   - component: {fileID: 865320330}
   - component: {fileID: 865320329}
   - component: {fileID: 865320328}
-  - component: {fileID: 865320327}
   m_Layer: 0
   m_Name: Sphere
   m_TagString: Untagged
@@ -994,23 +993,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &865320327
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 865320326}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a409be27b26b44e4a8ce874b20cfaebd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  go: 0
-  player: {fileID: 0}
-  sword: {fileID: 0}
-  itemToRotate: {fileID: 0}
-  locationInFrontOfPlayer: {x: 0, y: 0, z: 0}
 --- !u!135 &865320328
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -2610,10 +2592,6 @@ PrefabInstance:
       propertyPath: hearts.Array.data[3]
       value: 
       objectReference: {fileID: 1323564474}
-    - target: {fileID: 1982347481, guid: d7b2a4e8879948444835fe0e21dcdc83, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d7b2a4e8879948444835fe0e21dcdc83, type: 3}
 --- !u!1001 &7107972151096549864

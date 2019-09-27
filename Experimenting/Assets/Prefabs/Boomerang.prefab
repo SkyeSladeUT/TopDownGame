@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 6783593587105428670}
   - component: {fileID: 6040829242948717903}
   - component: {fileID: 2974665728864751531}
+  - component: {fileID: 5938878899704694957}
   m_Layer: 0
   m_Name: BoomerangOrigin
   m_TagString: BoomerangOrigin
@@ -59,7 +60,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 8cc02d67c40102941b9c424e060becf7, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -107,6 +108,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boomerang: {fileID: 3740155597885773319, guid: 310a956541b391f4399ee2c7ad5398eb,
     type: 3}
+  ThrowBoomerang: 3
+--- !u!114 &5938878899704694957
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3979910436191936440}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b67f326884e67144879fd90e4a8d108, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  thrust: 15
+  knockTime: 0.5
 --- !u!1 &9074426524769598169
 GameObject:
   m_ObjectHideFlags: 0
@@ -151,3 +167,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44048ba73b155274d943323c726fa389, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  flyingtime: 0.5

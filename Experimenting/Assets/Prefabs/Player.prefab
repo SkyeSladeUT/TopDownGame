@@ -134,8 +134,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1982347481}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.005, y: -0.154, z: 0.434}
-  m_LocalScale: {x: 0.36641, y: 0.36641, z: 0.36641}
+  m_LocalPosition: {x: -0.422, y: -0.154, z: 0.434}
+  m_LocalScale: {x: 0.6862126, y: 0.12141728, z: 0.293517}
   m_Children: []
   m_Father: {fileID: 6807276967738376581}
   m_RootOrder: 2
@@ -165,7 +165,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 8cc02d67c40102941b9c424e060becf7, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -500,4 +500,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boomerang: {fileID: 9074426524769598169, guid: 7d25adc1a746c1c49b937b304994c442,
     type: 3}
-  ThrowBoomerang: 3
+  ThrowBoomerang: 1.5
