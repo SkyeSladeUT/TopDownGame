@@ -1,3 +1,5 @@
-Click on the screen to pass the text!
-See! This is more text.
-Literally the greatest
+Juan: Hey! So in this character text type you can see several things...
+Juan: First, notice how you can't move your player
+Juan: Second, notice how you will only be able to play this message once!
+Juan: Third and last! You can actually see my name up top!
+Juan: That's all! Bye!

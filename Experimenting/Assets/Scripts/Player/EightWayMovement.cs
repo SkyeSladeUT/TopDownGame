@@ -11,13 +11,18 @@ public class EightWayMovement : MonoBehaviour
     Quaternion targetRotation;
     //Transform cam;
 
+    private bool controls;
+
     void Start()
     {
         //cam = Camera.main.transform;
+        controls = true;
     }
 
     void Update()
     {
+        if (controls == true)
+        {
         
         GetInput();
         if (Mathf.Abs(input.x) < 1 && Mathf.Abs(input.y) < 1) return;
@@ -25,6 +30,7 @@ public class EightWayMovement : MonoBehaviour
         CalculateDirection();
         Rotate();
         Move();
+        }
     }
 
 
@@ -52,4 +58,12 @@ public class EightWayMovement : MonoBehaviour
     transform.position += transform.forward*velocity * Time.deltaTime;
     }
     
+    public void CancelControls()
+    {
+		controls = false;
+	}
+    public void ResumeControls()
+    {
+		controls = true;
+	}
 }
