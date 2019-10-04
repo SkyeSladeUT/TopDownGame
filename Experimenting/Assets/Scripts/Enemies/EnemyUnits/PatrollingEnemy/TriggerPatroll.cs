@@ -1,36 +1,43 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
-public class TriggerPatroll : MonoBehaviour
+namespace Assets.Scripts.Enemies.EnemyUnits.PatrollingEnemy
 {
+    public class TriggerPatroll : MonoBehaviour
+    {
         EnemyPatroll enemyPat;
         SphereCollider myCollider;
         public float agroRad;
 
-    void Start()
-    {
-        enemyPat = GetComponentInParent<EnemyPatroll>();
-        myCollider = GetComponent<SphereCollider>();
-        myCollider.radius = agroRad;
-        myCollider.isTrigger = true;
-    }
-
-    void OnTriggerEnter(Collider coll)
-    {
-        if (coll.gameObject.tag == "player")
+        void Start()
         {
-            print("player has entered the danger zone");
-            enemyPat.target = coll.gameObject;
+            myCollider.radius = agroRad;
+            myCollider.isTrigger = true;
         }
-    }
-
-    void OntTriggerExit(Collider coll)
-    {
-        if(coll.gameObject.tag == "player")
+        
+        
+        void OnEnable()
         {
-            print("player has exited danger zone");
-            enemyPat.target = null;
+            enemyPat = GetComponentInParent<EnemyPatroll>();
+            myCollider = GetComponent<SphereCollider>();
+
+        }
+
+        void OnTriggerEnter(Collider coll)
+        {
+            if (coll.gameObject.tag == "Player")
+            {
+                print("player has entered the danger zone");
+                enemyPat.target = coll.gameObject;
+            }
+        }
+
+        void OnTriggerExit(Collider coll)
+        {
+            if (coll.gameObject.tag == "Player")
+            {
+                print("EXITED THE ZONE");
+                enemyPat.target = null;
+            }
         }
     }
 }

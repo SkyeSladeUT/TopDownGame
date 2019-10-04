@@ -1,10 +1,7 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using Assets.Scripts.Enemies.EnemyUnits.PatrollingEnemy;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.AI;
 
-public class EnemyPatroll : MonoBehaviour
+public abstract class EnemyPatroll : MonoBehaviour
 {
     [HideInInspector]
     public GameObject target;
@@ -27,9 +24,9 @@ public class EnemyPatroll : MonoBehaviour
     bool attacking = false;
 
     void OnEnable()
-    {
-        triggPatroll = GetComponentInChildren<TriggerPatroll> ();
-        triggPatroll.agroRad = agroRadius;
+        {
+            triggPatroll = GetComponentInChildren<TriggerPatroll> ();
+            triggPatroll.agroRad = agroRadius;
         }
 
     void Start()
@@ -93,7 +90,6 @@ public class EnemyPatroll : MonoBehaviour
     void ChkDist()
     {
         float dist = Vector3.Distance(transform.position, target.transform.position);
-        
         if (dist <= attackDistance)
         {
             attacking = true;
