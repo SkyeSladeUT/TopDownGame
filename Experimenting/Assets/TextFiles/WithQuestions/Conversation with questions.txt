@@ -1,0 +1,4 @@
+Estaban: In this Conversation you will be given the choice to say yes or no.
+Estaban: If you say yes you will be able to open up the wall and be able to pass.
+[choice] Yes, please remove the wall!
+[choice] No, no need for that...
