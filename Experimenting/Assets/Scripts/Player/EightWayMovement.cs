@@ -4,12 +4,16 @@ using UnityEngine;
 
 public class EightWayMovement : MonoBehaviour
 {
-    public float velocity = 5;
+    [Header("Player movement")]
+    public float walkingspeed = 5;
+    private float velocity;
     public float turnSpeed = 100;
     Vector2 input;
     float angle;
     Quaternion targetRotation;
     //Transform cam;
+
+    public int RunningSpeed;
 
     private bool controls;
 
@@ -30,6 +34,8 @@ public class EightWayMovement : MonoBehaviour
         CalculateDirection();
         Rotate();
         Move();
+        Run();
+        Run();
         }
     }
 
@@ -56,6 +62,21 @@ public class EightWayMovement : MonoBehaviour
     void Move()
     {
     transform.position += transform.forward*velocity * Time.deltaTime;
+    
+    }
+
+    void Run()
+    {
+        if (Input.GetKey(KeyCode.LeftShift))
+        {
+            velocity = RunningSpeed;
+       
+        }
+        else
+        {
+            velocity = walkingspeed;
+    
+        }
     }
     
     public void CancelControls()
@@ -66,4 +87,6 @@ public class EightWayMovement : MonoBehaviour
     {
 		controls = true;
 	}
+    
+    
 }

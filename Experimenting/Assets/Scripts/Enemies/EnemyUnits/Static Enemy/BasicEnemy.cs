@@ -1,36 +1,61 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.AI;
 
 public class BasicEnemy : MonoBehaviour
 {
-         public Transform target;
-         public float speed = 3f;
-         public float attack1Range = 1f;
-         public int attack1Damage = 1;
-         public float timeBetweenAttacks;
- 
- 
-         void Start ()
-         {
-             Rest ();
-         }
- 
-         public void MoveToPlayer ()
-         {
-             //rotate to look at player
-             transform.LookAt (target.position);
-             transform.Rotate (new Vector3 (0, -90, 0), Space.Self);
-         
-             //move towards player
-             if (Vector3.Distance (transform.position, target.position) > attack1Range) 
-             {
-                     transform.Translate (new Vector3 (speed * Time.deltaTime, 0, 0));
-             }
-         }
- 
-         public void Rest ()
-         {
- 
-         }
- }
+    private NavMeshAgent nav;
+    public Transform Player;
+    public Transform OrigianlPosition;
+    public float damping = 3;
+    public float MaxDistAwayFromPlayer = 10;
+    public float MinDist = 1;
+    public bool Swordsman;
+    public bool Archer;
+
+    void Start()
+    {
+        nav = GetComponent<NavMeshAgent>();
+
+    }
+
+    public void FollowPlayerWhenInRange()
+    {
+        var rotation = Quaternion.LookRotation(Player.position - transform.position);
+        transform.rotation = Quaternion.Slerp(transform.rotation, rotation, Time.deltaTime * damping);
+        //the script above is the equivalent of "look at"
+        
+        Player = GameObject.FindGameObjectWithTag("Player").transform;
+
+        var minDist = MinDist;
+        if (Vector3.Distance(transform.position, Player.position) >= minDist) //this checks the distance between enemy and player
+        { 
+            nav.SetDestination(Player.position);
+            
+
+            
+            if (Vector3.Distance(transform.position, Player.position) <= MaxDistAwayFromPlayer) //this checks the distance between enemy and player
+            {
+                nav.SetDestination(transform.position);
+                //Do Stuff Like Attack
+                print("attack player");
+            }
+
+        }
+    }
+
+    public void GoBackToOriginalPosition()
+    {
+
+        if (Vector3.Distance(transform.position, OrigianlPosition.position) >= MinDist)
+        {
+            nav.SetDestination(OrigianlPosition.position);
+            print("GoingbackToPosition");
+        }
+    }
+    
+    
+    
+}
+

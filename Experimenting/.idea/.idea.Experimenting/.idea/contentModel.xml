@@ -163,7 +163,13 @@
               <e p="Bullet.cs" t="Include" />
               <e p="Turret.cs" t="Include" />
             </e>
-            <e p="BlackHole.cs" t="Include" />
+            <e p="BlackHole" t="Include">
+              <e p="BlackHole.cs" t="Include" />
+            </e>
+            <e p="EnemyHealth" t="Include">
+              <e p="DamageToEnemy.cs" t="Include" />
+              <e p="EnemyHealth.cs" t="Include" />
+            </e>
             <e p="EnemyUnits" t="Include">
               <e p="PatrollingEnemy" t="Include">
                 <e p="EnemyPatroll.cs" t="Include" />
@@ -174,7 +180,12 @@
                 <e p="EnemyAttack.cs" t="Include" />
               </e>
             </e>
-            <e p="HomingMissle3D.cs" t="Include" />
+            <e p="Mage" t="Include">
+              <e p="HomingMissle3D.cs" t="Include" />
+            </e>
+          </e>
+          <e p="Events" t="Include">
+            <e p="OnTriggerWIthPLayerEvent.cs" t="Include" />
           </e>
           <e p="Player" t="Include">
             <e p="CameraController.cs" t="Include" />

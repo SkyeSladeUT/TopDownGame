@@ -26,6 +26,10 @@ public class EnemyPatroll : MonoBehaviour
     float startTimer;
     bool attacking = false;
 
+    [Header("WeaponType")] 
+    public GameObject EnemWeapon;
+    private float swordactive = 0.2f;
+
     void OnEnable()
     {
         triggPatroll = GetComponentInChildren<TriggerPatroll> ();
@@ -110,5 +114,14 @@ public class EnemyPatroll : MonoBehaviour
     void Attack()
     {
         print("attacking the player");
+        StartCoroutine(SwordAttack());
+    }
+    
+    
+    IEnumerator SwordAttack()
+    {
+        EnemWeapon.SetActive(true);
+        yield return new WaitForSeconds(swordactive);
+        EnemWeapon.SetActive(false);
     }
 }

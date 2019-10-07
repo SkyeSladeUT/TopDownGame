@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 1213428740}
   - component: {fileID: 1213428739}
   - component: {fileID: 5199867080624129358}
+  - component: {fileID: 8551734950957342718}
   m_Layer: 0
   m_Name: Sword
   m_TagString: Sword
@@ -105,8 +106,25 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b67f326884e67144879fd90e4a8d108, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  thrust: 10
+  thrust: 15
   knockTime: 0.1
+  canKnockEnemy: 1
+  canKnockPlayer: 0
+  PlayerIsKnockWithWeapon: 0
+--- !u!114 &8551734950957342718
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1213428736}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c24c9c8880035f49bc808a9cfc82fdf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nextHitTime: 0.5
+  Damage: 1
 --- !u!1 &1982347481
 GameObject:
   m_ObjectHideFlags: 0
@@ -213,7 +231,7 @@ GameObject:
   - component: {fileID: 159824247074958009}
   m_Layer: 0
   m_Name: Nose
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -421,8 +439,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bbb15ae3c0a8a4e4293f3a73d49402be, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  velocity: 5
+  walkingspeed: 5
   turnSpeed: 100
+  RunningSpeed: 9
 --- !u!114 &6807276967738376583
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -485,7 +504,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7615a2ab3747cb84ab49e954cc69c503, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Sword: {fileID: 1213428736}
+  SwordSlash: {fileID: 1213428736}
+  SuperSlash: []
+  HoldDownButtonTime: 2
 --- !u!114 &6029054808717180216
 MonoBehaviour:
   m_ObjectHideFlags: 0

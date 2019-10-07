@@ -6,6 +6,9 @@ public class CameraController : MonoBehaviour
 {
     public Transform target;
     public Vector3 offsetPos;
+    public Vector3 TalkPos;
+    public Vector3 LookOverBuildPos;
+    private Vector3 OriginalPos;
     public float moveSpeed = 5;
     public float turnSpeed = 1;
     public float smoothSpeed = 0.5f;
@@ -13,6 +16,11 @@ public class CameraController : MonoBehaviour
     Vector3 targetPos;
 
     bool smoothRotating = false;
+
+    void Start()
+    {
+        OriginalPos = offsetPos;
+    }
    
     void Update()
     {
@@ -58,5 +66,19 @@ public class CameraController : MonoBehaviour
         smoothRotating = false;
         offsetPos = targetOffsetPos;
 
+    }
+
+    public void CloseUpWhentalking()
+    {
+        offsetPos = TalkPos;
+    }
+
+    public void LookAboveTheBuilding()
+    {
+        offsetPos = LookOverBuildPos;
+    }
+    public void ReturnCameraToNormal()
+    {
+        offsetPos = OriginalPos;
     }
 }
