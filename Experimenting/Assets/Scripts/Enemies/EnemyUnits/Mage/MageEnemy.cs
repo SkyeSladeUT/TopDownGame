@@ -3,9 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
 
-public class BasicEnemy : MonoBehaviour
+public class MageEnemy : MonoBehaviour
 {
-    
     private NavMeshAgent nav;
     
     [Header("Target and ReturnPoint")] 
@@ -22,12 +21,10 @@ public class BasicEnemy : MonoBehaviour
     
     [Header("EnemyAttack")] 
     public GameObject EnemSwordWeapon;
-    public Transform ShootingPoint;
-    public GameObject Arrows;
-    public bool Swordsman;
-    public bool Archer;
+    public bool FollowingShots;
+    public bool DirectShots;
     float startTimer;
-    public float TimeBetweenAttacks;
+    public float attackCoolDown;
 
     void Start()
     {
@@ -57,23 +54,18 @@ public class BasicEnemy : MonoBehaviour
                 nav.SetDestination(transform.position);
                 
                 //Do Stuff Like Attack
-                if (Swordsman == true)
+                if (FollowingShots == true)
                 {
                     startTimer += Time.deltaTime;
-                    if (startTimer >= TimeBetweenAttacks)
+                    if (startTimer >= attackCoolDown)
                     {
                         startTimer = 0f;
-                        StartCoroutine(AttackingSword());
+                        StartCoroutine(FollowingShotss());
                     }
                 }
-                if (Archer == true)
+                if (DirectShots == true)
                         {
-                            startTimer += Time.deltaTime;
-                            if (startTimer >= TimeBetweenAttacks)
-                            {
-                                startTimer = 0f;
-                                StartCoroutine(AttackingArrow());
-                            }
+                
                         }
             }
 
@@ -91,20 +83,17 @@ public class BasicEnemy : MonoBehaviour
         }
     }
 
-    IEnumerator AttackingSword()
+    IEnumerator FollowingShotss()
     {
         EnemSwordWeapon.SetActive(true);
         yield return new WaitForSeconds(swordactive);
         EnemSwordWeapon.SetActive(false);
     }
 
-    IEnumerator AttackingArrow()
+    public void DirectShotss()
     {
-            yield return new WaitForSeconds(swordactive);
-            Instantiate(Arrows, ShootingPoint.transform.position, Quaternion.identity);
-            
+        
     }
 
 
 }
-
