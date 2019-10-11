@@ -37,7 +37,7 @@ public class MageEnemy : MonoBehaviour
     {
         var rotation = Quaternion.LookRotation(Player.position - transform.position);
         transform.rotation = Quaternion.Slerp(transform.rotation, rotation, Time.deltaTime * LookAtSpeed);
-        //the script above is the equivalent of "look at" but witha  smoth
+        //the script above is the equivalent of "look at" but with a smooth
 
         Player = GameObject.FindGameObjectWithTag("Player").transform;
 
@@ -52,7 +52,7 @@ public class MageEnemy : MonoBehaviour
             if (Vector3.Distance(transform.position, Player.position) <= MaxDistAwayFromPlayer
             ) //this checks the distance between enemy and player
             {
-                nav.SetDestination(transform.position);
+                nav.SetDestination(transform.position); //How do I make this go backwards? away from the player.
                 
                 //Do Stuff Like Attack
                 if (FollowingShots == true)
@@ -82,6 +82,7 @@ public class MageEnemy : MonoBehaviour
 
     IEnumerator FollowingShooting()
     {
+        
             yield return new WaitForSeconds(TimeBetweenShots);
             Instantiate(FollowShot, ShootingPoint.transform.position, Quaternion.identity);
             

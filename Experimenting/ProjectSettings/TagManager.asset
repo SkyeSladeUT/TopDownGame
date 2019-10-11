@@ -8,6 +8,7 @@ TagManager:
   - Sword
   - BoomerangOrigin
   - Ground
+  - Shield
   layers:
   - Default
   - TransparentFX

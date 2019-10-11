@@ -16,6 +16,9 @@ public class BasicEnemy : MonoBehaviour
     public float LookAtSpeed = 3;
     public float MaxDistAwayFromPlayer = 10;
     public float MinDist = 1;
+    public float speed = 3;
+    public float stuntTime = 2;
+    private float stuntSpeed = 0;
     
     
     private float swordactive = 0.5f;
@@ -32,7 +35,15 @@ public class BasicEnemy : MonoBehaviour
     void Start()
     {
         nav = GetComponent<NavMeshAgent>();
+        nav.speed = speed;
+    }
 
+    private void OnCollisionEnter(Collision other)
+    {
+        if (other.gameObject.CompareTag("Shield"))
+        {
+            StartCoroutine(Stunt());
+        }
     }
 
     public void FollowPlayerWhenInRange()
@@ -104,5 +115,14 @@ public class BasicEnemy : MonoBehaviour
             Instantiate(Arrows, ShootingPoint.transform.position, Quaternion.identity);
             
     }
+
+    IEnumerator Stunt()
+    {
+        nav.speed = stuntSpeed;
+        yield return new WaitForSeconds(stuntTime);
+        nav.speed = speed;
+    }
+    
+
 }
 

@@ -37,22 +37,23 @@
       <list>
         <option value="$PROJECT_DIR$/EnemyPatroll.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Enemies/EnemyUnits/PatrollingEnemy/TriggerPatroll.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Weapons/Knockback.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Player/SwordAttack.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/CameraController.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Player/EightWayMovement.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Enemies/BlackHole.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Enemies/EnemyHealth/EnemyHealth.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Enemies/EnemyUnits/PatrollingEnemy/EnemyPatroll.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Enemies/EnemyUnits/Static Enemy/StaticEnemyMov.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Enemies/EnemyUnits/Static Enemy/EnemyAttack.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/Dash.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/DamageToPlayer.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Enemies/AutoTurret/Bullet.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Enemies/EnemyUnits/Mage/HomingMissle3D.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Enemies/EnemyUnits/Static Enemy/BasicEnemy.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Enemies/EnemyUnits/Mage/MageEnemy.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerHealth.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Enemies/EnemyUnits/Static Enemy/BasicEnemy.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Weapons/Knockback.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player/Shield.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player/EightWayMovement.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player/SwordAttack.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Enemies/EnemyUnits/PatrollingEnemy/EnemyPatroll.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Enemies/EnemyUnits/Mage/HomingMissle3D.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Enemies/EnemyUnits/Mage/MageEnemy.cs" />
       </list>
     </option>
   </component>
@@ -94,7 +95,7 @@
       <workItem from="1570474644356" duration="5923000" />
       <workItem from="1570633306723" duration="10139000" />
       <workItem from="1570660702337" duration="1075000" />
-      <workItem from="1570809683102" duration="5561000" />
+      <workItem from="1570809683102" duration="17429000" />
     </task>
     <servers />
   </component>

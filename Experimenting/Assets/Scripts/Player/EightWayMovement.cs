@@ -25,6 +25,7 @@ public class EightWayMovement : MonoBehaviour
 
     void Update()
     {
+
         if (controls == true)
         {
         

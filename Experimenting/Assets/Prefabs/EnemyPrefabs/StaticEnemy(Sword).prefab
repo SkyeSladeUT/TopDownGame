@@ -300,12 +300,14 @@ MonoBehaviour:
   LookAtSpeed: 3
   MaxDistAwayFromPlayer: 1.5
   MinDist: 1
+  speed: 3
+  stuntTime: 2
   EnemSwordWeapon: {fileID: 525177650608989088}
   ShootingPoint: {fileID: 0}
   Arrows: {fileID: 0}
   Swordsman: 1
   Archer: 0
-  TimeBetweenAttacks: 0
+  TimeBetweenAttacks: 1.5
 --- !u!1 &525177650562367737
 GameObject:
   m_ObjectHideFlags: 0
@@ -329,7 +331,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 525177650562367737}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 27.05089, y: 0.58, z: 14.03}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -449,6 +451,7 @@ MonoBehaviour:
   canKnockEnemy: 0
   canKnockPlayer: 0
   PlayerIsKnockWithWeapon: 1
+  Shield: 0
 --- !u!114 &525177650608989089
 MonoBehaviour:
   m_ObjectHideFlags: 0

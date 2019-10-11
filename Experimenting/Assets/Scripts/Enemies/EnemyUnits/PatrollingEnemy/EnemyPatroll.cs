@@ -23,8 +23,10 @@ public class EnemyPatroll : MonoBehaviour
     public float agroRadius;
     public float attackDistance;
     public float attackCoolDown;
+    public float stuntTime;
     float startTimer;
     bool attacking = false;
+    private float stuntSpeed = 0;
 
     [Header("WeaponType")] 
     public GameObject EnemWeapon;
@@ -34,7 +36,15 @@ public class EnemyPatroll : MonoBehaviour
     {
         triggPatroll = GetComponentInChildren<TriggerPatroll> ();
         triggPatroll.agroRad = agroRadius;
+    }
+    
+    private void OnCollisionEnter(Collision other)
+    {
+        if (other.gameObject.CompareTag("Shield"))
+        {
+            StartCoroutine(Stunt());
         }
+    }
 
     void Start()
     {
@@ -123,5 +133,12 @@ public class EnemyPatroll : MonoBehaviour
         EnemWeapon.SetActive(true);
         yield return new WaitForSeconds(swordactive);
         EnemWeapon.SetActive(false);
+    }
+    
+    IEnumerator Stunt()
+    {
+        myAgent.speed = stuntSpeed;
+        yield return new WaitForSeconds(stuntTime);
+        myAgent.speed = speed;
     }
 }
