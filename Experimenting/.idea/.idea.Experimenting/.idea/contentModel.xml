@@ -7,6 +7,27 @@
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="Scripts" t="Include">
+          <e p="DialogueObjects" t="Include">
+            <e p="Dialogue_Scripts" t="Include">
+              <e p="choice_dialogue.cs" t="Include" />
+              <e p="choice_lines.cs" t="Include" />
+              <e p="Choice_Selection.cs" t="Include" />
+              <e p="dialogue_lines.cs" t="Include" />
+              <e p="dialogue_script_condensed.cs" t="Include" />
+              <e p="IfElseEvents.cs" t="Include" />
+              <e p="NPCObject.cs" t="Include" />
+            </e>
+            <e p="Scriptable_Objects" t="Include">
+              <e p="BoolData.cs" t="Include" />
+              <e p="DebugObject.cs" t="Include" />
+              <e p="FloatData.cs" t="Include" />
+              <e p="FloatInput.cs" t="Include" />
+              <e p="FloatInputAxis.cs" t="Include" />
+              <e p="KeyCodeData.cs" t="Include" />
+              <e p="KeyCodeDataKeys.cs" t="Include" />
+              <e p="UnityKeyCodeObject.cs" t="Include" />
+            </e>
+          </e>
           <e p="Doors" t="Include">
             <e p="Door.cs" t="Include" />
             <e p="SceneController.cs" t="Include" />
@@ -24,6 +45,7 @@
             </e>
             <e p="EnemyUnits" t="Include">
               <e p="Mage" t="Include">
+                <e p="HomingMissle3D.cs" t="Include" />
                 <e p="MageEnemy.cs" t="Include" />
               </e>
               <e p="PatrollingEnemy" t="Include">
@@ -35,9 +57,6 @@
                 <e p="BasicEnemy.cs" t="Include" />
                 <e p="EnemyAttack.cs" t="Include" />
               </e>
-            </e>
-            <e p="Mage" t="Include">
-              <e p="HomingMissle3D.cs" t="Include" />
             </e>
           </e>
           <e p="Events" t="Include">
@@ -51,6 +70,7 @@
             <e p="Jump.cs" t="Include" />
             <e p="MasterPlayerScript.cs" t="Include" />
             <e p="PlayerHealth.cs" t="Include" />
+            <e p="Shield.cs" t="Include" />
             <e p="SwordAttack.cs" t="Include" />
           </e>
           <e p="Weapons" t="Include">

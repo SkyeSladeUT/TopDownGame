@@ -14,11 +14,15 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Weapons/Knockback.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/Dash.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/Shield.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/PlayerHealth.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Enemies/EnemyUnits/Mage/MageEnemy.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Enemies/EnemyHealth/EnemyHealth.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Enemies/EnemyHealth/DamageToEnemy.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Enemies/EnemyUnits/Mage/HomingMissle3D.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Enemies/EnemyUnits/PatrollingEnemy/EnemyPatroll.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Enemies/AutoTurret/Turret.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Enemies/EnemyUnits/Static Enemy/Arrow.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/SwordAttack.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Enemies/EnemyUnits/Static Enemy/EnemyAttack.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Enemies/EnemyUnits/Static Enemy/BasicEnemy.cs" root0="FORCE_HIGHLIGHTING" />
@@ -44,9 +48,11 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Enemies/EnemyUnits/Static Enemy/EnemyAttack.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/Dash.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/DamageToPlayer.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Enemies/EnemyUnits/Mage/MageEnemy.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Enemies/EnemyUnits/Static Enemy/BasicEnemy.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Enemies/AutoTurret/Bullet.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Enemies/EnemyUnits/Mage/HomingMissle3D.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Enemies/EnemyUnits/Static Enemy/BasicEnemy.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Enemies/EnemyUnits/Mage/MageEnemy.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerHealth.cs" />
       </list>
     </option>
   </component>
@@ -87,6 +93,8 @@
       <workItem from="1570471750643" duration="1172000" />
       <workItem from="1570474644356" duration="5923000" />
       <workItem from="1570633306723" duration="10139000" />
+      <workItem from="1570660702337" duration="1075000" />
+      <workItem from="1570809683102" duration="5561000" />
     </task>
     <servers />
   </component>

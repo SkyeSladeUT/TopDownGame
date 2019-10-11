@@ -10,12 +10,21 @@ public class HomingMissle3D : MonoBehaviour {
 	public float rocketVelocity;
 	public GameObject ExplosionEffect;
 	public float explosionEffectTime = 1;
+	public float DestroyTime = 4;
+
+	void Start()
+	{
+		rocketTarget = GameObject.FindWithTag("Player").transform;
+		transform.LookAt(rocketTarget.transform);
+		
+	}
 
 	private void FixedUpdate()
 	{
 		rocketRigidbody.velocity = transform.forward * rocketVelocity;
 		var rocketTargetRotation = Quaternion.LookRotation(rocketTarget.position - transform.position);
 		rocketRigidbody.MoveRotation (Quaternion.RotateTowards(transform.rotation, rocketTargetRotation, turnR));
+		Destroy (gameObject, DestroyTime);
 	}
 	void OnCollisionEnter(Collision collision)
     {

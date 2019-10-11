@@ -17,14 +17,15 @@ public class MageEnemy : MonoBehaviour
     public float MinDist = 1;
     
     
-    private float swordactive = 0.5f;
+    private float TimeBetweenShots = 0.5f;
     
-    [Header("EnemyAttack")] 
-    public GameObject EnemSwordWeapon;
+    [Header("EnemyAttack")]
+    public Transform ShootingPoint;
+    public GameObject FollowShot;
+    public bool FollowingS;
     public bool FollowingShots;
-    public bool DirectShots;
     float startTimer;
-    public float attackCoolDown;
+    public float TimeBetweenAttacks;
 
     void Start()
     {
@@ -55,17 +56,13 @@ public class MageEnemy : MonoBehaviour
                 
                 //Do Stuff Like Attack
                 if (FollowingShots == true)
-                {
-                    startTimer += Time.deltaTime;
-                    if (startTimer >= attackCoolDown)
-                    {
-                        startTimer = 0f;
-                        StartCoroutine(FollowingShotss());
-                    }
-                }
-                if (DirectShots == true)
                         {
-                
+                            startTimer += Time.deltaTime;
+                            if (startTimer >= TimeBetweenAttacks)
+                            {
+                                startTimer = 0f;
+                                StartCoroutine(FollowingShooting());
+                            }
                         }
             }
 
@@ -83,17 +80,10 @@ public class MageEnemy : MonoBehaviour
         }
     }
 
-    IEnumerator FollowingShotss()
+    IEnumerator FollowingShooting()
     {
-        EnemSwordWeapon.SetActive(true);
-        yield return new WaitForSeconds(swordactive);
-        EnemSwordWeapon.SetActive(false);
+            yield return new WaitForSeconds(TimeBetweenShots);
+            Instantiate(FollowShot, ShootingPoint.transform.position, Quaternion.identity);
+            
     }
-
-    public void DirectShotss()
-    {
-        
-    }
-
-
 }

@@ -34,7 +34,7 @@ public class PlayerHealth : MonoBehaviour
                 hearts[i].enabled = false;
             }
         }
-        if(health == 0)
+        if(health <= 0)
         {
             gameObject.SetActive(false); //This is what happens if the player dies
         }

@@ -104,7 +104,5 @@ public class BasicEnemy : MonoBehaviour
             Instantiate(Arrows, ShootingPoint.transform.position, Quaternion.identity);
             
     }
-
-
 }
 
