@@ -75,8 +75,11 @@
           </e>
           <e p="Weapons" t="Include">
             <e p="Boomerang.cs" t="Include" />
-            <e p="BoomerangStart.cs" t="Include" />
             <e p="Knockback.cs" t="Include" />
+            <e p="YoYo" t="Include">
+              <e p="Yoyo.cs" t="Include" />
+              <e p="YoYoStart.cs" t="Include" />
+            </e>
           </e>
         </e>
         <e p="TextMesh Pro" t="Include">

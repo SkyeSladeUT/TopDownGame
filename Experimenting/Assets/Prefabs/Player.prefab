@@ -267,7 +267,7 @@ GameObject:
   - component: {fileID: 1982347485}
   - component: {fileID: 1982347484}
   m_Layer: 0
-  m_Name: BoomerangOrigin
+  m_Name: YoyoOrigin
   m_TagString: BoomerangOrigin
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -281,8 +281,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1982347481}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.422, y: -0.154, z: 0.434}
-  m_LocalScale: {x: 0.6862126, y: 0.12141728, z: 0.293517}
+  m_LocalPosition: {x: -0.441, y: -0.154, z: 0.539}
+  m_LocalScale: {x: 0.23489745, y: 0.12141728, z: 0.293517}
   m_Children: []
   m_Father: {fileID: 6807276967738376581}
   m_RootOrder: 2
@@ -457,7 +457,7 @@ GameObject:
   - component: {fileID: 969958320}
   - component: {fileID: 7305512059744786002}
   - component: {fileID: 1443494606317250735}
-  - component: {fileID: 6029054808717180216}
+  - component: {fileID: 2604033190429515849}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -653,7 +653,7 @@ MonoBehaviour:
   ShieldObj: {fileID: 1791303460}
   ShieldIsOn: 0
   PlayerBoxCollider: {fileID: 6807276967738376602}
---- !u!114 &6029054808717180216
+--- !u!114 &2604033190429515849
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -665,6 +665,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08cff9cfaa8c62a4abc59d148881a25e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  boomerang: {fileID: 9074426524769598169, guid: 7d25adc1a746c1c49b937b304994c442,
-    type: 3}
-  ThrowBoomerang: 1.5
+  YoYo: {fileID: 4390478730625823737, guid: 7d25adc1a746c1c49b937b304994c442, type: 3}
+  ThrowBoomerang: 3

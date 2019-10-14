@@ -1,63 +1,55 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
- 
-public class Boomerang : MonoBehaviour {
-     
-    bool go;//Will Be Used To Change Direction Of Weapon
- 
-    GameObject player;//Reference To The Main Character
-    GameObject weapon;//Reference To The Main Character's Weapon
 
-    public float flyingtime = 0.5f;
+public class Boomerang : MonoBehaviour
+{
+    public Transform playerObject;
+    public Rigidbody rigidbody;
+    public float dist;
+    public float width;
+    public float time;
+    public float inclination;
+    private Vector3 direction;
+   
+    
+    
+    void Update () {
+        if (Input.GetButtonUp ("E"))
+        {
+            direction += transform.forward * Time.deltaTime;
+            StartCoroutine(Throw());
+        }
+    }
  
-    Transform itemToRotate;//The Weapon That Is A Child Of The Empty Game Object
-     
-    Vector3 locationInFrontOfPlayer;//Location In Front Of Player To Travel To
-         
-    void Start ()
+    IEnumerator Throw () 
     {
-       go = false; //Set To Not Return Yet
- 
-       player = GameObject.Find("Player");// The GameObject To Return To
-       weapon =  GameObject.Find("BoomerangOrigin");//The Weapon The Character Is Holding In The Scene
- 
-       weapon.GetComponent<MeshRenderer>().enabled = false; //Turn Off The Mesh Render To Make The Weapon Invisible
- 
-       itemToRotate = gameObject.transform.GetChild(0); //Find The Weapon That Is The Child Of The Empty Object      
+        Vector3 PlayerPosition = playerObject.transform.position;
+        //Vector3 pos = transform.position;
+        float height = transform.position.y;
+        Quaternion q = Quaternion.FromToRotation (Vector3.forward, direction);
+        float timer = 0.0f;
+        rigidbody.AddTorque (0.0f, 400.0f, 0.0f);
         
-        //Adjust The Location Of The Player Accordingly, Here I Add To The Y position So That The Object Doesn't Go Too Low ...Also Pick A Location In Front Of The Player
-       locationInFrontOfPlayer = new Vector3(player.transform.position.x,player.transform.position.y + 1 ,player.transform.position.z) + player.transform.forward * 10f;
- 
-       StartCoroutine(Boom());//Now Start The Coroutine
-    }
- 
-    IEnumerator Boom()
-    {
-        go = true;
-        yield return new WaitForSeconds(flyingtime);//Any Amount Of Time You Want
-        go = false;
-    }
-     
-    void Update ()
-    {         
-        itemToRotate.transform.Rotate(0, Time.deltaTime * 500, 0); //Rotate The Object
- 
-        if (go)
+        while (timer < time) 
         {
-            transform.position = Vector3.MoveTowards(transform.position,locationInFrontOfPlayer, Time.deltaTime * 40); //Change The Position To The Location In Front Of The Player           
+            float t = Mathf.PI * 2.0f * timer / time - Mathf.PI/2.0f;
+            float x = width * Mathf.Cos(t);
+            float z = dist * Mathf.Sin (t);
+            
+            Vector3 v = new Vector3(x,height,z+dist);
+            v = Quaternion.AngleAxis(inclination,Vector3.right)*v;
+            rigidbody.MovePosition(PlayerPosition + (q * v));
+            //rigidbody.MovePosition(pos + (q * v));
+            timer += Time.deltaTime;
+            yield return null;
         }
- 
-        if (!go)
-        {
-            transform.position = Vector3.MoveTowards(transform.position, new Vector3(player.transform.position.x,player.transform.position.y + 1,player.transform.position.z), Time.deltaTime * 40); //Return To Player
-        }
- 
-        if(!go && Vector3.Distance(player.transform.position, transform.position) < 1.5 )
-        {
-            //Once It Is Close To The Player, Make The Player's Normal Weapon Visible, and Destroy The Clone
-            weapon.GetComponent<MeshRenderer>().enabled = true;
-            Destroy(this.gameObject);
-        }
+        
+        rigidbody.angularVelocity = Vector3.zero;
+        rigidbody.velocity = Vector3.zero;
+        rigidbody.rotation = Quaternion.identity;
+        //rigidbody.MovePosition (pos);
+        rigidbody.MovePosition (PlayerPosition);
+        
     }
 }

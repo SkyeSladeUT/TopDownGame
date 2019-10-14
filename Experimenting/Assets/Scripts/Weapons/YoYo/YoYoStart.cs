@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class BoomerangStart : MonoBehaviour
+public class YoYoStart : MonoBehaviour
 {
-    public GameObject boomerang;
+    public GameObject YoYo;
     public float ThrowBoomerang = 3f;
     private bool BoomerangCoolDown;
  
@@ -20,7 +20,7 @@ public class BoomerangStart : MonoBehaviour
     {
     BoomerangCoolDown = true;
     GameObject clone;
-    clone = Instantiate(boomerang, new Vector3(transform.position.x, transform.position.y + 1, transform.position.z), transform.rotation) as GameObject;
+    clone = Instantiate(YoYo, new Vector3(transform.position.x, transform.position.y + 1, transform.position.z), transform.rotation) as GameObject;
     yield return new WaitForSeconds(ThrowBoomerang);
     BoomerangCoolDown = false;
     }
