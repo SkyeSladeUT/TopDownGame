@@ -38,7 +38,8 @@ public class HomingMissle3D : MonoBehaviour {
 	    if (collision.gameObject.tag == "Shield")
 	    {
 		    rocketVelocity = -3f;
-		    rocketRigidbody.useGravity = true;  //This is for when the missiles hit the shield
+		    rocketRigidbody.useGravity = true; //This is for when the missiles hit the shield
+
 	    }
 	    
 	    else

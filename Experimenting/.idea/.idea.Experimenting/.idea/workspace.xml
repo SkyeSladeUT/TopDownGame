@@ -51,18 +51,18 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerHealth.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Enemies/EnemyUnits/Static Enemy/BasicEnemy.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Weapons/Knockback.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Player/Shield.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/EightWayMovement.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/SwordAttack.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Enemies/EnemyUnits/PatrollingEnemy/EnemyPatroll.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Enemies/EnemyUnits/Mage/HomingMissle3D.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Enemies/EnemyUnits/Mage/MageEnemy.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Weapons/YoYo/Boomerang.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Weapons/YoYo/BoomerangStart.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Weapons/BoomRNG.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Weapons/Boomerang.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Weapons/YoYo/YoYoStart.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Weapons/YoYo/YoYo.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Enemies/EnemyUnits/Mage/HomingMissle3D.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player/Shield.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Weapons/Boomerang.cs" />
       </list>
     </option>
   </component>
@@ -105,7 +105,7 @@
       <workItem from="1570633306723" duration="10139000" />
       <workItem from="1570660702337" duration="1075000" />
       <workItem from="1570809683102" duration="17429000" />
-      <workItem from="1571065104370" duration="5735000" />
+      <workItem from="1571065104370" duration="8032000" />
     </task>
     <servers />
   </component>

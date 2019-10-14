@@ -5,7 +5,7 @@ using UnityEngine;
 public class Boomerang : MonoBehaviour
 {
     public Transform playerObject;
-    public Rigidbody rigidbody;
+    public Rigidbody rigid;
     public float dist;
     public float width;
     public float time;
@@ -29,7 +29,7 @@ public class Boomerang : MonoBehaviour
         float height = transform.position.y;
         Quaternion q = Quaternion.FromToRotation (Vector3.forward, direction);
         float timer = 0.0f;
-        rigidbody.AddTorque (0.0f, 400.0f, 0.0f);
+        rigid.AddTorque (0.0f, 400.0f, 0.0f);
         
         while (timer < time) 
         {
@@ -39,17 +39,17 @@ public class Boomerang : MonoBehaviour
             
             Vector3 v = new Vector3(x,height,z+dist);
             v = Quaternion.AngleAxis(inclination,Vector3.right)*v;
-            rigidbody.MovePosition(PlayerPosition + (q * v));
-            //rigidbody.MovePosition(pos + (q * v));
+            rigid.MovePosition(PlayerPosition + (q * v));
+            //rigid.MovePosition(pos + (q * v));
             timer += Time.deltaTime;
             yield return null;
         }
         
-        rigidbody.angularVelocity = Vector3.zero;
-        rigidbody.velocity = Vector3.zero;
-        rigidbody.rotation = Quaternion.identity;
-        //rigidbody.MovePosition (pos);
-        rigidbody.MovePosition (PlayerPosition);
+        rigid.angularVelocity = Vector3.zero;
+        rigid.velocity = Vector3.zero;
+        rigid.rotation = Quaternion.identity;
+        //rigid.MovePosition (pos);
+        rigid.MovePosition (PlayerPosition);
         
     }
 }

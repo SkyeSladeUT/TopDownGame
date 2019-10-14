@@ -5,7 +5,6 @@ using UnityEngine;
 public class Shield : MonoBehaviour
 {
     public GameObject ShieldObj;
-    public bool ShieldIsOn;
 
     public BoxCollider PlayerBoxCollider;
     float m_ScaleX, m_ScaleY, m_ScaleZ;
@@ -26,14 +25,12 @@ public class Shield : MonoBehaviour
             ShieldObj.SetActive(true);
             PlayerBoxCollider.center = PlayerBoxCollider.center = new Vector3(0, 0, -0.2f);
             m_ScaleZ = 0.5f;
-            ShieldIsOn = true;
         }
         else
         {
             ShieldObj.SetActive(false);
             m_ScaleZ = 1.0f;
             PlayerBoxCollider.center = PlayerBoxCollider.center = new Vector3(0, 0, 0);
-            ShieldIsOn = false;
         }
         PlayerBoxCollider.size = new Vector3(m_ScaleX, m_ScaleY, m_ScaleZ);
     }
