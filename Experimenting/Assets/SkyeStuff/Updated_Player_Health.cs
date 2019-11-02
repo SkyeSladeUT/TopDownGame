@@ -3,16 +3,16 @@ using UnityEngine.UI;
 public class Updated_Player_Health : MonoBehaviour
 {
     public IntData health;
-    public int numOfHearts;
+    public IntData numOfHearts;
     public Image[] hearts;
     public Sprite fullHeart;
     public Sprite emptyHeart;
 
     void Update()
     {
-        if(health.value > numOfHearts)
+        if(health.value > numOfHearts.value)
         {
-            health.value = numOfHearts;
+            health.value = numOfHearts.value;
         }
 
         for (int i = 0; i < hearts.Length; i++)
@@ -25,7 +25,7 @@ public class Updated_Player_Health : MonoBehaviour
             {
                 hearts[i].sprite = emptyHeart;
             }
-            if (i < numOfHearts)
+            if (i < numOfHearts.value)
             {
                 hearts[i].enabled = true;
             }

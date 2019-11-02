@@ -19,5 +19,5 @@ MonoBehaviour:
   canPowerUp: 0
   InputType: Item
   amount: {fileID: 11400000, guid: d6f8cf03d4142164497a513383c5ce57, type: 2}
-  dataToChange: {fileID: 11400000, guid: f1529bed518889f43ac207a38feca01d, type: 2}
+  dataToChange: {fileID: 11400000, guid: 07039b9b3e38c7042b17fdd6c4e1b5b1, type: 2}
   amountToChange: 1

@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 using UnityEngine.UIElements;
 using Image = UnityEngine.UI.Image;
@@ -25,6 +26,13 @@ public class Inventory_Manager : MonoBehaviour
     private bool itemInventory, mapInventory, systemInventory;
     private int currentInventory;
 
+
+    public void QuitToMenu()
+    {
+        Time.timeScale = 1;
+        SceneManager.LoadScene("Menu");
+    }
+    
     private void Start()
     {
         CloseInventory();

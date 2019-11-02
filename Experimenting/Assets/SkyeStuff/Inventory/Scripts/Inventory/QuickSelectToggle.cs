@@ -12,6 +12,7 @@ public class QuickSelectToggle : MonoBehaviour
     public Color corners, center;
     public Image left, current, right;
     public TextMeshProUGUI leftAmount, currentAmount, rightAmount;
+    private bool hasitems;
 
     private void Start()
     {
@@ -39,67 +40,67 @@ public class QuickSelectToggle : MonoBehaviour
 
     private void SetSprites()
     {
-        numtimesthrough = 0;
-        rightIndex = GetRight(equipped.CurrentEquip);
-        numtimesthrough = 0;
-        leftIndex = GetLeft(equipped.CurrentEquip);
-        if (equipped.items[rightIndex] != null)
-        {
-            right.sprite = equipped.items[rightIndex].sprite;
-            right.color = corners;
-            if (equipped.items[rightIndex] is Usable_Amount_Item)
+            numtimesthrough = 0;
+            rightIndex = GetRight(equipped.CurrentEquip);
+            numtimesthrough = 0;
+            leftIndex = GetLeft(equipped.CurrentEquip);
+            if (equipped.items[rightIndex] != null)
             {
-                rightAmount.gameObject.SetActive(true);
-                Usable_Amount_Item temp = equipped.items[rightIndex] as Usable_Amount_Item;
-                rightAmount.text = temp.amount.value.ToString();
+                right.sprite = equipped.items[rightIndex].sprite;
+                right.color = corners;
+                if (equipped.items[rightIndex] is Usable_Amount_Item)
+                {
+                    rightAmount.gameObject.SetActive(true);
+                    Usable_Amount_Item temp = equipped.items[rightIndex] as Usable_Amount_Item;
+                    rightAmount.text = temp.amount.value.ToString();
+                }
+                else
+                {
+                    rightAmount.gameObject.SetActive(false);
+                }
             }
             else
             {
                 rightAmount.gameObject.SetActive(false);
+                right.color = Color.clear;
             }
-        }
-        else
-        {
-            rightAmount.gameObject.SetActive(false);
-            right.color = Color.clear;
-        }
 
-        if (equipped.items[leftIndex] != null)
-        {
-            left.sprite = equipped.items[leftIndex].sprite;
-            left.color = corners;
-            if (equipped.items[leftIndex] is Usable_Amount_Item)
+            if (equipped.items[leftIndex] != null)
             {
-                leftAmount.gameObject.SetActive(true);
-                Usable_Amount_Item temp = equipped.items[leftIndex] as Usable_Amount_Item;
-                leftAmount.text = temp.amount.value.ToString();
+                left.sprite = equipped.items[leftIndex].sprite;
+                left.color = corners;
+                if (equipped.items[leftIndex] is Usable_Amount_Item)
+                {
+                    leftAmount.gameObject.SetActive(true);
+                    Usable_Amount_Item temp = equipped.items[leftIndex] as Usable_Amount_Item;
+                    leftAmount.text = temp.amount.value.ToString();
+                }
+                else
+                {
+                    leftAmount.gameObject.SetActive(false);
+                }
             }
             else
             {
+                left.color = Color.clear;
                 leftAmount.gameObject.SetActive(false);
             }
-        }
-        else
-        {
-            left.color = Color.clear;
-            leftAmount.gameObject.SetActive(false);
-        }
-        
-        if (equipped.CurrentItem() != null)
-        {
-            current.sprite = equipped.CurrentItem().sprite;
-            current.color = center;
-            if (equipped.CurrentItem() is Usable_Amount_Item)
+
+            if (equipped.CurrentItem() != null)
             {
-                currentAmount.gameObject.SetActive(true);
-                Usable_Amount_Item temp = equipped.CurrentItem() as Usable_Amount_Item;
-                currentAmount.text = temp.amount.value.ToString();
+                current.sprite = equipped.CurrentItem().sprite;
+                current.color = center;
+                if (equipped.CurrentItem() is Usable_Amount_Item)
+                {
+                    currentAmount.gameObject.SetActive(true);
+                    Usable_Amount_Item temp = equipped.CurrentItem() as Usable_Amount_Item;
+                    currentAmount.text = temp.amount.value.ToString();
+                }
+                else
+                {
+                    currentAmount.gameObject.SetActive(false);
+                }
             }
-            else
-            {
-                currentAmount.gameObject.SetActive(false);
-            }
-        }
         else
         {
             currentAmount.gameObject.SetActive(false);
@@ -125,7 +126,6 @@ public class QuickSelectToggle : MonoBehaviour
         numtimesthrough++;
         if (numtimesthrough > 4)
         {
-            Debug.Log("No Items");
             return equipped.CurrentEquip;
         }
 
@@ -149,7 +149,6 @@ public class QuickSelectToggle : MonoBehaviour
         numtimesthrough++;
         if (numtimesthrough > 4)
         {
-            Debug.Log("No Items");
             return equipped.CurrentEquip;
         }
 

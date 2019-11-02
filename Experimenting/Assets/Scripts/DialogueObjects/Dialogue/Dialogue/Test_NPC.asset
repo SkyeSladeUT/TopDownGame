@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 32f9e51a01998c148af37374ab83ee6c, type: 3}
   m_Name: Test_NPC
   m_EditorClassIdentifier: 
-  dialogue: {fileID: 11400000, guid: ca349fe2eb701c7449b97d2aab2a13cd, type: 2}
+  dialogue: {fileID: 11400000, guid: 567fcf172c7b2654ab935ac57dba9fcb, type: 2}
   choices: {fileID: 11400000, guid: 567fcf172c7b2654ab935ac57dba9fcb, type: 2}

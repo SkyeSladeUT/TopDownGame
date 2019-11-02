@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="C:\Users\10802160\.Rider2019.2\system\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\10802160\.Rider2019.2\system\resharper-host\local\Transient\ReSharperHost\v192\SolutionCaches\_Experimenting.1978205247.00" t="ExcludeRecursive" />
-    <e p="C:\Users\10802160\Documents\Repos\Game20192020\TopDownGame\Experimenting" t="IncludeRecursive">
+    <e p="C:\Users\Owner\.Rider2018.1\system\resharper-host\local\Transient\ReSharperHost\v12\SolutionCaches\_Experimenting.-1288658252.00" t="ExcludeRecursive" />
+    <e p="E:\School\College\Game20192021\TopDownGame\Experimenting" t="IncludeRecursive">
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="Scripts" t="Include">
@@ -100,6 +99,7 @@
               </e>
               <e p="Items" t="Include">
                 <e p="Item_Base.cs" t="Include" />
+                <e p="Non_Usable_Amount_Item.cs" t="Include" />
                 <e p="Potion.cs" t="Include" />
                 <e p="Usable_Amount_Item.cs" t="Include" />
                 <e p="Usable_Item_Base.cs" t="Include" />
@@ -113,8 +113,32 @@
               </e>
             </e>
           </e>
+          <e p="Saving" t="Include">
+            <e p="Scripts" t="Include">
+              <e p="GameControl.cs" t="Include" />
+              <e p="Initialize_Objects.cs" t="Include" />
+              <e p="ObjectSave.cs" t="Include" />
+              <e p="Player_Object.cs" t="Include" />
+              <e p="SaveScript.cs" t="Include" />
+              <e p="Saving_Object_Base.cs" t="Include" />
+              <e p="Scene_Load.cs" t="Include" />
+              <e p="SceneSaveManager.cs" t="Include" />
+              <e p="SceneSaveObjects.cs" t="Include" />
+              <e p="Scriptable_Object_Saver.cs" t="Include" />
+              <e p="ScriptableObjectHolder.cs" t="Include" />
+              <e p="Set_Player_Pos.cs" t="Include" />
+              <e p="SetTransforms.cs" t="Include" />
+              <e p="Vector3Data.cs" t="Include" />
+              <e p="WaitEvent.cs" t="Include" />
+            </e>
+          </e>
+          <e p="Start_Event.cs" t="Include" />
           <e p="Store" t="Include">
             <e p="NPC_Movement.cs" t="Include" />
+            <e p="Scripts" t="Include">
+              <e p="InteractEvent.cs" t="Include" />
+              <e p="ShopItem.cs" t="Include" />
+            </e>
           </e>
           <e p="Updated_Damage_To_Player.cs" t="Include" />
           <e p="Updated_Player_Health.cs" t="Include" />
@@ -149,9 +173,12 @@
         </e>
       </e>
       <e p="Experimenting.sln" t="IncludeFlat" />
+      <e p="Library" t="ExcludeRecursive" />
       <e p="obj" t="ExcludeRecursive" />
       <e p="packages" t="ExcludeRecursive" />
-      <e p="Temp\bin" t="ExcludeRecursive" />
+      <e p="Temp" t="ExcludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+      </e>
     </e>
   </component>
 </project>

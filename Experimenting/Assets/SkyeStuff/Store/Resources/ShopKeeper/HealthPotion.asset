@@ -9,9 +9,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 16c44087922f7cc4b8483223dd5da4be, type: 3}
-  m_Name: HealthPotionNum
+  m_Script: {fileID: 11500000, guid: 32f9e51a01998c148af37374ab83ee6c, type: 3}
+  m_Name: HealthPotion
   m_EditorClassIdentifier: 
-  value: 1
-  maxVal: 5
-  minVal: 0
+  dialogue: {fileID: 11400000, guid: d347fc3dd17a7844d9ccf2f2bfe42a46, type: 2}
+  choices: {fileID: 11400000, guid: 9a42f84503b7b304dbd5022f746c66a5, type: 2}

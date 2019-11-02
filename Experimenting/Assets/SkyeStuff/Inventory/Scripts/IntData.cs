@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 [CreateAssetMenu(menuName = "Data/int")]
-public class IntData : ScriptableObject
+public class IntData : Saving_Object_Base
 {
     public int value;
     public int maxVal = 9999;
@@ -90,4 +90,13 @@ public class IntData : ScriptableObject
     }
 
 
+    public override void Set(ScriptableObject obj)
+    {
+        IntData intdata = obj as IntData;
+        if (intdata == null)
+            return;
+        value = intdata.value;
+        maxVal = intdata.maxVal;
+        minVal = intdata.minVal;
+    }
 }
