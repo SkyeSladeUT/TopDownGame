@@ -1,10 +1,11 @@
 ﻿using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 [CreateAssetMenu(menuName = "Boss/DebugPhase")]
 public class Phase_Debug : Phase
 {
     public string phaseName;
-    public override IEnumerator StartPhase(GameObject boss)
+    public override IEnumerator StartPhase(List<GameObject> objs)
     {
         currentPhase = false;
         finishStart = false;
@@ -15,7 +16,7 @@ public class Phase_Debug : Phase
         finishStart = true;
     }
     
-    public override IEnumerator UpdatePhase(GameObject boss)
+    public override IEnumerator UpdatePhase(List<GameObject> objs)
     {
         finishStart = false;
         finishEnd = false;
@@ -28,7 +29,7 @@ public class Phase_Debug : Phase
         }
     }
     
-    public override IEnumerator StopPhase(GameObject boss)
+    public override IEnumerator StopPhase(List<GameObject> objs)
     {
         currentPhase = false;
         finishStart = false;

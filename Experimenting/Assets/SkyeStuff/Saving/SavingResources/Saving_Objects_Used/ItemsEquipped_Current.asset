@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CurrentEquip: 0
   items:
-  - {fileID: 0}
+  - {fileID: 11400000, guid: 567d94339fcdd3d44ac58110b32fb1c6, type: 2}
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}

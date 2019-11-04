@@ -6,7 +6,7 @@ public abstract class Phase : ScriptableObject
 {
     [HideInInspector] public bool finishStart = false, finishEnd = false;
     public bool currentPhase;
-    public abstract IEnumerator StartPhase(GameObject boss);
-    public abstract IEnumerator UpdatePhase(GameObject boss);
-    public abstract IEnumerator StopPhase(GameObject boss);
+    public abstract IEnumerator StartPhase(List<GameObject> objs);
+    public abstract IEnumerator UpdatePhase(List<GameObject> objs);
+    public abstract IEnumerator StopPhase(List<GameObject> objs);
 }

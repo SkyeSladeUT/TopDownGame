@@ -9,8 +9,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 235dc3a3114bfbc47a1383efe60d53a1, type: 3}
-  m_Name: Collected_Items_Current
+  m_Script: {fileID: 11500000, guid: 16c44087922f7cc4b8483223dd5da4be, type: 3}
+  m_Name: RightArmHealth
   m_EditorClassIdentifier: 
-  items:
-  - {fileID: 11400000, guid: 567d94339fcdd3d44ac58110b32fb1c6, type: 2}
+  value: 10
+  maxVal: 10
+  minVal: 0

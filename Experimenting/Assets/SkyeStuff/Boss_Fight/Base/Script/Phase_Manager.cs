@@ -10,7 +10,7 @@ public class Phase_Manager : MonoBehaviour
    public IntData BossHealth;
    private int currentPhase;
    private bool switchPhase;
-   public GameObject BossObj;
+   public List<GameObject> objs;
    public int InitHealth;
 
 
@@ -28,14 +28,14 @@ public class Phase_Manager : MonoBehaviour
 
    private IEnumerator StartPhase()
    {
-      StartCoroutine(phases[currentPhase].StartPhase(BossObj));
+      StartCoroutine(phases[currentPhase].StartPhase(objs));
       yield return new WaitUntil(() => phases[currentPhase].finishStart);
       StartCoroutine(RunPhase());
    }
 
    private IEnumerator RunPhase()
    {
-      StartCoroutine(phases[currentPhase].UpdatePhase(BossObj));
+      StartCoroutine(phases[currentPhase].UpdatePhase(objs));
       yield return new WaitUntil(()=> BossHealth.value <= healthLevels[currentPhase]);
       phases[currentPhase].currentPhase = false;
       StartCoroutine(NextPhase());
@@ -43,7 +43,7 @@ public class Phase_Manager : MonoBehaviour
 
    private IEnumerator NextPhase()
    {
-      StartCoroutine(phases[currentPhase].StopPhase(BossObj));
+      StartCoroutine(phases[currentPhase].StopPhase(objs));
       yield return new WaitUntil(() =>phases[currentPhase].finishEnd);
       currentPhase++;
       if (currentPhase < phases.Count)

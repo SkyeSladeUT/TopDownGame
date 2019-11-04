@@ -83,9 +83,20 @@
         </e>
         <e p="SkyeStuff" t="Include">
           <e p="Boss_Fight" t="Include">
-            <e p="Phase.cs" t="Include" />
-            <e p="Phase_Debug.cs" t="Include" />
-            <e p="Phase_Manager.cs" t="Include" />
+            <e p="Base" t="Include">
+              <e p="Script" t="Include">
+                <e p="Phase.cs" t="Include" />
+                <e p="Phase_Debug.cs" t="Include" />
+                <e p="Phase_Manager.cs" t="Include" />
+              </e>
+            </e>
+            <e p="SlothBoi" t="Include">
+              <e p="Scripts" t="Include">
+                <e p="MothBomb.cs" t="Include" />
+                <e p="SlothBoi_Arm_Slap.cs" t="Include" />
+                <e p="SlothBoi_Arms_And_Bombs.cs" t="Include" />
+              </e>
+            </e>
           </e>
           <e p="Inventory" t="Include">
             <e p="Scripts" t="Include">

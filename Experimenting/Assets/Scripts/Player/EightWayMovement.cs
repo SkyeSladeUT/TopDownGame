@@ -23,7 +23,7 @@ public class EightWayMovement : MonoBehaviour
         controls = true;
     }
 
-    void Update()
+    void FixedUpdate()
     {
 
         if (controls == true)
