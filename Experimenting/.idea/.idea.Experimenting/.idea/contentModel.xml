@@ -124,6 +124,14 @@
               </e>
             </e>
           </e>
+          <e p="Puzzles" t="Include">
+            <e p="Scripts" t="Include">
+              <e p="Pushable_Object.cs" t="Include" />
+              <e p="Pushable_Object_holder.cs" t="Include" />
+              <e p="Pushing_Script.cs" t="Include" />
+              <e p="StringData.cs" t="Include" />
+            </e>
+          </e>
           <e p="Saving" t="Include">
             <e p="Scripts" t="Include">
               <e p="GameControl.cs" t="Include" />

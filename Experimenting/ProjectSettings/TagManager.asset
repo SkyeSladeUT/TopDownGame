@@ -9,6 +9,7 @@ TagManager:
   - BoomerangOrigin
   - Ground
   - Shield
+  - Pushable
   layers:
   - Default
   - TransparentFX

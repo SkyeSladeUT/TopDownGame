@@ -12,11 +12,16 @@ public class Weapon_Manager : MonoBehaviour
     //public List<GameObject> PlayerWeaponObj;
     public float powerUpTime;
     private float startTime, endTime;
-    
+    private bool WeaponEnabled;
+
+    private void Start()
+    {
+        EnableWeapons();
+    }
 
     private void FixedUpdate()
     {
-        if (items.CurrentItem() == null)
+        if (items.CurrentItem() == null || !WeaponEnabled)
         {
             
         }
@@ -66,19 +71,16 @@ public class Weapon_Manager : MonoBehaviour
         Debug.Log("No Weapon");
         return null;
     }
-    
-    /*private GameObject getWeaponPlayerObj()
+
+    public void EnableWeapons()
     {
-        foreach (var weapon in PlayerWeaponObj)
-        {
-            if (weapon.name.Contains(items.CurrentItem().name))
-            {
-                return weapon;
-            }
-        }
-        Debug.Log("No Weapon");
-        return null;
-    }*/
+        WeaponEnabled = true;
+    }
+
+    public void DisableWeapon()
+    {
+        WeaponEnabled = false;
+    }
     
     
 }

@@ -19,6 +19,8 @@ public class dialogue_script_condensed : MonoBehaviour
     private string _actionCharacter = "^";
     public List<UnityEvent> dialogueActions;
     private int _actionIndex;
+    private Weapon_Manager playerWeapon;
+    private EightWayMovement playerMovement;
     
     private void Start()
     {
@@ -33,7 +35,11 @@ public class dialogue_script_condensed : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            Debug.Log("In Range");
+            if (playerWeapon == null)
+                playerWeapon = other.GetComponent<Weapon_Manager>();
+            if (playerMovement == null)
+                playerMovement = other.GetComponent<EightWayMovement>();
+            playerWeapon.DisableWeapon();
             inRange = true;
         }
     }
@@ -41,7 +47,14 @@ public class dialogue_script_condensed : MonoBehaviour
     private void OnTriggerExit(Collider other)
     {
         if (other.CompareTag("Player"))
+        {
+            if (playerWeapon == null)
+                playerWeapon = other.GetComponent<Weapon_Manager>();
+            if (playerMovement == null)
+                playerMovement = other.GetComponent<EightWayMovement>();
+            playerWeapon.EnableWeapons();
             inRange = false;
+        }
     }
 
     private void FixedUpdate()
@@ -57,6 +70,7 @@ public class dialogue_script_condensed : MonoBehaviour
         if (!ConvStart.value){
             ConvStart.value = true;
             Dialouge_Object.SetActive(true);
+            playerMovement.CancelControls();
             StartCoroutine(ScrollText());
         }
     }
@@ -103,12 +117,14 @@ public class dialogue_script_condensed : MonoBehaviour
         }
         
         Dialouge_Object.SetActive(false);
+        playerMovement.ResumeControls();
         OnFinish.Invoke();
         ConvStart.value = false;
     }
 
     public void CloseDialogue()
     {
+        playerMovement.ResumeControls();
         Dialouge_Object.SetActive(false);
         ConvStart.value = false;
     }
