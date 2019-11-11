@@ -126,9 +126,13 @@
           </e>
           <e p="Puzzles" t="Include">
             <e p="Scripts" t="Include">
+              <e p="Bool_List_Object.cs" t="Include" />
+              <e p="OnCollisionEvents.cs" t="Include" />
               <e p="Pushable_Object.cs" t="Include" />
               <e p="Pushable_Object_holder.cs" t="Include" />
+              <e p="Pushable_Object_Triggers.cs" t="Include" />
               <e p="Pushing_Script.cs" t="Include" />
+              <e p="PuzzleStringData.cs" t="Include" />
               <e p="StringData.cs" t="Include" />
             </e>
           </e>

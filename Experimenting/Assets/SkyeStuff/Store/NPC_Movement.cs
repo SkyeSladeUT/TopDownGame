@@ -54,6 +54,28 @@ public class NPC_Movement : MonoBehaviour
         destination = startPosition;
         destination.x = obj.transform.position.x;
     }
+    
+    public void FollowObjSideXLookAt(GameObject obj)
+    {
+        destination = startPosition;
+        destination.x = obj.transform.position.x;
+        if (transform.position.x <= obj.transform.position.x + .1f &&
+            transform.position.x >= obj.transform.position.x - .1f)
+        {
+            transform.rotation = Quaternion.Slerp(transform.rotation, Quaternion.LookRotation(obj.transform.position - transform.position), Time.deltaTime*5);
+        }
+    }
+
+    public void FollowObjSideZLookAt(GameObject obj)
+    {
+        destination = startPosition;
+        destination.z = obj.transform.position.z;
+        if (transform.position.z <= obj.transform.position.z + .1f &&
+            transform.position.z >= obj.transform.position.z - .1f)
+        {
+            transform.rotation = Quaternion.Slerp(transform.rotation, Quaternion.LookRotation(obj.transform.position - transform.position), Time.deltaTime*10);
+        }
+    }
 
 
 

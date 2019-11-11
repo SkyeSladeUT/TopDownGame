@@ -19,4 +19,29 @@ public class IfElseEvents : MonoBehaviour
             
         }
     }
+
+    public void CheckBoolList(Bool_List_Object bools)
+    {
+        foreach (var b in bools.bools)
+        {
+            if (!b.value)
+            {
+                FalseEvent.Invoke();
+                return;
+            }
+        }
+        TrueEvent.Invoke();
+    }
+
+    public void CheckString(PuzzleStringData str)
+    {
+        if (str.CheckString())
+        {
+            TrueEvent.Invoke();
+        }
+        else
+        {
+            FalseEvent.Invoke();
+        }
+    }
 }

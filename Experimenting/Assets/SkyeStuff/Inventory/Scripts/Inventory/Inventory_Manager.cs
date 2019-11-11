@@ -2,19 +2,22 @@
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.Events;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 using UnityEngine.UIElements;
+using UnityEngine.XR;
 using Image = UnityEngine.UI.Image;
 
 public class Inventory_Manager : MonoBehaviour
 {
+    public GameObject ItemsInventory, MapInventory, SystemInventory;
+    [Header("Item Inventory")]
     public List<Item_Base> allItems;
     public Inventory_List currentItems;
     public Equipped_Items equippedItems;
     public List<GameObject> allImages, SlotText;
     public GameObject HighlightImage, SelectedImage;
-    public GameObject ItemsInventory, MapInventory, SystemInventory;
     public TextMeshProUGUI ItemName, ItemDescription;
     private List<List<Item_Base>> organizedItems;
     private List<Item_Base> rowItems;
@@ -25,6 +28,10 @@ public class Inventory_Manager : MonoBehaviour
     private int indexX, indexY;
     private bool itemInventory, mapInventory, systemInventory;
     private int currentInventory;
+    [Header("System Inventory")]
+    public List<GameObject> SystemSelections;
+    public List<UnityEvent> SystemEvents;
+    private int currIndex;
 
 
     public void QuitToMenu()
@@ -338,7 +345,31 @@ public class Inventory_Manager : MonoBehaviour
             }
             else if (systemInventory)
             {
-
+                if (Input.GetButtonDown("Vertical"))
+                {
+                    SystemSelections[currIndex].SetActive(false);
+                    if (Input.GetAxisRaw("Vertical") > 0)
+                    {
+                        currIndex++;
+                        if (currIndex >= SystemSelections.Count)
+                        {
+                            currIndex = 0;
+                        }
+                    }
+                    else
+                    {
+                        currIndex--;
+                        if (currIndex < 0)
+                        {
+                            currIndex = SystemSelections.Count - 1;
+                        }
+                    }
+                    SystemSelections[currIndex].SetActive(true);
+                }
+                else if (Input.GetButtonDown("Item"))
+                {
+                    SystemEvents[currIndex].Invoke();
+                }
             }
 
             if (Input.GetButtonDown("Swap"))
@@ -544,7 +575,15 @@ public class Inventory_Manager : MonoBehaviour
     private void OpenSystemInventory()
     {
         SystemInventory.SetActive(true);
+        currIndex = 0;
+        foreach (var sele in SystemSelections)
+        {
+            sele.SetActive(false);
+        }
+        SystemSelections[0].SetActive(true);
+        
         systemInventory = true;
+        
     }
 
     public void CloseInventory()
