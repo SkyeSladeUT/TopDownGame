@@ -103,6 +103,7 @@
               <e p="AmountUpdate.cs" t="Include" />
               <e p="IntData.cs" t="Include" />
               <e p="Inventory" t="Include">
+                <e p="Clothing_Inventory.cs" t="Include" />
                 <e p="Equipped_Items.cs" t="Include" />
                 <e p="Inventory_List.cs" t="Include" />
                 <e p="Inventory_Manager.cs" t="Include" />
