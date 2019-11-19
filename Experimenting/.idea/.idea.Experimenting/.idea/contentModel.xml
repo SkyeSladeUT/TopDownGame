@@ -104,12 +104,14 @@
               <e p="IntData.cs" t="Include" />
               <e p="Inventory" t="Include">
                 <e p="Clothing_Inventory.cs" t="Include" />
+                <e p="Current_Clothing.cs" t="Include" />
                 <e p="Equipped_Items.cs" t="Include" />
                 <e p="Inventory_List.cs" t="Include" />
                 <e p="Inventory_Manager.cs" t="Include" />
                 <e p="QuickSelectToggle.cs" t="Include" />
               </e>
               <e p="Items" t="Include">
+                <e p="Clothing_Base.cs" t="Include" />
                 <e p="Item_Base.cs" t="Include" />
                 <e p="Non_Usable_Amount_Item.cs" t="Include" />
                 <e p="Potion.cs" t="Include" />

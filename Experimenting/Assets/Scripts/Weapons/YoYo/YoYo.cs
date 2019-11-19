@@ -41,7 +41,7 @@ public class YoYo : MonoBehaviour {
      
  
     // Update is called once per frame
-    void Update ()
+    void FixedUpdate ()
     {         
         itemToRotate.transform.Rotate(0, Time.deltaTime * 500, 0); //Rotate The Object
  

@@ -11,7 +11,7 @@ public class SwordAttack : MonoBehaviour
     private float StartTimer;
     private float endTimer = 0;
 
-    void Update ()
+    void FixedUpdate ()
     {
         if (Input.GetButtonDown ("E")) 
         {

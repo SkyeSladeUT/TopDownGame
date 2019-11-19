@@ -8,7 +8,7 @@ public class YoYoStart : MonoBehaviour
     public float ThrowBoomerang = 3f;
     private bool BoomerangCoolDown;
  
-    void Update ()
+    void FixedUpdate ()
     {
         if (!BoomerangCoolDown && Input.GetKeyDown(KeyCode.T))
         {

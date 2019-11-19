@@ -22,7 +22,7 @@ public class CameraController : MonoBehaviour
         OriginalPos = offsetPos;
     }
    
-    void Update()
+    void FixedUpdate()
     {
         MoveWithTarget();
         LookAtTarget();

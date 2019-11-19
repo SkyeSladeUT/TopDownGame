@@ -12,6 +12,10 @@ using Image = UnityEngine.UI.Image;
 public class Inventory_Manager : MonoBehaviour
 {
     public GameObject ItemsInventory, MapInventory, SystemInventory;
+    public BoolData inClothingInventory;
+    private bool itemInventory, mapInventory, systemInventory;
+    private int currentInventory;
+    
     [Header("Item Inventory")]
     public List<Item_Base> allItems;
     public Inventory_List currentItems;
@@ -26,8 +30,7 @@ public class Inventory_Manager : MonoBehaviour
     private int x, y, selectedX, selectedY;
     private bool isOpen, itemSelected;
     private int indexX, indexY;
-    private bool itemInventory, mapInventory, systemInventory;
-    private int currentInventory;
+
     [Header("System Inventory")]
     public List<GameObject> SystemSelections;
     public List<UnityEvent> SystemEvents;
@@ -423,7 +426,7 @@ public class Inventory_Manager : MonoBehaviour
             }
         }
 
-        if (Input.GetButtonDown("Pause"))
+        if (Input.GetButtonDown("Pause") && !inClothingInventory.value)
         {
             if (isOpen)
             {

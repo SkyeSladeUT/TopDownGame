@@ -18,7 +18,7 @@ public class Shield : MonoBehaviour
         m_ScaleZ = 1.0f;
     }
 
-    void Update()
+    void FixedUpdate()
     {
         if (Input.GetButton ("R")) 
         {

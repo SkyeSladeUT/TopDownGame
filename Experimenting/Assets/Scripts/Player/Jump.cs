@@ -14,7 +14,7 @@ public class Jump : MonoBehaviour
         rigidBody = GetComponent<Rigidbody>();
 
     }
-    void Update () 
+    void FixedUpdate () 
     {
         if(Input.GetKeyDown(KeyCode.Space) && (onGround || MAX_JUMPS > currentJump))
         {

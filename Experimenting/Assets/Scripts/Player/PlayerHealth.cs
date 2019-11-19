@@ -8,7 +8,7 @@ public class PlayerHealth : MonoBehaviour
     public Sprite fullHeart;
     public Sprite emptyHeart;
 
-    void Update()
+    void FixedUpdate()
     {
         if(health > numOfHearts)
         {
