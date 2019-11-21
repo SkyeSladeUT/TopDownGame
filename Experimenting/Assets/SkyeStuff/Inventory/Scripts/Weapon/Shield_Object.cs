@@ -6,8 +6,14 @@ public class Shield_Object : Usable_Item_Base
 {
     private BoxCollider PlayerBoxCollider;
     float m_ScaleX, m_ScaleY, m_ScaleZ;
+    public float speedDecrease;
+    private EightWayMovement playerMove;
+    
     public override IEnumerator UseItem(GameObject itemUsed, GameObject player)
     {
+        playerMove = player.GetComponent<EightWayMovement>();
+        playerMove.walkingspeed *= speedDecrease;
+        playerMove.SetRun(false);
         inUse = true;
         PlayerBoxCollider = itemUsed.GetComponent<BoxCollider>();
         m_ScaleX = 1.0f;
@@ -24,6 +30,8 @@ public class Shield_Object : Usable_Item_Base
         itemUsed.SetActive(false);
         m_ScaleZ = 1.0f;
         PlayerBoxCollider.center = PlayerBoxCollider.center = new Vector3(0, 0, 0);
+        playerMove.SetRun(true);
+        playerMove.walkingspeed /= speedDecrease;
         inUse = false;
     }
 

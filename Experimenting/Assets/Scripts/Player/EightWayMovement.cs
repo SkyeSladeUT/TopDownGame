@@ -13,13 +13,14 @@ public class EightWayMovement : MonoBehaviour
     Quaternion targetRotation;
     //Transform cam;
 
-    public int RunningSpeed;
-
+    public float RunningSpeed;
+    private bool CanRun;
     private bool controls;
 
     void Start()
     {
         //cam = Camera.main.transform;
+        CanRun = true;
         controls = true;
     }
 
@@ -28,15 +29,15 @@ public class EightWayMovement : MonoBehaviour
 
         if (controls == true)
         {
-        
-        GetInput();
-        if (Mathf.Abs(input.x) < 1 && Mathf.Abs(input.y) < 1) return;
 
-        CalculateDirection();
-        Rotate();
-        Move();
-        Run();
-        Run();
+            GetInput();
+            if (Mathf.Abs(input.x) < 1 && Mathf.Abs(input.y) < 1) return;
+
+            CalculateDirection();
+            Rotate();
+            Move();
+            Run();
+            Run();
         }
     }
 
@@ -55,31 +56,31 @@ public class EightWayMovement : MonoBehaviour
     }
 
     void Rotate()
-        {
+    {
         targetRotation = Quaternion.Euler(0, angle, 0);
         transform.rotation = Quaternion.Slerp(transform.rotation, targetRotation, turnSpeed * Time.deltaTime);
-        }
+    }
 
     void Move()
     {
-    transform.position += transform.forward*velocity * Time.deltaTime;
-    
+        transform.position += transform.forward * velocity * Time.deltaTime;
     }
 
     void Run()
     {
-        if (Input.GetKey(KeyCode.LeftShift))
+        if (Input.GetKey(KeyCode.LeftShift) && CanRun)
         {
             velocity = RunningSpeed;
-       
+
         }
         else
         {
             velocity = walkingspeed;
-    
+
         }
+
     }
-    
+
     public void CancelControls()
     {
 		controls = false;
@@ -88,6 +89,11 @@ public class EightWayMovement : MonoBehaviour
     {
 		controls = true;
 	}
+
+    public void SetRun(bool run)
+    {
+        CanRun = run;
+    }
     
     
 }

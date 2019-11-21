@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b7c08c6e649b0404dab3199fef599e14, type: 3}
   m_Name: ItemsEquipped_Current
   m_EditorClassIdentifier: 
-  CurrentEquip: 0
+  CurrentEquip: 1
   items:
   - {fileID: 11400000, guid: 567d94339fcdd3d44ac58110b32fb1c6, type: 2}
-  - {fileID: 0}
+  - {fileID: 11400000, guid: 14924c3a1cc42464a81f93f21338470b, type: 2}
   - {fileID: 0}
   - {fileID: 0}

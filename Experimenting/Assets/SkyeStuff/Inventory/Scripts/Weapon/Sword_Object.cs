@@ -5,12 +5,19 @@ using UnityEngine;
 public class Sword_Object : Usable_Item_Base
 {
     private float swordactive = 0.2f;
+    private EightWayMovement playerMove;
+    public float speedDecrease;
     
     public override IEnumerator UseItem(GameObject itemUsed, GameObject player)
     {
         inUse = true;
         itemUsed.SetActive(true);
-        yield return new WaitForSeconds(swordactive);
+       playerMove = player.GetComponent<EightWayMovement>();
+       playerMove.walkingspeed = playerMove.walkingspeed * speedDecrease;
+       playerMove.SetRun(false);
+       yield return new WaitForSeconds(swordactive);
+       playerMove.walkingspeed = playerMove.walkingspeed / speedDecrease;
+       playerMove.SetRun(true);
         itemUsed.SetActive(false);
         inUse = false;
     }

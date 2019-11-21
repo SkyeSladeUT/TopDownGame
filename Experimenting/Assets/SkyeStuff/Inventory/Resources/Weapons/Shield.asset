@@ -18,3 +18,4 @@ MonoBehaviour:
   inUse: 0
   canPowerUp: 0
   InputType: Item
+  speedDecrease: 0.5

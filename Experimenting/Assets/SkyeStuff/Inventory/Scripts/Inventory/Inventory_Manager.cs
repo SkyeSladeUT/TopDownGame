@@ -31,6 +31,13 @@ public class Inventory_Manager : MonoBehaviour
     private bool isOpen, itemSelected;
     private int indexX, indexY;
 
+    [Header("Map Inventory")] 
+    public List<GameObject> VillageLocations;
+    public GameObject MapHighlightObject;
+    public List<GameObject> VillageImages;
+    private int mapCurrentIndex;
+    
+    
     [Header("System Inventory")]
     public List<GameObject> SystemSelections;
     public List<UnityEvent> SystemEvents;
@@ -126,6 +133,10 @@ public class Inventory_Manager : MonoBehaviour
 
     private void MapInventoryInitialize()
     {
+        foreach (var vill in VillageImages)
+        {
+            vill.SetActive(false);
+        }
         MapInventory.SetActive(false);
     }
 
@@ -344,7 +355,128 @@ public class Inventory_Manager : MonoBehaviour
             }
             else if (mapInventory)
             {
-
+                if (Input.GetButtonDown("Horizontal"))
+                {
+                    if (Input.GetAxisRaw("Horizontal") > 0)
+                    {
+                        switch (mapCurrentIndex)
+                        {
+                            case 0:
+                                MapSet(mapCurrentIndex, 6);
+                                break;
+                            case 1:
+                                MapSet(mapCurrentIndex, 0);
+                                break;
+                            case 2:
+                                MapSet(mapCurrentIndex, 1);
+                                break;
+                            case 3:
+                                MapSet(mapCurrentIndex, 4);
+                                break;
+                            case 4:
+                                MapSet(mapCurrentIndex, 3);
+                                break;
+                            case 5:
+                                MapSet(mapCurrentIndex, 6);
+                                break;
+                            case 6:
+                                MapSet(mapCurrentIndex, 0);
+                                break;
+                            default:
+                                break;
+                        }
+                    }
+                    else
+                    {
+                        switch (mapCurrentIndex)
+                        {
+                            case 0:
+                                MapSet(mapCurrentIndex, 1);
+                                break;
+                            case 1:
+                                MapSet(mapCurrentIndex, 2);
+                                break;
+                            case 2:
+                                MapSet(mapCurrentIndex, 1);
+                                break;
+                            case 3:
+                                MapSet(mapCurrentIndex, 4);
+                                break;
+                            case 4:
+                                MapSet(mapCurrentIndex, 3);
+                                break;
+                            case 5:
+                                MapSet(mapCurrentIndex, 6);
+                                break;
+                            case 6:
+                                MapSet(mapCurrentIndex, 5);
+                                break;
+                            default:
+                                break;
+                        }
+                    }
+                }
+                else if (Input.GetButtonDown("Vertical"))
+                {
+                    if (Input.GetAxisRaw("Vertical") > 0)
+                    {
+                        switch (mapCurrentIndex)
+                        {
+                            case 0:
+                                MapSet(mapCurrentIndex, 3);
+                                break;
+                            case 1:
+                                MapSet(mapCurrentIndex, 0);
+                                break;
+                            case 2:
+                                MapSet(mapCurrentIndex, 4);
+                                break;
+                            case 3:
+                                MapSet(mapCurrentIndex, 6);
+                                break;
+                            case 4:
+                                MapSet(mapCurrentIndex, 5);
+                                break;
+                            case 5:
+                                MapSet(mapCurrentIndex, 2);
+                                break;
+                            case 6:
+                                MapSet(mapCurrentIndex, 1);
+                                break;
+                            default:
+                                break;
+                        }
+                    }
+                    else
+                    {
+                        switch (mapCurrentIndex)
+                        {
+                            case 0:
+                                MapSet(mapCurrentIndex, 1);
+                                break;
+                            case 1:
+                                MapSet(mapCurrentIndex, 6);
+                                break;
+                            case 2:
+                                MapSet(mapCurrentIndex, 5);
+                                break;
+                            case 3:
+                                MapSet(mapCurrentIndex, 2);
+                                break;
+                            case 4:
+                                MapSet(mapCurrentIndex, 2);
+                                break;
+                            case 5:
+                                MapSet(mapCurrentIndex, 4);
+                                break;
+                            case 6:
+                                MapSet(mapCurrentIndex, 3);
+                                break;
+                            default:
+                                break;
+                        }
+                    }
+                }
             }
             else if (systemInventory)
             {
@@ -439,7 +571,7 @@ public class Inventory_Manager : MonoBehaviour
         }
     }
 
-    public void SwapInventToEquip(int equipx, int equipy, int selectedx, int selectedy)
+    private void SwapInventToEquip(int equipx, int equipy, int selectedx, int selectedy)
     {
         Debug.Log("Inventory to Equip");
         if (equippedItems.items[equipy] != null)
@@ -452,7 +584,7 @@ public class Inventory_Manager : MonoBehaviour
         UnSelect();
     }
 
-    public void SwapEquipEquip(int x1, int y1, int x2, int y2)
+    private void SwapEquipEquip(int x1, int y1, int x2, int y2)
     {
         Debug.Log("Equip to Equip");
         Usable_Item_Base temp = equippedItems.items[y1];
@@ -462,7 +594,7 @@ public class Inventory_Manager : MonoBehaviour
         UnSelect();
     }
 
-    public void RemoveFromEquip(int equipx, int equipy)
+    private void RemoveFromEquip(int equipx, int equipy)
     {
         Debug.Log("Remove Equip");
         string itemName = equippedItems.items[equipy].name;
@@ -473,7 +605,7 @@ public class Inventory_Manager : MonoBehaviour
         UnSelect();
     }
 
-    public void FindObject(string name)
+    private void FindObject(string name)
     {
         Debug.Log("Find " + name);
         for (int i = 0; i < organizedItems.Count; i++)
@@ -493,14 +625,14 @@ public class Inventory_Manager : MonoBehaviour
         indexY = 0;
     }
 
-    public void UnSelect()
+    private void UnSelect()
     {
         Debug.Log("Deselect");
         SelectedImage.SetActive(false);
         itemSelected = false;
     }
 
-    public void OpenInventory()
+    private void OpenInventory()
     {
         OpenItemInventory();
     }
@@ -551,6 +683,14 @@ public class Inventory_Manager : MonoBehaviour
             }
         } 
     }
+
+    private void MapSet(int previousIndex, int newIndex)
+    {
+        VillageImages[previousIndex].SetActive(false);
+        MapHighlightObject.transform.position = VillageLocations[newIndex].transform.position;
+        VillageImages[newIndex].SetActive(true);
+        mapCurrentIndex = newIndex;
+    }
     
     private void OpenItemInventory()
     {
@@ -571,8 +711,13 @@ public class Inventory_Manager : MonoBehaviour
 
     private void OpenMapInventory()
     {
+        MapHighlightObject.SetActive(true);
+        MapHighlightObject.transform.position = VillageLocations[0].transform.position;
+        VillageImages[0].SetActive(true);
         MapInventory.SetActive(true);
+        mapCurrentIndex = 0;
         mapInventory = true;
+        
     }
     
     private void OpenSystemInventory()
@@ -589,7 +734,7 @@ public class Inventory_Manager : MonoBehaviour
         
     }
 
-    public void CloseInventory()
+    private void CloseInventory()
     {
         CloseItemInventory();
         CloseMapInventory();

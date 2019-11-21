@@ -7,173 +7,83 @@
       <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/MainObjs.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SkyeStuff/MainObjs.prefab" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Dash.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Player/Dash.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1185">
-              <caret line="79" column="14" selection-start-line="79" selection-start-column="14" selection-end-line="79" selection-end-column="14" />
-              <folding>
-                <marker date="1572016143993" expanded="true" signature="6:78" ph="..." />
-                <marker date="1572016143993" expanded="true" signature="384:412" ph="{...}" />
-                <marker date="1572016143993" expanded="true" signature="436:558" ph="{...}" />
-                <marker date="1572016143993" expanded="true" signature="593:2291" ph="{...}" />
-                <marker date="1572016143993" expanded="true" signature="623:2285" ph="{...}" />
-                <marker date="1572016143993" expanded="true" signature="703:811" ph="{...}" />
-                <marker date="1572016143993" expanded="true" signature="885:993" ph="{...}" />
-                <marker date="1572016143993" expanded="true" signature="1067:1174" ph="{...}" />
-                <marker date="1572016143993" expanded="true" signature="1248:1356" ph="{...}" />
-                <marker date="1572016143993" expanded="true" signature="1443:1556" ph="{...}" />
-                <marker date="1572016143993" expanded="true" signature="1643:1756" ph="{...}" />
-                <marker date="1572016143993" expanded="true" signature="1843:1960" ph="{...}" />
-                <marker date="1572016143993" expanded="true" signature="2047:2164" ph="{...}" />
-                <marker date="1572016143993" expanded="true" signature="2342:2767" ph="{...}" />
-                <marker date="1572016143993" expanded="true" signature="2388:2761" ph="{...}" />
-                <marker date="1572016143993" expanded="true" signature="2503:2548" ph="/* time = 0; ... */" />
-                <marker date="1572016143993" expanded="true" signature="2800:3062" ph="{...}" />
-                <marker date="1572016143993" expanded="true" signature="2830:3056" ph="{...}" />
-                <marker date="1572016143993" expanded="true" signature="2956:3046" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SceneSaveManager.cs" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Assets/SkyeStuff/Saving/Scripts/SceneSaveManager.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="446">
-              <caret line="81" selection-start-line="81" selection-end-line="81" />
-              <folding>
-                <marker date="1570841091838" expanded="false" signature="6:111" ph="..." />
-                <marker date="1570841091838" expanded="true" signature="264:2543" ph="{...}" />
-                <marker date="1570841091838" expanded="true" signature="271:412" ph="/* DO NOT DESTROY ANY OF THE GAMEOBJECTS FOR THIS SCRIPT ... */" />
-                <marker date="1570841091838" expanded="true" signature="539:945" ph="{...}" />
-                <marker date="1570841091838" expanded="true" signature="678:755" ph="{...}" />
-                <marker date="1570841091838" expanded="true" signature="799:877" ph="{...}" />
-                <marker date="1570841091838" expanded="true" signature="890:930" ph="{...}" />
-                <marker date="1570841091838" expanded="true" signature="975:1424" ph="{...}" />
-                <marker date="1570841091838" expanded="true" signature="1217:1402" ph="{...}" />
-                <marker date="1570841091838" expanded="true" signature="1448:2101" ph="{...}" />
-                <marker date="1570841091838" expanded="true" signature="1585:2095" ph="{...}" />
-                <marker date="1570841091838" expanded="true" signature="1693:1798" ph="{...}" />
-                <marker date="1570841091838" expanded="true" signature="1815:2085" ph="{...}" />
-                <marker date="1570841091838" expanded="true" signature="2126:2541" ph="{...}" />
-                <marker date="1570841091838" expanded="true" signature="2263:2535" ph="{...}" />
-                <marker date="1570841091838" expanded="true" signature="2371:2525" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/DialogueObjects/Scriptable_Objects/FloatInput.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/DialogueObjects/Scriptable_Objects/BoolData.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/DialogueObjects/Scriptable_Objects/DebugObject.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Enemies/AutoTurret/Turret.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/SkyeStuff/Boss_Fight/SlothBoi/Scripts/SlothBoi_Arms_And_Bombs.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/SkyeStuff/Boss_Fight/SlothBoi/Scripts/SlothBoi_Arm_Slap.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Enemies/BlackHole/BlackHole.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/DialogueObjects/Scriptable_Objects/FloatData.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/SkyeStuff/Inventory/Scripts/Inventory/Clothing_Inventory.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/DialogueObjects/Dialogue_Scripts/dialogue_script_condensed.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/SkyeStuff/Saving/Scripts/Vector3Data.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/DialogueObjects/Dialogue_Scripts/dialogue_lines.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/DialogueObjects/Dialogue_Scripts/Choice_Selection.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/PlayerHealth.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/SkyeStuff/Saving/Scripts/Player_Object.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/DialogueObjects/Dialogue_Scripts/choice_dialogue.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/DialogueObjects/Dialogue_Scripts/choice_lines.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/SkyeStuff/Saving/Scripts/ObjectSave.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/Dash.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/SwordAttack.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/DialogueObjects/Dialogue_Scripts/IfElseEvents.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/SkyeStuff/Saving/Scripts/SaveScript.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/DialogueObjects/Dialogue_Scripts/NPCObject.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/SkyeStuff/Puzzles/Scripts/PuzzleStringData.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/CameraController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/SkyeStuff/Saving/Scripts/Set_Player_Pos.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/SkyeStuff/Puzzles/Scripts/OnCollisionEvents.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/Jump.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/DamageToPlayer.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/SkyeStuff/Puzzles/Scripts/StringData.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/Shield.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/DialogueObjects/Dialogue_Scripts/choice_dialogue.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/EightWayMovement.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/MasterPlayerScript.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Doors/SceneController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Events/OnTriggerWIthPLayerEvent.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Doors/Door.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/SkyeStuff/Inventory/Scripts/Inventory/Current_Clothing.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/SkyeStuff/Inventory/Scripts/Items/Clothing_Base.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/SkyeStuff/Saving/Scripts/SceneSaveObjects.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/DialogueObjects/Dialogue_Scripts/IfElseEvents.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/DialogueObjects/Dialogue_Scripts/Choice_Selection.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/DialogueObjects/Dialogue_Scripts/dialogue_script_condensed.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/CameraController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/Jump.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/PlayerHealth.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/DialogueObjects/Dialogue_Scripts/NPCObject.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/DialogueObjects/Scriptable_Objects/FloatData.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/DialogueObjects/Scriptable_Objects/FloatInput.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/DialogueObjects/Scriptable_Objects/DebugObject.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Enemies/BlackHole/BlackHole.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Enemies/AutoTurret/Turret.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/DialogueObjects/Scriptable_Objects/BoolData.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/SkyeStuff/Updated_Damage_To_Player.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Enemies/EnemyUnits/Mage/HomingMissle3D.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/SkyeStuff/Updated_Player_Health.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Enemies/EnemyUnits/Mage/MageEnemy.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Enemies/EnemyUnits/Static Enemy/Arrow.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Enemies/EnemyUnits/Static Enemy/EnemyAttack.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Enemies/EnemyUnits/Static Enemy/BasicEnemy.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Enemies/EnemyUnits/PatrollingEnemy/EnemyPatroll.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Enemies/EnemyHealth/DamageToEnemy.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Enemies/EnemyUnits/PatrollingEnemy/TriggerPatroll.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/SkyeStuff/Inventory/Scripts/AmountUpdate.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/EnemyPatroll.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Enemies/EnemyHealth/EnemyHealth.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/SkyeStuff/Inventory/Scripts/IntData.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Weapons/Boomerang.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/SkyeStuff/Inventory/Scripts/Items/Item_Base.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/SkyeStuff/Store/NPC_Movement.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/SkyeStuff/Saving/Scripts/WaitEvent.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/SkyeStuff/Puzzles/Scripts/Pushable_Object_Triggers.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/SkyeStuff/Saving/Scripts/Saving_Object_Base.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/SkyeStuff/Saving/Scripts/SetTransforms.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/SkyeStuff/Saving/Scripts/SceneSaveManager.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/SkyeStuff/Boss_Fight/SlothBoi/Scripts/MothBomb.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/SkyeStuff/Start_Event.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/SkyeStuff/Saving/Scripts/Initialize_Objects.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/SkyeStuff/Store/Scripts/InteractEvent.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/SkyeStuff/Inventory/Scripts/Inventory/Inventory_Manager.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Weapons/YoYo/YoYo.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/SkyeStuff/Inventory/Scripts/Inventory/Inventory_List.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/SkyeStuff/Puzzles/Scripts/Pushable_Object_holder.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/SkyeStuff/Boss_Fight/Base/Script/Phase_Debug.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Weapons/Knockback.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/SkyeStuff/Inventory/Scripts/Items/Usable_Item_Base.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/SkyeStuff/Puzzles/Scripts/PuzzleStringData.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Weapons/YoYo/YoYoStart.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/SkyeStuff/Boss_Fight/Base/Script/Phase.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/SkyeStuff/Inventory/Scripts/Items/Usable_Amount_Item.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/SkyeStuff/Inventory/Scripts/Items/Potion.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Weapons/YoYo/YoYo.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/SkyeStuff/Puzzles/Scripts/StringData.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/SkyeStuff/Inventory/Scripts/Weapon/Weapon_Manager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/SkyeStuff/Puzzles/Scripts/Bool_List_Object.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/SkyeStuff/Puzzles/Scripts/Pushable_Object_Triggers.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/SkyeStuff/Inventory/Scripts/Weapon/Sword_Object.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/SkyeStuff/Inventory/Scripts/Weapon/Shield_Object.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/SkyeStuff/Inventory/Scripts/Weapon/Boomerang_Object.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/SkyeStuff/Inventory/Scripts/Inventory/QuickSelectToggle.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/SkyeStuff/Puzzles/Scripts/Pushable_Object.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/SkyeStuff/Boss_Fight/Base/Script/Phase_Manager.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/SkyeStuff/Inventory/Scripts/Weapon/Boomerang_Object.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Weapons/Boomerang.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/SkyeStuff/Inventory/Scripts/Inventory/Inventory_Manager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/SkyeStuff/Inventory/Scripts/Inventory/Equipped_Items.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Weapons/Knockback.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/SkyeStuff/Saving/Scripts/ScriptableObjectHolder.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/SkyeStuff/Saving/Scripts/GameControl.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/SkyeStuff/Inventory/Scripts/Weapon/Weapon_Manager.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/SkyeStuff/Updated_Damage_To_Player.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Enemies/EnemyHealth/DamageToEnemy.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/SkyeStuff/Store/Scripts/ShopItem.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/SkyeStuff/Updated_Player_Health.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Enemies/EnemyHealth/EnemyHealth.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/SkyeStuff/Puzzles/Scripts/Bool_List_Object.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Enemies/EnemyUnits/PatrollingEnemy/EnemyPatroll.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/SkyeStuff/Saving/Scripts/Scriptable_Object_Saver.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/SkyeStuff/Inventory/Scripts/Items/Item_Base.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/SkyeStuff/Inventory/Scripts/Items/Non_Usable_Amount_Item.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/SkyeStuff/Inventory/Scripts/Items/Usable_Amount_Item.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Enemies/EnemyUnits/PatrollingEnemy/TriggerPatroll.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/SkyeStuff/Inventory/Scripts/Items/Potion.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/SkyeStuff/Saving/Scripts/Scene_Load.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/SkyeStuff/Inventory/Scripts/Items/Usable_Item_Base.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Enemies/EnemyUnits/Static Enemy/Arrow.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Enemies/EnemyUnits/Static Enemy/BasicEnemy.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/SkyeStuff/Inventory/Scripts/IntData.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/SkyeStuff/Inventory/Scripts/Inventory/Inventory_List.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/SkyeStuff/Puzzles/Scripts/Pushable_Object_holder.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/SkyeStuff/Puzzles/Scripts/OnCollisionEvents.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/SkyeStuff/Puzzles/Scripts/Pushing_Script.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/EnemyPatroll.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/SkyeStuff/Inventory/Scripts/AmountUpdate.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Enemies/EnemyUnits/Static Enemy/EnemyAttack.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Enemies/EnemyUnits/Mage/MageEnemy.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Enemies/EnemyUnits/Mage/HomingMissle3D.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Doors/Door.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Doors/SceneController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Events/OnTriggerWIthPLayerEvent.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/Dash.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/SwordAttack.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/Shield.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/DialogueObjects/Dialogue_Scripts/choice_lines.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/DialogueObjects/Dialogue_Scripts/dialogue_lines.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/MasterPlayerScript.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/SkyeStuff/Saving/Scripts/WaitEvent.cs" />
-        <option value="$PROJECT_DIR$/Assets/SkyeStuff/Start_Event.cs" />
         <option value="$PROJECT_DIR$/Assets/SkyeStuff/Saving/Scripts/SetTransforms.cs" />
         <option value="$PROJECT_DIR$/Assets/SkyeStuff/Inventory/Scripts/Inventory/QuickSelectToggle.cs" />
         <option value="$PROJECT_DIR$/Assets/SkyeStuff/Store/Scripts/ShopItem.cs" />
@@ -182,7 +92,6 @@
         <option value="$PROJECT_DIR$/Assets/SkyeStuff/Boss_Fight/Scripts/Phase.cs" />
         <option value="$PROJECT_DIR$/Assets/SkyeStuff/Boss_Fight/Scripts/Phase_Debug.cs" />
         <option value="$PROJECT_DIR$/Assets/SkyeStuff/Boss_Fight/Scripts/Phase_Manager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Player/EightWayMovement.cs" />
         <option value="$PROJECT_DIR$/Assets/SkyeStuff/Boss_Fight/Scripts/SlothBoi_Arm_Slap.cs" />
         <option value="$PROJECT_DIR$/Assets/SkyeStuff/Boss_Fight/Scripts/SlothBoi_Arms_And_Bombs.cs" />
         <option value="$PROJECT_DIR$/Assets/SkyeStuff/Boss_Fight/SlothBoi/Scripts/FlyingEnemy.cs" />
@@ -206,7 +115,6 @@
         <option value="$PROJECT_DIR$/Assets/SkyeStuff/Store/NPC_Movement.cs" />
         <option value="$PROJECT_DIR$/Assets/SkyeStuff/Inventory/Scripts/Items/Clothing_Base.cs" />
         <option value="$PROJECT_DIR$/Assets/SkyeStuff/Inventory/Scripts/Inventory/Current_Clothing.cs" />
-        <option value="$PROJECT_DIR$/Assets/SkyeStuff/Inventory/Scripts/Inventory/Inventory_Manager.cs" />
         <option value="$PROJECT_DIR$/Assets/SkyeStuff/Inventory/Scripts/Inventory/Clothing_Inventory.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Doors/Door.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Enemies/AutoTurret/Turret.cs" />
@@ -214,7 +122,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Enemies/EnemyUnits/PatrollingEnemy/EnemyPatroll.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Enemies/EnemyUnits/Static Enemy/EnemyAttack.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/CameraController.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Player/Jump.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerHealth.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/Shield.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/SwordAttack.cs" />
@@ -223,45 +130,16 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Weapons/YoYo/YoYoStart.cs" />
         <option value="$PROJECT_DIR$/Assets/SkyeStuff/Updated_Player_Health.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/Dash.cs" />
+        <option value="$PROJECT_DIR$/Assets/SkyeStuff/Inventory/Scripts/Inventory/Inventory_Manager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player/EightWayMovement.cs" />
+        <option value="$PROJECT_DIR$/Assets/SkyeStuff/Inventory/Scripts/Weapon/Sword_Object.cs" />
+        <option value="$PROJECT_DIR$/Assets/SkyeStuff/Inventory/Scripts/Weapon/Shield_Object.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player/Jump.cs" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="-10" />
-    <option name="width" value="1320" />
-    <option name="height" value="1040" />
-  </component>
   <component name="ProjectId" id="1RkgI4UCLcT7rXqBzxE9KuC1OdD" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectView">
-    <navigator currentView="UnityExplorer" proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="SolutionExplorer">
-        <option name="show-file-system" value="false" />
-        <option name="show-all-items" value="false" />
-      </pane>
-      <pane id="UnityExplorer">
-        <subPane>
-          <expand>
-            <path>
-              <item name="" type="ad4990d8:FileSystemViewPaneBase$ProjectViewPaneTreeStructure$createRoot$1" />
-              <item name="Experimenting" type="483dac07:UnityExplorerNode$Root" />
-            </path>
-            <path>
-              <item name="" type="ad4990d8:FileSystemViewPaneBase$ProjectViewPaneTreeStructure$createRoot$1" />
-              <item name="Experimenting" type="483dac07:UnityExplorerNode$Root" />
-              <item name="" type="1045f7f1:UnityExplorerNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-        <option name="show-hidden-items" value="false" />
-      </pane>
-      <pane id="Scratches" />
-    </panes>
-  </component>
   <component name="PropertiesComponent">
     <property name="Discover.Launch.Via.Unity" value="true" />
     <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
@@ -280,7 +158,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Attach Unity.Attach to Unity Editor">
+  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
@@ -289,11 +167,15 @@
       <method v="2" />
     </configuration>
     <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
       <option name="pid" />
+      <option name="userSelectedPid" value="false" />
+      <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Attach Unity.Attach to Unity Editor" />
+      <item itemvalue="Attach to Unity Editor.Attach to Unity Editor" />
+      <item itemvalue="Attach to Unity Editor.Attach to Unity Editor &amp; Play" />
     </list>
   </component>
   <component name="SvnConfiguration">
@@ -327,46 +209,10 @@
       <workItem from="1573620945380" duration="1114000" />
       <workItem from="1573846944035" duration="18459000" />
       <workItem from="1574311587079" duration="593000" />
+      <workItem from="1574354426286" duration="6419000" />
+      <workItem from="1574365270956" duration="1307000" />
     </task>
     <servers />
-  </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="82065000" />
-  </component>
-  <component name="TodoView">
-    <todo-panel id="selected-file">
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-    <todo-panel id="all">
-      <are-packages-shown value="true" />
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="-8" y="0" width="1056" height="832" extended-state="0" />
-    <layout>
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Errors In Solution" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.32902297" />
-      <window_info anchor="bottom" id="Unit Tests" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29919678" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Unity" order="7" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="NuGet" order="7" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
-    </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -379,21 +225,12 @@
         <entry key="MAIN">
           <value>
             <State>
-              <option name="RECENTLY_FILTERED_USER_GROUPS">
-                <collection />
-              </option>
-              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
-                <collection />
-              </option>
               <option name="COLUMN_ORDER" />
             </State>
           </value>
         </entry>
       </map>
     </option>
-  </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -407,271 +244,14 @@
           <line>53</line>
           <properties documentPath="$PROJECT_DIR$/Assets/SkyeStuff/Puzzles/Scripts/Pushing_Script.cs" initialLine="52">
             <startOffsets>
-              <startOffset value="1431" />
+              <option value="1431" />
             </startOffsets>
             <endOffsets>
-              <endOffset value="1432" />
+              <option value="1432" />
             </endOffsets>
           </properties>
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="1" />
     </breakpoint-manager>
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Weapons/YoYo/YoYoStart.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="20" column="23" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/SkyeStuff/Boss_Fight/Base/Script/Phase.cs">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/SkyeStuff/Boss_Fight/Base/Script/Phase_Manager.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-135" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/SkyeStuff/Inventory/Scripts/Inventory/Clothing_Inventory.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4902">
-          <caret line="342" column="54" selection-start-line="342" selection-start-column="54" selection-end-line="342" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/SkyeStuff/Inventory/Scripts/Inventory/Current_Clothing.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="24" column="39" selection-start-line="24" selection-start-column="39" selection-end-line="24" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/SkyeStuff/Inventory/Scripts/Inventory/Equipped_Items.cs">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/SkyeStuff/Inventory/Scripts/Inventory/Inventory_List.cs">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/SkyeStuff/Inventory/Scripts/Inventory/QuickSelectToggle.cs">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/SkyeStuff/Boss_Fight/SlothBoi/Scripts/MothBomb.cs">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/SkyeStuff/Boss_Fight/Base/Script/Phase_Debug.cs">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/SkyeStuff/Boss_Fight/SlothBoi/Scripts/SlothBoi_Arm_Slap.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1485" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/SkyeStuff/Boss_Fight/SlothBoi/Scripts/SlothBoi_Arms_And_Bombs.cs">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/SkyeStuff/Inventory/Scripts/Items/Clothing_Base.cs">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/SkyeStuff/Inventory/Scripts/Items/Item_Base.cs">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/SkyeStuff/Inventory/Scripts/Items/Non_Usable_Amount_Item.cs">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/SkyeStuff/Inventory/Scripts/Items/Potion.cs">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/SkyeStuff/Inventory/Scripts/Items/Usable_Amount_Item.cs">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/SkyeStuff/Inventory/Scripts/Items/Usable_Item_Base.cs">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/SkyeStuff/Inventory/Scripts/Weapon/Boomerang_Object.cs">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/SkyeStuff/Inventory/Scripts/AmountUpdate.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="16" column="23" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/SkyeStuff/Inventory/Scripts/IntData.cs">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/SkyeStuff/Puzzles/Scripts/Bool_List_Object.cs">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/SkyeStuff/Puzzles/Scripts/OnCollisionEvents.cs">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/SkyeStuff/Puzzles/Scripts/Pushable_Object.cs">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/SkyeStuff/Puzzles/Scripts/Pushable_Object_holder.cs">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/SkyeStuff/Puzzles/Scripts/Pushable_Object_Triggers.cs">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/SkyeStuff/Puzzles/Scripts/Pushing_Script.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1368">
-          <folding>
-            <marker date="1573249894083" expanded="false" signature="6:78" ph="..." />
-            <marker date="1573249894083" expanded="true" signature="123:4301" ph="{...}" />
-            <marker date="1573249894083" expanded="true" signature="409:467" ph="{...}" />
-            <marker date="1573249894083" expanded="true" signature="544:1211" ph="{...}" />
-            <marker date="1573249894083" expanded="true" signature="600:1206" ph="{...}" />
-            <marker date="1573249894083" expanded="true" signature="670:1198" ph="{...}" />
-            <marker date="1573249894083" expanded="true" signature="792:1187" ph="{...}" />
-            <marker date="1573249894083" expanded="true" signature="952:1173" ph="{...}" />
-            <marker date="1573249894083" expanded="true" signature="1261:1378" ph="{...}" />
-            <marker date="1573249894083" expanded="true" signature="1331:1373" ph="{...}" />
-            <marker date="1573249894083" expanded="true" signature="1427:1827" ph="{...}" />
-            <marker date="1573249894083" expanded="true" signature="1862:2604" ph="{...}" />
-            <marker date="1573249894083" expanded="true" signature="1971:2082" ph="{...}" />
-            <marker date="1573249894083" expanded="true" signature="2131:2242" ph="{...}" />
-            <marker date="1573249894083" expanded="true" signature="2291:2402" ph="{...}" />
-            <marker date="1573249894083" expanded="true" signature="2451:2562" ph="{...}" />
-            <marker date="1573249894083" expanded="true" signature="2658:4299" ph="{...}" />
-            <marker date="1573249894083" expanded="true" signature="2917:3040" ph="/* Rigidbody objRig = objToPush.GetComponent&lt;Rigidbody&gt;(); ... */" />
-            <marker date="1573249894083" expanded="true" signature="3348:3901" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/SkyeStuff/Puzzles/Scripts/PuzzleStringData.cs">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/SkyeStuff/Puzzles/Scripts/StringData.cs">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/SkyeStuff/Saving/Scripts/GameControl.cs">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/SkyeStuff/Saving/Scripts/Initialize_Objects.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-754" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/SkyeStuff/Saving/Scripts/ObjectSave.cs">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/SkyeStuff/Saving/Scripts/Player_Object.cs">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/SkyeStuff/Saving/Scripts/SaveScript.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-423" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/SkyeStuff/Saving/Scripts/Saving_Object_Base.cs">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/SkyeStuff/Saving/Scripts/Scene_Load.cs">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/SkyeStuff/Saving/Scripts/SceneSaveObjects.cs">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/SkyeStuff/Saving/Scripts/Scriptable_Object_Saver.cs">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/SkyeStuff/Saving/Scripts/ScriptableObjectHolder.cs">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/SkyeStuff/Saving/Scripts/Set_Player_Pos.cs">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/SkyeStuff/Saving/Scripts/SetTransforms.cs">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/SkyeStuff/Saving/Scripts/Vector3Data.cs">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/SkyeStuff/Saving/Scripts/WaitEvent.cs">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/SkyeStuff/Store/Scripts/InteractEvent.cs">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/SkyeStuff/Store/NPC_Movement.cs">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/SkyeStuff/Store/Scripts/ShopItem.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-979" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/SkyeStuff/Start_Event.cs">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/SkyeStuff/Updated_Damage_To_Player.cs">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/SkyeStuff/Updated_Player_Health.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="15" column="9" lean-forward="true" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Player/Dash.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1185">
-          <caret line="79" column="14" selection-start-line="79" selection-start-column="14" selection-end-line="79" selection-end-column="14" />
-          <folding>
-            <marker date="1572016143993" expanded="true" signature="6:78" ph="..." />
-            <marker date="1572016143993" expanded="true" signature="384:412" ph="{...}" />
-            <marker date="1572016143993" expanded="true" signature="436:558" ph="{...}" />
-            <marker date="1572016143993" expanded="true" signature="593:2291" ph="{...}" />
-            <marker date="1572016143993" expanded="true" signature="623:2285" ph="{...}" />
-            <marker date="1572016143993" expanded="true" signature="703:811" ph="{...}" />
-            <marker date="1572016143993" expanded="true" signature="885:993" ph="{...}" />
-            <marker date="1572016143993" expanded="true" signature="1067:1174" ph="{...}" />
-            <marker date="1572016143993" expanded="true" signature="1248:1356" ph="{...}" />
-            <marker date="1572016143993" expanded="true" signature="1443:1556" ph="{...}" />
-            <marker date="1572016143993" expanded="true" signature="1643:1756" ph="{...}" />
-            <marker date="1572016143993" expanded="true" signature="1843:1960" ph="{...}" />
-            <marker date="1572016143993" expanded="true" signature="2047:2164" ph="{...}" />
-            <marker date="1572016143993" expanded="true" signature="2342:2767" ph="{...}" />
-            <marker date="1572016143993" expanded="true" signature="2388:2761" ph="{...}" />
-            <marker date="1572016143993" expanded="true" signature="2503:2548" ph="/* time = 0; ... */" />
-            <marker date="1572016143993" expanded="true" signature="2800:3062" ph="{...}" />
-            <marker date="1572016143993" expanded="true" signature="2830:3056" ph="{...}" />
-            <marker date="1572016143993" expanded="true" signature="2956:3046" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/SkyeStuff/Saving/Scripts/SceneSaveManager.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="446">
-          <caret line="81" selection-start-line="81" selection-end-line="81" />
-          <folding>
-            <marker date="1570841091838" expanded="false" signature="6:111" ph="..." />
-            <marker date="1570841091838" expanded="true" signature="264:2543" ph="{...}" />
-            <marker date="1570841091838" expanded="true" signature="271:412" ph="/* DO NOT DESTROY ANY OF THE GAMEOBJECTS FOR THIS SCRIPT ... */" />
-            <marker date="1570841091838" expanded="true" signature="539:945" ph="{...}" />
-            <marker date="1570841091838" expanded="true" signature="678:755" ph="{...}" />
-            <marker date="1570841091838" expanded="true" signature="799:877" ph="{...}" />
-            <marker date="1570841091838" expanded="true" signature="890:930" ph="{...}" />
-            <marker date="1570841091838" expanded="true" signature="975:1424" ph="{...}" />
-            <marker date="1570841091838" expanded="true" signature="1217:1402" ph="{...}" />
-            <marker date="1570841091838" expanded="true" signature="1448:2101" ph="{...}" />
-            <marker date="1570841091838" expanded="true" signature="1585:2095" ph="{...}" />
-            <marker date="1570841091838" expanded="true" signature="1693:1798" ph="{...}" />
-            <marker date="1570841091838" expanded="true" signature="1815:2085" ph="{...}" />
-            <marker date="1570841091838" expanded="true" signature="2126:2541" ph="{...}" />
-            <marker date="1570841091838" expanded="true" signature="2263:2535" ph="{...}" />
-            <marker date="1570841091838" expanded="true" signature="2371:2525" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
   </component>
 </project>
