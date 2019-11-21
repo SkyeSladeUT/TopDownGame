@@ -1878,7 +1878,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &6318592258595125819
 RectTransform:
   m_ObjectHideFlags: 0
@@ -4336,6 +4336,7 @@ MonoBehaviour:
   ItemsInventory: {fileID: 6318592258998005022}
   MapInventory: {fileID: 6318592258595125815}
   SystemInventory: {fileID: 6318592260403057049}
+  inClothingInventory: {fileID: 0}
   allItems:
   - {fileID: 0}
   - {fileID: 0}
@@ -16448,7 +16449,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &6318592260403057053
 RectTransform:
   m_ObjectHideFlags: 0
