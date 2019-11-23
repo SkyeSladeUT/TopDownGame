@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5a6b6a50ea71a5d4fa3f72f9bc191fee, type: 3}
   m_Name: Player_01
   m_EditorClassIdentifier: 
-  loadPos: {x: 12.121002, y: 0.625, z: -5.8161964}
+  loadPos: {x: 1.258246, y: 0.72, z: 1.059989}
   currentSceneName: Inventory

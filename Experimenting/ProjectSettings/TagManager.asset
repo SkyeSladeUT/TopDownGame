@@ -11,6 +11,8 @@ TagManager:
   - Shield
   - Pushable
   - PushableTrigger
+  - Pickup
+  - Vehicle
   layers:
   - Default
   - TransparentFX
