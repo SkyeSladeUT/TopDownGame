@@ -8,4 +8,5 @@ public class Pickup_Obj : MonoBehaviour
     public float waitTime;
     public bool isHeavy;
     public UnityEvent onThrow;
+    public UnityEvent onPickup;
 }

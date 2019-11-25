@@ -1,10 +1,11 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-[CreateAssetMenu(menuName = "Boss/SlothBoi/Phase1")]
+[CreateAssetMenu(menuName = "Boss/SlothBoi/ArmPhase")]
 public class SlothBoi_Arm_Slap : Phase
 {
-    private GameObject player, r_hand, l_hand, current_hand, r_playertransform, l_playertransform, current_playertransform;
+    private GameObject player, r_hand, l_hand, current_hand, 
+        r_playertransform, l_playertransform, current_playertransform, r_wall, l_wall;
     public string phaseName;
     public IntData RightArmHealth, LeftArmHealth;
     private float restTime, hoverTime, time = 0, handheight, 
@@ -16,6 +17,8 @@ public class SlothBoi_Arm_Slap : Phase
     
     public override IEnumerator StartPhase(List<GameObject> objs)
     {
+        RightArmHealth.value = 10;
+        LeftArmHealth.value = 10;
         handheight = 10;
         groundHeight = .5f;
         restTime = 3;
@@ -27,6 +30,11 @@ public class SlothBoi_Arm_Slap : Phase
         l_hand = objs[2];
         r_playertransform = objs[3];
         l_playertransform = objs[4];
+        r_wall = objs[5];
+        l_wall = objs[6];
+        //handcolliders
+        objs[7].SetActive(true);
+        objs[8].SetActive(true);
         righthandorig = r_hand.transform.position;
         lefthandorig = l_hand.transform.position;
         origrot = r_hand.transform.rotation;
@@ -82,7 +90,7 @@ public class SlothBoi_Arm_Slap : Phase
             destination = current_hand.transform.position;
             destination.y = handheight;
             playergrabbed.value = false;
-            Debug.Log("Raise Hand");
+            //Debug.Log("Raise Hand");
             Debug.Log(destination);
             while (!((current_hand.transform.position.y > destination.y - .01f) &&
                    (current_hand.transform.position.y < destination.y + .01f)))
@@ -93,7 +101,7 @@ public class SlothBoi_Arm_Slap : Phase
             }
             //hover over player
             time = hoverTime;
-            Debug.Log("Hover");
+            //Debug.Log("Hover");
             while (time > 0)
             {
                 destination = player.transform.position;
@@ -112,7 +120,7 @@ public class SlothBoi_Arm_Slap : Phase
                 time -= Time.deltaTime;
                 yield return new WaitForFixedUpdate();
             }
-            Debug.Log("Smash");
+            //Debug.Log("Smash");
             //Smash down
             destination = current_hand.transform.position;
             destination.y = 1.25f;
@@ -120,7 +128,7 @@ public class SlothBoi_Arm_Slap : Phase
             while (!((current_hand.transform.position.y > destination.y - .01f) &&
                    (current_hand.transform.position.y < destination.y + .01f)))
             {
-                Debug.Log("Smash Down");
+                //.Log("Smash Down");
                 current_hand.transform.position = Vector3.Lerp(current_hand.transform.position, destination, 5 * Time.deltaTime);
                 yield return new WaitForFixedUpdate();
             }
@@ -129,18 +137,20 @@ public class SlothBoi_Arm_Slap : Phase
             if (playergrabbed.value)
             {
                 //throw player
-                Debug.Log("Grab Player");
+                //Debug.Log("Grab Player");
                 destination = current_hand.transform.position;
                 destination.y = handheight/2;
                 if (rightArmTurn)
                 {
                     newrot = Quaternion.Euler(0,0,90);
                     destination.x -= 5;
+                    l_wall.SetActive(true);
                 }
                 else
                 {
                     newrot = Quaternion.Euler(0,0,-90);
                     destination.x += 5;
+                    r_wall.SetActive(true);
                 }
                 playergrabbed.value = false;
                 while (!((current_hand.transform.position.y > destination.y - .1f) &&
@@ -185,18 +195,34 @@ public class SlothBoi_Arm_Slap : Phase
                         }
                     }
                 } 
-                player.GetComponent<EightWayMovement>().ResumeControls();
+                player.GetComponent<PlayerMovementManager>().MovementEnable(true);
+                player.GetComponent<PlayerMovementManager>().DashEnable(true);
             }
             //if not
             else
-            {   
-                Debug.Log("Wait");
-                yield return new WaitForSeconds(restTime);
+            {
+                time = restTime;
+                while (time > 0)
+                {
+                    time -= Time.deltaTime;
+                    if (rightArmTurn && RightArmHealth.value <= 0)
+                    {
+                        //perform animation
+                        time = 0;
+                    }
+                    else if (!rightArmTurn && LeftArmHealth.value <= 0)
+                    {
+                        //perform animation
+                        time = 0;
+                    }
+                    yield return new WaitForFixedUpdate();
+                }
+
                 //raise
             }
             
             //reset hand
-            Debug.Log("Raise Hand");
+            //Debug.Log("Raise Hand");
             destination = current_hand.transform.position;
             destination.y = handheight;
             playergrabbed.value = false;
@@ -209,7 +235,7 @@ public class SlothBoi_Arm_Slap : Phase
                 yield return new WaitForFixedUpdate();
             }
             //move back
-            Debug.Log("Move Back");
+            //Debug.Log("Move Back");
             if (rightArmTurn)
                 destination = righthandorig;
             else
@@ -227,7 +253,7 @@ public class SlothBoi_Arm_Slap : Phase
             }
             
             //move down
-            Debug.Log("Lower Hand");
+            //Debug.Log("Lower Hand");
             destination = current_hand.transform.position;
             destination.y = groundHeight;
             playergrabbed.value = false;
@@ -268,6 +294,7 @@ public class SlothBoi_Arm_Slap : Phase
             current_hand.transform.rotation = Quaternion.Lerp(current_hand.transform.rotation, origrot, 2 * Time.deltaTime);
             yield return new WaitForFixedUpdate();
         }
+        //Debug.Log("End Stop");
         finishEnd = true;
     }
 }

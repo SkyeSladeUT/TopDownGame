@@ -43,6 +43,7 @@ public class Phase_Manager : MonoBehaviour
 
    private IEnumerator NextPhase()
    {
+      StopCoroutine(phases[currentPhase].UpdatePhase(objs));
       StartCoroutine(phases[currentPhase].StopPhase(objs));
       yield return new WaitUntil(() =>phases[currentPhase].finishEnd);
       currentPhase++;

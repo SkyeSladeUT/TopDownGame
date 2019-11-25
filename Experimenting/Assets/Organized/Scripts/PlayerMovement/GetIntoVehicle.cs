@@ -56,6 +56,7 @@ public class GetIntoVehicle : MonoBehaviour
     {
         if (other.CompareTag("Vehicle"))
         {
+            Debug.Log("Vechicle in range");
             manager.WeaponEnable(false);
             inRange = true;
             Vehicle = other.gameObject;
@@ -71,7 +72,11 @@ public class GetIntoVehicle : MonoBehaviour
 
     private void OnTriggerExit(Collider other)
     {
-        inRange = false;
-        manager.WeaponEnable(true);
+        if (other.CompareTag("Vehicle"))
+        {
+            Debug.Log("Vechicle out of range");
+            inRange = false;
+            manager.WeaponEnable(true);
+        }
     }
 }

@@ -16,6 +16,6 @@ MonoBehaviour:
   finishEnd: 0
   currentPhase: 0
   phaseName: SlothBoi Phase 1
-  RightArmHealth: {fileID: 11400000, guid: 467b28a7178822247a88aa74a7e48f4e, type: 2}
-  LeftArmHealth: {fileID: 11400000, guid: 1aeded7325fed4347923ffb552d1d3d8, type: 2}
+  RightArmHealth: {fileID: 11400000, guid: 3eea9627e22d58446bb2535ff8b94f0b, type: 2}
+  LeftArmHealth: {fileID: 11400000, guid: 01f41630336757541af4fc8eade0da4b, type: 2}
   playergrabbed: {fileID: 11400000, guid: 384e9358e89831d4c9bf10d134ec765f, type: 2}

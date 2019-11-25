@@ -7,6 +7,7 @@ public class Sword_Object : Usable_Item_Base
     private float swordactive = 0.2f;
     private EightWayMovement playerMove;
     public float speedDecrease;
+    public float coolDownTime = .5f;
     
     public override IEnumerator UseItem(GameObject itemUsed, GameObject player)
     {
@@ -19,6 +20,7 @@ public class Sword_Object : Usable_Item_Base
        playerMove.walkingspeed = playerMove.walkingspeed / speedDecrease;
        playerMove.SetRun(true);
         itemUsed.SetActive(false);
+        yield return new WaitForSeconds(coolDownTime);
         inUse = false;
     }
 

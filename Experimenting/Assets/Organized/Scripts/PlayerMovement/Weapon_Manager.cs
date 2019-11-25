@@ -31,7 +31,7 @@ public class Weapon_Manager : MonoBehaviour
     {
         if (items.CurrentItem() == null || !WeaponEnabled)
         {
-            
+            return;
         }
         else if (items.CurrentItem().canPowerUp.value)
         {

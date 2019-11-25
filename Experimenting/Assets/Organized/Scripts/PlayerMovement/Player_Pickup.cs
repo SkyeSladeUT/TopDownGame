@@ -9,13 +9,15 @@ public class Player_Pickup : MonoBehaviour
     public Transform SnapZone;
     private bool isUp;
     private bool inRange;
-    private bool canPick;
+    public bool canPick;
     private bool pickedUp;
     private bool thrown;
+    private bool throwincontainer;
     public float throwForce = 10;
     private Rigidbody objRB;
     private Pickup_Obj pickupObj;
     private PlayerMovementManager manager;
+    private Vector3 throwdistance;
 
     public void SetVals(Transform SnapZone, float throwForce, PlayerMovementManager manager)
     {
@@ -30,36 +32,60 @@ public class Player_Pickup : MonoBehaviour
         pickedUp = false;
         canPick = true;
         thrown = false;
+        StartCoroutine(UpdatePickUp());
     }
     
     // Update is called once per frame
-    public void FixedUpdate()
+    public IEnumerator UpdatePickUp()
     {
-        if (canPick && Input.GetButtonDown("Item") && inRange)
+        while (true)
         {
-            if (pickupObj != null && pickupObj.isHeavy)
+            yield return new WaitUntil(() => Input.GetButtonDown("Item"));
+            if (canPick && inRange)
             {
-                return;
-            }
-            else
-            {
-                pickedUp = true;
-                canPick = false;
-                pickupVol.transform.position = SnapZone.transform.position;
-                pickupVol.transform.SetParent(SnapZone.transform);
-            }
-        }
+                if (pickupObj != null && pickupObj.isHeavy)
+                {
 
-        else if (pickedUp && Input.GetButtonDown("Item"))
-        {
-            objRB.isKinematic = false;
-            thrown = true;
-            pickedUp = false;
-            canPick = true;
-            pickupVol.transform.parent = null;
-            Debug.Log(SnapZone.forward);
-            objRB.AddForce(SnapZone.forward * throwForce, ForceMode.Impulse);
-            StartCoroutine(Thrown());
+                }
+                else
+                {
+                    Debug.Log("Pickup");
+                    if (pickupObj != null)
+                        pickupObj.onPickup.Invoke();
+                    pickedUp = true;
+                    canPick = false;
+                    pickupVol.transform.position = SnapZone.transform.position;
+                    pickupVol.transform.SetParent(SnapZone.transform);
+                }
+            }
+
+            else if (pickedUp)
+            {
+                if (throwincontainer)
+                {
+                    objRB.isKinematic = false;
+                    thrown = true;
+                    pickedUp = false;
+                    canPick = true;
+                    pickupVol.transform.parent = null;
+                    throwdistance = SnapZone.forward;
+                    throwdistance.y = throwForce;
+                    objRB.AddForce(throwdistance, ForceMode.Impulse);
+                    StartCoroutine(Thrown());
+                }
+                else
+                {
+                    Debug.Log("Throw");
+                    objRB.isKinematic = false;
+                    thrown = true;
+                    pickedUp = false;
+                    canPick = true;
+                    pickupVol.transform.parent = null;
+                    objRB.AddForce(SnapZone.forward * throwForce, ForceMode.Impulse);
+                    StartCoroutine(Thrown());
+                }
+            }
+            yield return new WaitUntil(()=>Input.GetButtonUp("Item"));
         }
 
     }
@@ -68,11 +94,16 @@ public class Player_Pickup : MonoBehaviour
     {
         if (other.CompareTag("Pickup") && canPick)
         {
+            //Debug.Log("pickup in range");
             manager.WeaponEnable(false);
             inRange = true;
             pickupVol = other.gameObject;
             objRB = pickupVol.GetComponent<Rigidbody>();
             pickupObj = pickupVol.GetComponent<Pickup_Obj>();
+        }
+        if (other.CompareTag("ItemContainer") && pickedUp)
+        {
+            throwincontainer = true;
         }
     }
 
@@ -80,9 +111,16 @@ public class Player_Pickup : MonoBehaviour
     {
         if (other.CompareTag("Pickup") && !pickedUp)
         {
+            //Debug.Log("pickup out of range");
             manager.WeaponEnable(true);
             inRange = false;
         }
+        if (other.CompareTag("ItemContainer"))
+        {
+            throwincontainer = false;
+        }
+
+        
     }
 
     public void PlayerisinPickUpZone()
@@ -98,13 +136,12 @@ public class Player_Pickup : MonoBehaviour
 
     IEnumerator Thrown()
     {
-        manager.WeaponEnable(true);
         if (pickupObj != null)
         {
             yield return new WaitForSeconds(pickupObj.waitTime);
             pickupObj.onThrow.Invoke();
         }
-
+        manager.WeaponEnable(true);
         inRange = false;
         thrown = false;
     }

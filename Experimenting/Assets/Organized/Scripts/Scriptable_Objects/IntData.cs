@@ -26,7 +26,7 @@ public class IntData : Saving_Object_Base
         }
     }
 
-    public void DecreaseAmount(int amount)
+    public virtual void DecreaseAmount(int amount)
     {
         value -= amount;
         if (value < minVal)
@@ -35,7 +35,7 @@ public class IntData : Saving_Object_Base
         }
     }
 
-    public void IncreaseAmount(int amount)
+    public virtual void IncreaseAmount(int amount)
     {
         value += amount;
         if (value > maxVal)

@@ -99,12 +99,24 @@ public class PlayerMovementManager : MonoBehaviour
     {
         if (enable)
         {
+            Debug.Log("WeaponEnable");
             weaponManager.EnableWeapons();
         }
         else
         {
+            Debug.Log("WeaponDisable");
             weaponManager.DisableWeapon();
         }
+    }
+
+    public void DecreaseHealth(int damage)
+    {
+        playerHealth.health.DecreaseAmount(damage);
+    }
+
+    public void IncreaseHealth(int amount)
+    {
+        playerHealth.health.IncreaseAmount(amount);
     }
     
 }

@@ -3,456 +3,31 @@
   <component name="ChangeListManager">
     <list default="true" id="52963a4b-0c4b-4cee-bdaf-4ba05a263637" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Experimenting/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Experimenting/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Experimenting/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Experimenting/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Experimenting/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Experimenting/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Save_Objects.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Save_Objects/Save_01.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Save_Objects/Save_01/Collected_Items_01.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Save_Objects/Save_01/Collected_Items_01.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Save_Objects/Save_01/HealthPotionNum_01.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Save_Objects/Save_01/HealthPotionNum_01.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Save_Objects/Save_01/ItemsEquipped_01.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Save_Objects/Save_01/ItemsEquipped_01.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Save_Objects/Save_01/Money_01.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Save_Objects/Save_01/Money_01.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Save_Objects/Save_01/PlayerHealth_01.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Save_Objects/Save_01/PlayerHealth_01.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Save_Objects/Save_01/Player_01.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Save_Objects/Save_01/Player_01.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Save_Objects/Save_01/Scene_01_Saving_01.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Save_Objects/Save_01/Scene_01_Saving_01.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Save_Objects/Save_01/TotalHealth_01.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Save_Objects/Save_01/TotalHealth_01.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Save_Objects/Save_02.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Save_Objects/Save_02/Collected_Items_02.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Save_Objects/Save_02/Collected_Items_02.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Save_Objects/Save_02/HealthPotionNum_02.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Save_Objects/Save_02/HealthPotionNum_02.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Save_Objects/Save_02/ItemsEquipped_02.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Save_Objects/Save_02/ItemsEquipped_02.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Save_Objects/Save_02/Money_02.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Save_Objects/Save_02/Money_02.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Save_Objects/Save_02/PlayerHealth_02.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Save_Objects/Save_02/PlayerHealth_02.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Save_Objects/Save_02/Player_02.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Save_Objects/Save_02/Player_02.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Save_Objects/Save_02/Scene_01_Saving_02.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Save_Objects/Save_02/Scene_01_Saving_02.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Save_Objects/Save_02/TotalHealth_02.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Save_Objects/Save_02/TotalHealth_02.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Save_Objects/Save_03.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Save_Objects/Save_03/Collected_Items_03.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Save_Objects/Save_03/Collected_Items_03.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Save_Objects/Save_03/HealthPotionNum_03.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Save_Objects/Save_03/HealthPotionNum_03.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Save_Objects/Save_03/ItemsEquipped_03.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Save_Objects/Save_03/ItemsEquipped_03.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Save_Objects/Save_03/Money_03.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Save_Objects/Save_03/Money_03.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Save_Objects/Save_03/PlayerHealth_03.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Save_Objects/Save_03/PlayerHealth_03.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Save_Objects/Save_03/Player_03.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Save_Objects/Save_03/Player_03.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Save_Objects/Save_03/Scene_01_Saving_03.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Save_Objects/Save_03/Scene_01_Saving_03.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Save_Objects/Save_03/TotalHealth_03.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Save_Objects/Save_03/TotalHealth_03.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DialogueObjects.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DialogueObjects/Basic_Colors.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DialogueObjects/Basic_Colors/Green.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DialogueObjects/Basic_Colors/Green.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DialogueObjects/Dialogue.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DialogueObjects/Dialogue/Debugging.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DialogueObjects/Dialogue/Debugging/0.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DialogueObjects/Dialogue/Debugging/0.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DialogueObjects/Dialogue/Debugging/1.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DialogueObjects/Dialogue/Debugging/1.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DialogueObjects/Dialogue/Dialogue.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DialogueObjects/Dialogue/Dialogue/FinishEvent.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DialogueObjects/Dialogue/Dialogue/FinishEvent.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DialogueObjects/Dialogue/Dialogue/HasItem.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DialogueObjects/Dialogue/Dialogue/HasItem.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DialogueObjects/Dialogue/Dialogue/NoChoices.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DialogueObjects/Dialogue/Dialogue/NoChoices.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DialogueObjects/Dialogue/Dialogue/NormalDialogue.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DialogueObjects/Dialogue/Dialogue/NormalDialogue.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DialogueObjects/Dialogue/Dialogue/RegularLines.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DialogueObjects/Dialogue/Dialogue/RegularLines.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DialogueObjects/Dialogue/Dialogue/StartConv.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DialogueObjects/Dialogue/Dialogue/StartConv.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DialogueObjects/Dialogue/Dialogue/Test_Choice_01_Text.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DialogueObjects/Dialogue/Dialogue/Test_Choice_01_Text.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DialogueObjects/Dialogue/Dialogue/Test_Choice_02_Text.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DialogueObjects/Dialogue/Dialogue/Test_Choice_02_Text.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DialogueObjects/Dialogue/Dialogue/Test_Choices.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DialogueObjects/Dialogue/Dialogue/Test_Choices.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DialogueObjects/Dialogue/Dialogue/Test_Does_Not_have_item.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DialogueObjects/Dialogue/Dialogue/Test_Does_Not_have_item.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DialogueObjects/Dialogue/Dialogue/Test_Has_Item.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DialogueObjects/Dialogue/Dialogue/Test_Has_Item.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DialogueObjects/Dialogue/Dialogue/Test_NPC.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DialogueObjects/Dialogue/Dialogue/Test_NPC.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DialogueObjects/Dialogue/Dialogue/Test_lines.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DialogueObjects/Dialogue/Dialogue/Test_lines.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DialogueObjects/Dialogue/KeyCodes.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DialogueObjects/Dialogue/KeyCodes/Horizontal.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DialogueObjects/Dialogue/KeyCodes/Horizontal.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DialogueObjects/Dialogue/KeyCodes/Interact.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DialogueObjects/Dialogue/KeyCodes/Interact.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DialogueObjects/Dialogue/KeyCodes/Vertical.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DialogueObjects/Dialogue/KeyCodes/Vertical.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DialogueObjects/DialogueSCene.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DialogueObjects/DialogueSCene.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DialogueObjects/Dialogue_Scripts.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DialogueObjects/Dialogue_Scripts/Choice_Selection.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DialogueObjects/Dialogue_Scripts/Choice_Selection.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DialogueObjects/Dialogue_Scripts/IfElseEvents.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DialogueObjects/Dialogue_Scripts/IfElseEvents.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DialogueObjects/Dialogue_Scripts/NPCObject.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DialogueObjects/Dialogue_Scripts/NPCObject.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DialogueObjects/Dialogue_Scripts/choice_dialogue.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DialogueObjects/Dialogue_Scripts/choice_dialogue.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DialogueObjects/Dialogue_Scripts/choice_lines.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DialogueObjects/Dialogue_Scripts/choice_lines.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DialogueObjects/Dialogue_Scripts/dialogue_lines.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DialogueObjects/Dialogue_Scripts/dialogue_lines.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DialogueObjects/Dialogue_Scripts/dialogue_script_condensed.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DialogueObjects/Dialogue_Scripts/dialogue_script_condensed.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DialogueObjects/Scriptable_Objects.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DialogueObjects/Scriptable_Objects/BoolData.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DialogueObjects/Scriptable_Objects/BoolData.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DialogueObjects/Scriptable_Objects/DebugObject.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DialogueObjects/Scriptable_Objects/DebugObject.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DialogueObjects/Scriptable_Objects/FloatData.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DialogueObjects/Scriptable_Objects/FloatData.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DialogueObjects/Scriptable_Objects/FloatInput.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DialogueObjects/Scriptable_Objects/FloatInput.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DialogueObjects/Scriptable_Objects/FloatInputAxis.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DialogueObjects/Scriptable_Objects/FloatInputAxis.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DialogueObjects/Scriptable_Objects/KeyCodeData.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DialogueObjects/Scriptable_Objects/KeyCodeData.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DialogueObjects/Scriptable_Objects/KeyCodeDataKeys.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DialogueObjects/Scriptable_Objects/KeyCodeDataKeys.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DialogueObjects/Scriptable_Objects/UnityKeyCodeObject.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DialogueObjects/Scriptable_Objects/UnityKeyCodeObject.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Events.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Events/OnTriggerWIthPLayerEvent.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Events/OnTriggerWIthPLayerEvent.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/CameraController.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/CameraController.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/DamageToPlayer.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/DamageToPlayer.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/Dash.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/Dash.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/EightWayMovement.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/EightWayMovement.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/Jump.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/Jump.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/MasterPlayerScript.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/MasterPlayerScript.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerHealth.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerHealth.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/Shield.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/Shield.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/SwordAttack.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/SwordAttack.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Inventory.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Inventory/Prefabs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Inventory/Prefabs/Inventory.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Inventory/Prefabs/Inventory.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Inventory/Prefabs/QuickSelectCanvas.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Inventory/Prefabs/QuickSelectCanvas.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Inventory/Resources.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Inventory/Resources/Clothing.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Inventory/Resources/Clothing/CollectedClothing.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Inventory/Resources/Clothing/CollectedClothing.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Inventory/Resources/Clothing/HeadPiece_01.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Inventory/Resources/Clothing/HeadPiece_01.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Inventory/Resources/Clothing/HeadPiece_02.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Inventory/Resources/Clothing/HeadPiece_02.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Inventory/Resources/Clothing/HeadPiece_03.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Inventory/Resources/Clothing/HeadPiece_03.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Inventory/Resources/Clothing/InClothingSelection.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Inventory/Resources/Clothing/InClothingSelection.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Inventory/Resources/Clothing/Pants_01.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Inventory/Resources/Clothing/Pants_01.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Inventory/Resources/Clothing/Pants_02.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Inventory/Resources/Clothing/Pants_02.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Inventory/Resources/Clothing/Shirt_01.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Inventory/Resources/Clothing/Shirt_01.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Inventory/Resources/Clothing/Shirt_02.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Inventory/Resources/Clothing/Shirt_02.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Inventory/Resources/Clothing/Shirt_03.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Inventory/Resources/Clothing/Shirt_03.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Inventory/Resources/Items.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Inventory/Resources/Items/HealthPotion.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Inventory/Resources/Items/HealthPotion.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Inventory/Resources/Weapons.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Inventory/Resources/Weapons/Boomerang.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Inventory/Resources/Weapons/Boomerang.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Inventory/Resources/Weapons/Shield.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Inventory/Resources/Weapons/Shield.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Inventory/Resources/Weapons/Sword.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Inventory/Resources/Weapons/Sword.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Inventory/Resources/Weapons/YoYo.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Inventory/Resources/Weapons/YoYo.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Inventory/Scenes.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Inventory/Scenes/Inventory.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Inventory/Scenes/Inventory.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Inventory/Scenes/Inventory.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Inventory/Scenes/Inventory/NavMesh.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Inventory/Scenes/Inventory/NavMesh.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Inventory/Scripts.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Inventory/Scripts/AmountUpdate.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Inventory/Scripts/AmountUpdate.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Inventory/Scripts/IntData.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Inventory/Scripts/IntData.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Inventory/Scripts/Inventory.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Inventory/Scripts/Inventory/Clothing_Inventory.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Inventory/Scripts/Inventory/Clothing_Inventory.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Inventory/Scripts/Inventory/Current_Clothing.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Inventory/Scripts/Inventory/Current_Clothing.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Inventory/Scripts/Inventory/Equipped_Items.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Inventory/Scripts/Inventory/Equipped_Items.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Inventory/Scripts/Inventory/Inventory_List.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Inventory/Scripts/Inventory/Inventory_List.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Inventory/Scripts/Inventory/Inventory_Manager.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Inventory/Scripts/Inventory/Inventory_Manager.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Inventory/Scripts/Inventory/QuickSelectToggle.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Inventory/Scripts/Inventory/QuickSelectToggle.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Inventory/Scripts/Items.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Inventory/Scripts/Items/Clothing_Base.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Inventory/Scripts/Items/Clothing_Base.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Inventory/Scripts/Items/Item_Base.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Inventory/Scripts/Items/Item_Base.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Inventory/Scripts/Items/Non_Usable_Amount_Item.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Inventory/Scripts/Items/Non_Usable_Amount_Item.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Inventory/Scripts/Items/Potion.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Inventory/Scripts/Items/Potion.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Inventory/Scripts/Items/Usable_Amount_Item.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Inventory/Scripts/Items/Usable_Amount_Item.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Inventory/Scripts/Items/Usable_Item_Base.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Inventory/Scripts/Items/Usable_Item_Base.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Inventory/Scripts/Weapon.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Inventory/Scripts/Weapon/Boomerang_Object.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Inventory/Scripts/Weapon/Boomerang_Object.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Inventory/Scripts/Weapon/Shield_Object.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Inventory/Scripts/Weapon/Shield_Object.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Inventory/Scripts/Weapon/Sword_Object.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Inventory/Scripts/Weapon/Sword_Object.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Inventory/Scripts/Weapon/Weapon_Manager.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Inventory/Scripts/Weapon/Weapon_Manager.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Inventory/Scripts/Weapon/YoYo_Object.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Inventory/Scripts/Weapon/YoYo_Object.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Inventory/Sprites.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Inventory/Sprites/Character.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Inventory/Sprites/Character.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Inventory/Sprites/Coin.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Inventory/Sprites/Coin.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Inventory/Sprites/Map_Cut.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Inventory/Sprites/Map_Cut.jpg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Inventory/Test_Clothes.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Inventory/Test_Clothes.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Inventory/Test_Model.controller" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Inventory/Test_Model.controller.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/MainObjs.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/MainObjs.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Material.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Material/Blue.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Material/Blue.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Material/Red.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Material/Red.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Material/Yellow.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Material/Yellow.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Puzzles.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Puzzles/Resources.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Puzzles/Resources/Collision.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Puzzles/Resources/Collision.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Puzzles/Resources/CompletePuzzle.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Puzzles/Resources/CompletePuzzle.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Puzzles/Resources/Ordered.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Puzzles/Resources/Ordered/OrderString.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Puzzles/Resources/Ordered/OrderString.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Puzzles/Resources/Pressure_Plate.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Puzzles/Resources/Pressure_Plate/All_Down.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Puzzles/Resources/Pressure_Plate/All_Down.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Puzzles/Resources/Pressure_Plate/Plate_01.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Puzzles/Resources/Pressure_Plate/Plate_01.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Puzzles/Resources/Pressure_Plate/Plate_02.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Puzzles/Resources/Pressure_Plate/Plate_02.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Puzzles/Resources/Rock_01.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Puzzles/Resources/Rock_01.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Puzzles/Resources/Rock_02.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Puzzles/Resources/Rock_02.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Puzzles/Resources/Rock_03.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Puzzles/Resources/Rock_03.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Puzzles/Resources/Rock_04.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Puzzles/Resources/Rock_04.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Puzzles/Scene.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Puzzles/Scene/Puzzles.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Puzzles/Scene/Puzzles.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Puzzles/Scripts.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Puzzles/Scripts/Bool_List_Object.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Puzzles/Scripts/Bool_List_Object.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Puzzles/Scripts/OnCollisionEvents.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Puzzles/Scripts/OnCollisionEvents.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Puzzles/Scripts/Pushable_Object.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Puzzles/Scripts/Pushable_Object.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Puzzles/Scripts/Pushable_Object_Triggers.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Puzzles/Scripts/Pushable_Object_Triggers.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Puzzles/Scripts/Pushable_Object_holder.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Puzzles/Scripts/Pushable_Object_holder.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Puzzles/Scripts/Pushing_Script.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Puzzles/Scripts/Pushing_Script.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Puzzles/Scripts/PuzzleStringData.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Puzzles/Scripts/PuzzleStringData.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Puzzles/Scripts/StringData.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Puzzles/Scripts/StringData.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Saving.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Saving/Dont_Destroy.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Saving/Dont_Destroy.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Saving/SavingResources.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Saving/SavingResources/CurrentSave.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Saving/SavingResources/CurrentSave.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Saving/SavingResources/Save_Data_Lists.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Saving/SavingResources/Save_Data_Lists/Save_Data.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Saving/SavingResources/Save_Data_Lists/Save_Data.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Saving/SavingResources/Save_Data_Lists/Save_Data_01.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Saving/SavingResources/Save_Data_Lists/Save_Data_01.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Saving/SavingResources/Save_Data_Lists/Save_Data_02.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Saving/SavingResources/Save_Data_Lists/Save_Data_02.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Saving/SavingResources/Save_Data_Lists/Save_Data_03.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Saving/SavingResources/Save_Data_Lists/Save_Data_03.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Saving/SavingResources/Save_Data_Lists/Save_Data_Current.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Saving/SavingResources/Save_Data_Lists/Save_Data_Current.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Saving/SavingResources/Saving_Objects_Initial.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Saving/SavingResources/Saving_Objects_Initial/Collected_Items.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Saving/SavingResources/Saving_Objects_Initial/Collected_Items.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Saving/SavingResources/Saving_Objects_Initial/HealthPotionNum.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Saving/SavingResources/Saving_Objects_Initial/HealthPotionNum.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Saving/SavingResources/Saving_Objects_Initial/ItemsEquipped.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Saving/SavingResources/Saving_Objects_Initial/ItemsEquipped.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Saving/SavingResources/Saving_Objects_Initial/Money.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Saving/SavingResources/Saving_Objects_Initial/Money.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Saving/SavingResources/Saving_Objects_Initial/Player.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Saving/SavingResources/Saving_Objects_Initial/Player.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Saving/SavingResources/Saving_Objects_Initial/PlayerHealth.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Saving/SavingResources/Saving_Objects_Initial/PlayerHealth.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Saving/SavingResources/Saving_Objects_Initial/Scene_01_Saving.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Saving/SavingResources/Saving_Objects_Initial/Scene_01_Saving.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Saving/SavingResources/Saving_Objects_Initial/TotalHealth.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Saving/SavingResources/Saving_Objects_Initial/TotalHealth.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Saving/SavingResources/Saving_Objects_Used.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Saving/SavingResources/Saving_Objects_Used/Collected_Items_Current.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Saving/SavingResources/Saving_Objects_Used/Collected_Items_Current.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Saving/SavingResources/Saving_Objects_Used/HealthPotionNum_Current.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Saving/SavingResources/Saving_Objects_Used/HealthPotionNum_Current.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Saving/SavingResources/Saving_Objects_Used/ItemsEquipped_Current.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Saving/SavingResources/Saving_Objects_Used/ItemsEquipped_Current.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Saving/SavingResources/Saving_Objects_Used/Money_Current.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Saving/SavingResources/Saving_Objects_Used/Money_Current.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Saving/SavingResources/Saving_Objects_Used/PlayerHealth_Current.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Saving/SavingResources/Saving_Objects_Used/PlayerHealth_Current.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Saving/SavingResources/Saving_Objects_Used/Player_Current.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Saving/SavingResources/Saving_Objects_Used/Player_Current.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Saving/SavingResources/Saving_Objects_Used/Scene_01_Saving_Current.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Saving/SavingResources/Saving_Objects_Used/Scene_01_Saving_Current.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Saving/SavingResources/Saving_Objects_Used/TotalHealth_Current.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Saving/SavingResources/Saving_Objects_Used/TotalHealth_Current.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Saving/Scenes.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Saving/Scenes/Menu.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Saving/Scenes/Menu.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Saving/Scripts.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Saving/Scripts/GameControl.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Saving/Scripts/GameControl.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Saving/Scripts/Initialize_Objects.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Saving/Scripts/Initialize_Objects.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Saving/Scripts/ObjectSave.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Saving/Scripts/ObjectSave.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Saving/Scripts/Player_Object.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Saving/Scripts/Player_Object.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Saving/Scripts/SaveScript.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Saving/Scripts/SaveScript.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Saving/Scripts/Saving_Object_Base.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Saving/Scripts/Saving_Object_Base.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Saving/Scripts/SceneSaveManager.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Saving/Scripts/SceneSaveManager.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Saving/Scripts/SceneSaveObjects.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Saving/Scripts/SceneSaveObjects.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Saving/Scripts/Scene_Load.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Saving/Scripts/Scene_Load.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Saving/Scripts/ScriptableObjectHolder.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Saving/Scripts/ScriptableObjectHolder.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Saving/Scripts/Scriptable_Object_Saver.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Saving/Scripts/Scriptable_Object_Saver.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Saving/Scripts/SetTransforms.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Saving/Scripts/SetTransforms.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Saving/Scripts/Set_Player_Pos.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Saving/Scripts/Set_Player_Pos.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Saving/Scripts/Vector3Data.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Saving/Scripts/Vector3Data.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Saving/Scripts/WaitEvent.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Saving/Scripts/WaitEvent.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Start_Event.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Start_Event.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Store.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Store/NPC_Movement.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Store/NPC_Movement.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Store/Resources.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Store/Resources/CantAfford.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Store/Resources/CantAfford.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Store/Resources/HasItem.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Store/Resources/HasItem.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Store/Resources/MaxReached.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Store/Resources/MaxReached.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Store/Resources/ShopKeeper.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Store/Resources/ShopKeeper/Bought_OneTime.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Store/Resources/ShopKeeper/Bought_OneTime.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Store/Resources/ShopKeeper/Buy_Health_Potion.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Store/Resources/ShopKeeper/Buy_Health_Potion.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Store/Resources/ShopKeeper/Buy_Item.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Store/Resources/ShopKeeper/Buy_Item.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Store/Resources/ShopKeeper/Buy_Item_Choice.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Store/Resources/ShopKeeper/Buy_Item_Choice.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Store/Resources/ShopKeeper/Buy_Shield.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Store/Resources/ShopKeeper/Buy_Shield.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Store/Resources/ShopKeeper/Buy_Sword.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Store/Resources/ShopKeeper/Buy_Sword.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Store/Resources/ShopKeeper/Buying.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Store/Resources/ShopKeeper/Buying.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Store/Resources/ShopKeeper/Cant_Afford.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Store/Resources/ShopKeeper/Cant_Afford.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Store/Resources/ShopKeeper/Has_Item.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Store/Resources/ShopKeeper/Has_Item.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Store/Resources/ShopKeeper/Has_Max_Amount.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Store/Resources/ShopKeeper/Has_Max_Amount.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Store/Resources/ShopKeeper/HealthPotion.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Store/Resources/ShopKeeper/HealthPotion.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Store/Resources/ShopKeeper/Not_Buying.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Store/Resources/ShopKeeper/Not_Buying.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Store/Resources/ShopKeeper/Shield.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Store/Resources/ShopKeeper/Shield.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Store/Resources/ShopKeeper/Sword.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Store/Resources/ShopKeeper/Sword.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Store/Scripts.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Store/Scripts/InteractEvent.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Store/Scripts/InteractEvent.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Store/Scripts/ShopItem.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Store/Scripts/ShopItem.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Updated_Damage_To_Player.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Updated_Damage_To_Player.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Updated_Player.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Updated_Player.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Updated_Player_Health.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Updated_Player_Health.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Wall_Jump.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Wall_Jump/Scene.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Wall_Jump/Scene/WallJump.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Wall_Jump/Scene/WallJump.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SkyeStuff/Wall_Jump/Scripts.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Organized/Prefabs/Boss/SlothBoi/BombMoth.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Organized/Prefabs/Boss/SlothBoi/BombMoth.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Organized/Resources/Boss/SlothBoi/LeftArmHealth.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Organized/Resources/Boss/SlothBoi/LeftArmHealth.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Organized/Resources/Boss/SlothBoi/RightArmHealth.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Organized/Resources/Boss/SlothBoi/RightArmHealth.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Organized/Resources/Boss/SlothBoi/SlothBoi_Phase02.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Organized/Resources/Boss/SlothBoi/SlothBoi_Phase02.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Organized/Resources/Boss/SlothBoi/SlothBoi_Phase_01.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Organized/Resources/Boss/SlothBoi/SlothBoi_Phase_01.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Organized/Resources/Inventory/Weapons/Sword.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Organized/Resources/Inventory/Weapons/Sword.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Organized/Scenes/Examples/PlayerMovement.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Organized/Scenes/Examples/PlayerMovement.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Organized/Scenes/Examples/Puzzles.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Organized/Scenes/Examples/Puzzles.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Organized/Scenes/Examples/SlothBoi.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Organized/Scenes/Examples/SlothBoi.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Organized/Scripts/Enemy/Boss/Base/Phase_Manager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Organized/Scripts/Enemy/Boss/Base/Phase_Manager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Organized/Scripts/Enemy/Boss/SlothBoi/MothBomb.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Organized/Scripts/Enemy/Boss/SlothBoi/MothBomb.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Organized/Scripts/Enemy/Boss/SlothBoi/SlothBoi_Arm_Slap.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Organized/Scripts/Enemy/Boss/SlothBoi/SlothBoi_Arm_Slap.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Organized/Scripts/Enemy/Boss/SlothBoi/SlothBoi_Arms_And_Bombs.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Organized/Scripts/Enemy/Boss/SlothBoi/SlothBoi_Arms_And_Bombs.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Organized/Scripts/Objects/Bomb_Obj.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Organized/Scripts/Objects/Bomb_Obj.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Organized/Scripts/Objects/Pickup_Obj.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Organized/Scripts/Objects/Pickup_Obj.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Organized/Scripts/PlayerMovement/GetIntoVehicle.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Organized/Scripts/PlayerMovement/GetIntoVehicle.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Organized/Scripts/PlayerMovement/PlayerMovementManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Organized/Scripts/PlayerMovement/PlayerMovementManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Organized/Scripts/PlayerMovement/Player_Pickup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Organized/Scripts/PlayerMovement/Player_Pickup.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Organized/Scripts/PlayerMovement/Weapon_Manager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Organized/Scripts/PlayerMovement/Weapon_Manager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Organized/Scripts/Scriptable_Objects/IntData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Organized/Scripts/Scriptable_Objects/IntData.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Organized/Scripts/Weapon/Sword_Object.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Organized/Scripts/Weapon/Sword_Object.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemies/EnemyHealth/DamageToEnemy.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemies/EnemyHealth/DamageToEnemy.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -464,11 +39,168 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="Player_Pickup.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Organized/Scripts/PlayerMovement/Player_Pickup.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="70" column="52" selection-start-line="70" selection-start-column="52" selection-end-line="70" selection-end-column="52" />
+              <folding>
+                <marker date="1574710421973" expanded="false" signature="6:104" ph="..." />
+                <marker date="1574710421973" expanded="true" signature="148:4124" ph="{...}" />
+                <marker date="1574710421973" expanded="true" signature="645:761" ph="{...}" />
+                <marker date="1574710421973" expanded="true" signature="790:941" ph="{...}" />
+                <marker date="1574710421973" expanded="true" signature="1023:2808" ph="{...}" />
+                <marker date="1574710421973" expanded="true" signature="1050:2801" ph="{...}" />
+                <marker date="1574710421973" expanded="true" signature="1171:1715" ph="{...}" />
+                <marker date="1574710421973" expanded="true" signature="1245:1282" ph="{...}" />
+                <marker date="1574710421973" expanded="true" signature="1303:1701" ph="{...}" />
+                <marker date="1574710421973" expanded="true" signature="1747:2720" ph="{...}" />
+                <marker date="1574710421973" expanded="true" signature="1799:2266" ph="{...}" />
+                <marker date="1574710421973" expanded="true" signature="2287:2706" ph="{...}" />
+                <marker date="1574710421973" expanded="true" signature="2857:3330" ph="{...}" />
+                <marker date="1574710421973" expanded="true" signature="2914:3208" ph="{...}" />
+                <marker date="1574710421973" expanded="true" signature="3267:3324" ph="{...}" />
+                <marker date="1574710421973" expanded="true" signature="3378:3695" ph="{...}" />
+                <marker date="1574710421973" expanded="true" signature="3437:3574" ph="{...}" />
+                <marker date="1574710421973" expanded="true" signature="3621:3679" ph="{...}" />
+                <marker date="1574710421973" expanded="true" signature="3735:3771" ph="{...}" />
+                <marker date="1574710421973" expanded="true" signature="3805:3843" ph="{...}" />
+                <marker date="1574710421973" expanded="true" signature="3869:4122" ph="{...}" />
+                <marker date="1574710421973" expanded="true" signature="3906:4031" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Weapon_Manager.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Organized/Scripts/PlayerMovement/Weapon_Manager.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="33" column="19" selection-start-line="33" selection-start-column="19" selection-end-line="33" selection-end-column="19" />
+              <folding>
+                <marker date="1574708972613" expanded="false" signature="6:107" ph="..." />
+                <marker date="1574708972613" expanded="true" signature="152:2495" ph="{...}" />
+                <marker date="1574708972613" expanded="true" signature="529:723" ph="{...}" />
+                <marker date="1574708972613" expanded="true" signature="749:786" ph="{...}" />
+                <marker date="1574708972613" expanded="true" signature="818:2011" ph="{...}" />
+                <marker date="1574708972613" expanded="true" signature="883:923" ph="{...}" />
+                <marker date="1574708972613" expanded="true" signature="978:1774" ph="{...}" />
+                <marker date="1574708972613" expanded="true" signature="1066:1133" ph="{...}" />
+                <marker date="1574708972613" expanded="true" signature="1214:1764" ph="{...}" />
+                <marker date="1574708972613" expanded="true" signature="1321:1529" ph="{...}" />
+                <marker date="1574708972613" expanded="true" signature="1550:1749" ph="{...}" />
+                <marker date="1574708972613" expanded="true" signature="1787:2004" ph="{...}" />
+                <marker date="1574708972613" expanded="true" signature="1875:1994" ph="{...}" />
+                <marker date="1574708972613" expanded="true" signature="2056:2332" ph="{...}" />
+                <marker date="1574708972613" expanded="true" signature="2110:2273" ph="{...}" />
+                <marker date="1574708972613" expanded="true" signature="2204:2263" ph="{...}" />
+                <marker date="1574708972613" expanded="true" signature="2365:2407" ph="{...}" />
+                <marker date="1574708972613" expanded="true" signature="2440:2483" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PlayerMovementManager.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Organized/Scripts/PlayerMovement/PlayerMovementManager.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="371">
+              <caret line="106" column="34" selection-start-line="106" selection-start-column="34" selection-end-line="106" selection-end-column="34" />
+              <folding>
+                <marker date="1574708883823" expanded="false" signature="6:100" ph="..." />
+                <marker date="1574708883823" expanded="true" signature="152:3464" ph="{...}" />
+                <marker date="1574708883823" expanded="true" signature="1483:2464" ph="{...}" />
+                <marker date="1574708883823" expanded="true" signature="2505:2548" ph="{...}" />
+                <marker date="1574708883823" expanded="true" signature="2593:2772" ph="{...}" />
+                <marker date="1574708883823" expanded="true" signature="2619:2686" ph="{...}" />
+                <marker date="1574708883823" expanded="true" signature="2699:2766" ph="{...}" />
+                <marker date="1574708883823" expanded="true" signature="2812:2865" ph="{...}" />
+                <marker date="1574708883823" expanded="true" signature="2906:2948" ph="{...}" />
+                <marker date="1574708883823" expanded="true" signature="2991:3241" ph="{...}" />
+                <marker date="1574708883823" expanded="true" signature="3017:3119" ph="{...}" />
+                <marker date="1574708883823" expanded="true" signature="3132:3235" ph="{...}" />
+                <marker date="1574708883823" expanded="true" signature="3285:3349" ph="{...}" />
+                <marker date="1574708883823" expanded="true" signature="3393:3457" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SlothBoi_Arm_Slap.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Organized/Scripts/Enemy/Boss/SlothBoi/SlothBoi_Arm_Slap.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="405">
+              <caret line="35" column="28" selection-start-line="35" selection-start-column="28" selection-end-line="35" selection-end-column="28" />
+              <folding>
+                <marker date="1574536911672" expanded="false" signature="6:78" ph="..." />
+                <marker date="1574536911672" expanded="true" signature="172:12640" ph="{...}" />
+                <marker date="1574536911672" expanded="true" signature="757:1692" ph="{...}" />
+                <marker date="1574536911672" expanded="true" signature="1764:11450" ph="{...}" />
+                <marker date="1574536911672" expanded="true" signature="1943:11435" ph="{...}" />
+                <marker date="1574536911672" expanded="true" signature="1983:2408" ph="{...}" />
+                <marker date="1574536911672" expanded="true" signature="2043:2187" ph="{...}" />
+                <marker date="1574536911672" expanded="true" signature="2208:2394" ph="{...}" />
+                <marker date="1574536911672" expanded="true" signature="2425:2848" ph="{...}" />
+                <marker date="1574536911672" expanded="true" signature="2484:2628" ph="{...}" />
+                <marker date="1574536911672" expanded="true" signature="2649:2834" ph="{...}" />
+                <marker date="1574536911672" expanded="true" signature="3251:3484" ph="{...}" />
+                <marker date="1574536911672" expanded="true" signature="3609:4453" ph="{...}" />
+                <marker date="1574536911672" expanded="true" signature="4253:4327" ph="{...}" />
+                <marker date="1574536911672" expanded="true" signature="4466:4512" ph="/* Debug.Log(&quot;Smash&quot;); ... */" />
+                <marker date="1574536911672" expanded="true" signature="4810:5061" ph="{...}" />
+                <marker date="1574536911672" expanded="true" signature="5134:8357" ph="{...}" />
+                <marker date="1574536911672" expanded="true" signature="5165:5223" ph="/* throw player ... */" />
+                <marker date="1574536911672" expanded="true" signature="5366:5541" ph="{...}" />
+                <marker date="1574536911672" expanded="true" signature="5562:5738" ph="{...}" />
+                <marker date="1574536911672" expanded="true" signature="6127:6580" ph="{...}" />
+                <marker date="1574536911672" expanded="true" signature="6677:6753" ph="{...}" />
+                <marker date="1574536911672" expanded="true" signature="6774:6850" ph="{...}" />
+                <marker date="1574536911672" expanded="true" signature="7050:8180" ph="{...}" />
+                <marker date="1574536911672" expanded="true" signature="7584:8162" ph="{...}" />
+                <marker date="1574536911672" expanded="true" signature="7648:7880" ph="{...}" />
+                <marker date="1574536911672" expanded="true" signature="7909:8140" ph="{...}" />
+                <marker date="1574536911672" expanded="true" signature="8395:9036" ph="{...}" />
+                <marker date="1574536911672" expanded="true" signature="8475:8997" ph="{...}" />
+                <marker date="1574536911672" expanded="true" signature="8604:8726" ph="{...}" />
+                <marker date="1574536911672" expanded="true" signature="8798:8920" ph="{...}" />
+                <marker date="1574536911672" expanded="true" signature="9062:9113" ph="/* reset hand ... */" />
+                <marker date="1574536911672" expanded="true" signature="9416:9778" ph="{...}" />
+                <marker date="1574536911672" expanded="true" signature="9791:9840" ph="/* move back ... */" />
+                <marker date="1574536911672" expanded="true" signature="10335:10697" ph="{...}" />
+                <marker date="1574536911672" expanded="true" signature="10723:10773" ph="/* move down ... */" />
+                <marker date="1574536911672" expanded="true" signature="11076:11309" ph="{...}" />
+                <marker date="1574536911672" expanded="true" signature="11520:12638" ph="{...}" />
+                <marker date="1574536911672" expanded="true" signature="12235:12573" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Phase_Manager.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Organized/Scripts/Enemy/Boss/Base/Phase_Manager.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="30" selection-start-line="30" selection-end-line="30" />
+              <folding>
+                <marker date="1574530839274" expanded="false" signature="6:92" ph="..." />
+                <marker date="1574530839274" expanded="true" signature="136:1509" ph="{...}" />
+                <marker date="1574530839274" expanded="true" signature="374:442" ph="{...}" />
+                <marker date="1574530839274" expanded="true" signature="473:543" ph="{...}" />
+                <marker date="1574530839274" expanded="true" signature="580:759" ph="{...}" />
+                <marker date="1574530839274" expanded="true" signature="794:1037" ph="{...}" />
+                <marker date="1574530839274" expanded="true" signature="1073:1440" ph="{...}" />
+                <marker date="1574530839274" expanded="true" signature="1331:1386" ph="{...}" />
+                <marker date="1574530839274" expanded="true" signature="1397:1435" ph="{...}" />
+                <marker date="1574530839274" expanded="true" signature="1469:1503" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="Dash.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Organized/Scripts/PlayerMovement/Dash.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="24" column="23" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
+            <state>
               <folding>
                 <marker date="1574481200640" expanded="false" signature="6:78" ph="..." />
                 <marker date="1574481200640" expanded="true" signature="113:3480" ph="{...}" />
@@ -498,112 +230,83 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Player_Pickup.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Organized/Scripts/PlayerMovement/Player_Pickup.cs">
+      <file leaf-file-name="GetIntoVehicle.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Organized/Scripts/PlayerMovement/GetIntoVehicle.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="566">
-              <caret line="107" column="24" selection-start-line="107" selection-start-column="24" selection-end-line="107" selection-end-column="24" />
+            <state relative-caret-position="330">
+              <caret line="58" column="34" selection-start-line="58" selection-start-column="34" selection-end-line="58" selection-end-column="34" />
               <folding>
-                <marker date="1574481430494" expanded="false" signature="6:104" ph="..." />
-                <marker date="1574481430494" expanded="true" signature="148:2765" ph="{...}" />
-                <marker date="1574481430494" expanded="true" signature="576:692" ph="{...}" />
-                <marker date="1574481430494" expanded="true" signature="721:832" ph="{...}" />
-                <marker date="1574481430494" expanded="true" signature="906:1771" ph="{...}" />
-                <marker date="1574481430494" expanded="true" signature="975:1357" ph="{...}" />
-                <marker date="1574481430494" expanded="true" signature="1041:1093" ph="{...}" />
-                <marker date="1574481430494" expanded="true" signature="1110:1347" ph="{...}" />
-                <marker date="1574481430494" expanded="true" signature="1416:1764" ph="{...}" />
-                <marker date="1574481430494" expanded="true" signature="1820:2133" ph="{...}" />
-                <marker date="1574481430494" expanded="true" signature="1877:2127" ph="{...}" />
-                <marker date="1574481430494" expanded="true" signature="2181:2335" ph="{...}" />
-                <marker date="1574481430494" expanded="true" signature="2240:2329" ph="{...}" />
-                <marker date="1574481430494" expanded="true" signature="2375:2411" ph="{...}" />
-                <marker date="1574481430494" expanded="true" signature="2445:2483" ph="{...}" />
-                <marker date="1574481430494" expanded="true" signature="2509:2763" ph="{...}" />
-                <marker date="1574481430494" expanded="true" signature="2582:2707" ph="{...}" />
+                <marker date="1574708558904" expanded="false" signature="6:78" ph="..." />
+                <marker date="1574708558904" expanded="true" signature="123:2427" ph="{...}" />
+                <marker date="1574708558904" expanded="true" signature="463:507" ph="{...}" />
+                <marker date="1574708558904" expanded="true" signature="539:1614" ph="{...}" />
+                <marker date="1574708558904" expanded="true" signature="566:1607" ph="{...}" />
+                <marker date="1574708558904" expanded="true" signature="603:1122" ph="{...}" />
+                <marker date="1574708558904" expanded="true" signature="666:886" ph="{...}" />
+                <marker date="1574708558904" expanded="true" signature="1139:1597" ph="{...}" />
+                <marker date="1574708558904" expanded="true" signature="1202:1582" ph="{...}" />
+                <marker date="1574708558904" expanded="true" signature="1663:2187" ph="{...}" />
+                <marker date="1574708558904" expanded="true" signature="1710:2181" ph="{...}" />
+                <marker date="1574708558904" expanded="true" signature="1973:2171" ph="{...}" />
+                <marker date="1574708558904" expanded="true" signature="2235:2425" ph="{...}" />
+                <marker date="1574708558904" expanded="true" signature="2282:2419" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Weapon_Manager.cs" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Assets/Organized/Scripts/PlayerMovement/Weapon_Manager.cs">
+      <file leaf-file-name="Sword_Object.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Organized/Scripts/Weapon/Sword_Object.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="35" column="53" selection-start-line="35" selection-start-column="53" selection-end-line="35" selection-end-column="53" />
+            <state relative-caret-position="300">
+              <caret line="22" column="52" selection-start-line="22" selection-start-column="52" selection-end-line="22" selection-end-column="52" />
               <folding>
-                <marker date="1574481511087" expanded="false" signature="6:107" ph="..." />
-                <marker date="1574481511087" expanded="true" signature="152:2488" ph="{...}" />
-                <marker date="1574481511087" expanded="true" signature="529:723" ph="{...}" />
-                <marker date="1574481511087" expanded="true" signature="749:786" ph="{...}" />
-                <marker date="1574481511087" expanded="true" signature="818:2004" ph="{...}" />
-                <marker date="1574481511087" expanded="true" signature="883:916" ph="{...}" />
-                <marker date="1574481511087" expanded="true" signature="971:1767" ph="{...}" />
-                <marker date="1574481511087" expanded="true" signature="1059:1126" ph="{...}" />
-                <marker date="1574481511087" expanded="true" signature="1207:1757" ph="{...}" />
-                <marker date="1574481511087" expanded="true" signature="1314:1522" ph="{...}" />
-                <marker date="1574481511087" expanded="true" signature="1543:1742" ph="{...}" />
-                <marker date="1574481511087" expanded="true" signature="1780:1997" ph="{...}" />
-                <marker date="1574481511087" expanded="true" signature="1868:1987" ph="{...}" />
-                <marker date="1574481511087" expanded="true" signature="2049:2325" ph="{...}" />
-                <marker date="1574481511087" expanded="true" signature="2103:2266" ph="{...}" />
-                <marker date="1574481511087" expanded="true" signature="2197:2256" ph="{...}" />
-                <marker date="1574481511087" expanded="true" signature="2358:2400" ph="{...}" />
-                <marker date="1574481511087" expanded="true" signature="2433:2476" ph="{...}" />
+                <marker date="1574536779993" expanded="false" signature="6:78" ph="..." />
+                <marker date="1574536779993" expanded="true" signature="180:1130" ph="{...}" />
+                <marker date="1574536779993" expanded="true" signature="415:923" ph="{...}" />
+                <marker date="1574536779993" expanded="true" signature="1011:1128" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PlayerMovementManager.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Organized/Scripts/PlayerMovement/PlayerMovementManager.cs">
+      <file leaf-file-name="Bomb_Obj.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Organized/Scripts/Objects/Bomb_Obj.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+            <state relative-caret-position="1230">
+              <caret line="82" column="19" selection-start-line="82" selection-start-column="19" selection-end-line="82" selection-end-column="19" />
               <folding>
-                <marker date="1574482566015" expanded="false" signature="6:100" ph="..." />
-                <marker date="1574482566015" expanded="true" signature="152:3169" ph="{...}" />
-                <marker date="1574482566015" expanded="true" signature="1483:2464" ph="{...}" />
-                <marker date="1574482566015" expanded="true" signature="2505:2548" ph="{...}" />
-                <marker date="1574482566015" expanded="true" signature="2593:2772" ph="{...}" />
-                <marker date="1574482566015" expanded="true" signature="2619:2686" ph="{...}" />
-                <marker date="1574482566015" expanded="true" signature="2699:2766" ph="{...}" />
-                <marker date="1574482566015" expanded="true" signature="2812:2865" ph="{...}" />
-                <marker date="1574482566015" expanded="true" signature="2906:2948" ph="{...}" />
-                <marker date="1574482566015" expanded="true" signature="2991:3162" ph="{...}" />
-                <marker date="1574482566015" expanded="true" signature="3017:3080" ph="{...}" />
-                <marker date="1574482566015" expanded="true" signature="3093:3156" ph="{...}" />
+                <marker date="1574537164563" expanded="true" signature="6:104" ph="..." />
+                <marker date="1574537164563" expanded="true" signature="140:2596" ph="{...}" />
+                <marker date="1574537164563" expanded="true" signature="504:705" ph="{...}" />
+                <marker date="1574537164563" expanded="true" signature="739:788" ph="{...}" />
+                <marker date="1574537164563" expanded="true" signature="824:922" ph="{...}" />
+                <marker date="1574537164563" expanded="true" signature="957:2173" ph="{...}" />
+                <marker date="1574537164563" expanded="true" signature="1202:1970" ph="{...}" />
+                <marker date="1574537164563" expanded="true" signature="1336:1467" ph="{...}" />
+                <marker date="1574537164563" expanded="true" signature="1522:1639" ph="{...}" />
+                <marker date="1574537164563" expanded="true" signature="1693:1820" ph="{...}" />
+                <marker date="1574537164563" expanded="true" signature="1850:1960" ph="{...}" />
+                <marker date="1574537164563" expanded="true" signature="2218:2515" ph="{...}" />
+                <marker date="1574537164563" expanded="true" signature="2559:2593" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BoolData.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Organized/Scripts/Scriptable_Objects/BoolData.cs">
+      <file leaf-file-name="Sloth_Boi_Bombs.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Organized/Scripts/Enemy/Boss/SlothBoi/Sloth_Boi_Bombs.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="20" column="23" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
+            <state relative-caret-position="300">
+              <caret line="22" selection-start-line="22" selection-end-line="24" selection-end-column="33" />
               <folding>
-                <marker date="1572016143957" expanded="false" signature="6:78" ph="..." />
-                <marker date="1572016143957" expanded="true" signature="161:379" ph="{...}" />
-                <marker date="1572016143957" expanded="true" signature="213:247" ph="{...}" />
-                <marker date="1572016143957" expanded="true" signature="275:310" ph="{...}" />
-                <marker date="1572016143957" expanded="true" signature="341:377" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Player_Skills_List.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Organized/Scripts/Saving/Player_Skills_List.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="54" selection-start-line="18" selection-start-column="54" selection-end-line="18" selection-end-column="54" />
-              <folding>
-                <marker date="1574483732574" expanded="true" signature="6:78" ph="..." />
-                <marker date="1574483732574" expanded="true" signature="132:496" ph="{...}" />
-                <marker date="1574483732574" expanded="true" signature="255:494" ph="{...}" />
-                <marker date="1574483732574" expanded="true" signature="346:386" ph="{...}" />
+                <marker date="1574536179641" expanded="false" signature="6:78" ph="..." />
+                <marker date="1574536179641" expanded="true" signature="170:1960" ph="{...}" />
+                <marker date="1574536179641" expanded="true" signature="444:863" ph="{...}" />
+                <marker date="1574536179641" expanded="true" signature="935:1647" ph="{...}" />
+                <marker date="1574536179641" expanded="true" signature="1098:1632" ph="{...}" />
+                <marker date="1574536179641" expanded="true" signature="1226:1558" ph="{...}" />
+                <marker date="1574536179641" expanded="true" signature="1717:1958" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -614,6 +317,8 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>Updated_Player_Health</find>
+      <find>get</find>
+      <find>set</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -621,50 +326,46 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Organized/Scripts/PlayerMovement/Dash.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Organized/Scripts/Enemy/Boss/Base/BossDamage.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Organized/Scripts/Enemy/Boss/SlothBoi/HealthHolder.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Organized/Scripts/PlayerMovement/PlayerMovementManager.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Organized/Scripts/PlayerMovement/Player_Pickup.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Organized/Scripts/Weapon/Sword_Object.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Organized/Scripts/PlayerMovement/Player_Pickup.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Organized/Scripts/PlayerMovement/Weapon_Manager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Organized/Scripts/Enemy/Boss/SlothBoi/Sloth_Boi_Bombs.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Enemies/AutoTurret/Turret.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Organized/Scripts/PlayerMovement/EightWayMovement.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Organized/Scripts/Objects/Bomb_Obj.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Organized/Scripts/Enemy/Boss/SlothBoi/BossPartHealth.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Organized/Scripts/Objects/Pickup_Obj.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Enemies/BlackHole/BlackHole.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Doors/SceneController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Doors/Door.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Organized/Scripts/Saving/Player_Skills_List.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Weapons/YoYo/YoYo.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Weapons/YoYo/YoYoStart.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Organized/Scripts/Enemy/DamageToPlayer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Organized/Scripts/Enemy/Boss/SlothBoi/MothBomb.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Weapons/Boomerang.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Weapons/Knockback.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Organized/Scripts/Enemy/Boss/SlothBoi/SlothBoi_Arm_Slap.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Organized/Scripts/Scriptable_Objects/IntData.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Organized/Scripts/PlayerMovement/GetIntoVehicle.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Enemies/EnemyHealth/DamageToEnemy.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Organized/Scripts/Enemy/Boss/SlothBoi/SlothBoi_Arms_And_Bombs.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Enemies/EnemyHealth/EnemyHealth.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Organized/Scripts/Scriptable_Objects/BoolData.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Organized/Scripts/Scriptable_Objects/BoolData.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Enemies/EnemyUnits/PatrollingEnemy/EnemyPatroll.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Organized/Scripts/Enemy/Boss/Base/Phase_Manager.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Enemies/EnemyUnits/PatrollingEnemy/TriggerPatroll.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Organized/Scripts/Inventory/Objects/Usable_Item_Base.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Enemies/EnemyUnits/Static Enemy/Arrow.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Enemies/EnemyUnits/Static Enemy/BasicEnemy.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/EnemyPatroll.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Doors/SceneController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Doors/Door.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Enemies/EnemyUnits/Static Enemy/EnemyAttack.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Enemies/EnemyUnits/Mage/MageEnemy.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Organized/Scripts/Inventory/UI/QuickSelectToggle.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Enemies/EnemyUnits/Mage/HomingMissle3D.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/SkyeStuff/Inventory/Scripts/Items/Clothing_Base.cs" />
-        <option value="$PROJECT_DIR$/Assets/SkyeStuff/Inventory/Scripts/Inventory/Current_Clothing.cs" />
-        <option value="$PROJECT_DIR$/Assets/SkyeStuff/Inventory/Scripts/Inventory/Clothing_Inventory.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Doors/Door.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Enemies/AutoTurret/Turret.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Enemies/EnemyHealth/EnemyHealth.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Enemies/EnemyUnits/PatrollingEnemy/EnemyPatroll.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Enemies/EnemyUnits/Static Enemy/EnemyAttack.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Player/CameraController.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Player/Shield.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Player/SwordAttack.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Weapons/Boomerang.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Weapons/YoYo/YoYo.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Weapons/YoYo/YoYoStart.cs" />
-        <option value="$PROJECT_DIR$/Assets/SkyeStuff/Updated_Player_Health.cs" />
-        <option value="$PROJECT_DIR$/Assets/SkyeStuff/Inventory/Scripts/Inventory/Inventory_Manager.cs" />
         <option value="$PROJECT_DIR$/Assets/SkyeStuff/Inventory/Scripts/Weapon/Sword_Object.cs" />
         <option value="$PROJECT_DIR$/Assets/SkyeStuff/Inventory/Scripts/Weapon/Shield_Object.cs" />
         <option value="$PROJECT_DIR$/Assets/SkyeStuff/PlayerManager/Scripts/MonobehaviourObject.cs" />
@@ -694,16 +395,32 @@
         <option value="$PROJECT_DIR$/Assets/Organized/Scripts/PlayerMovement/EightWayMovement.cs" />
         <option value="$PROJECT_DIR$/Assets/Organized/Scripts/PlayerMovement/Dash.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/GetIntoVehicle.cs" />
-        <option value="$PROJECT_DIR$/Assets/Organized/Scripts/PlayerMovement/Player_Pickup.cs" />
-        <option value="$PROJECT_DIR$/Assets/Organized/Scripts/PlayerMovement/Weapon_Manager.cs" />
         <option value="$PROJECT_DIR$/Assets/SkyeStuff/Puzzles/Scripts/Pushing_Script.cs" />
-        <option value="$PROJECT_DIR$/Assets/Organized/Scripts/Scriptable_Objects/BoolData.cs" />
         <option value="$PROJECT_DIR$/Assets/Organized/Scripts/Saving/Player_Skills_List.cs" />
+        <option value="$PROJECT_DIR$/Assets/Organized/Scripts/Scriptable_Objects/BoolData.cs" />
+        <option value="$PROJECT_DIR$/Assets/Organized/Scripts/Enemy/Boss/Base/BossDamage.cs" />
+        <option value="$PROJECT_DIR$/Assets/Organized/Scripts/Enemy/Boss/SlothBoi/ArmDamage.cs" />
+        <option value="$PROJECT_DIR$/Assets/Organized/Scripts/Scriptable_Objects/IntData.cs" />
+        <option value="$PROJECT_DIR$/Assets/Organized/Scripts/Enemy/Boss/SlothBoi/BossPartHealth.cs" />
+        <option value="$PROJECT_DIR$/Assets/Organized/Scripts/Enemy/Boss/SlothBoi/HealthHolder.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Enemies/EnemyHealth/DamageToEnemy.cs" />
+        <option value="$PROJECT_DIR$/Assets/Organized/Scripts/Enemy/Boss/Base/Phase_Manager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Organized/Scripts/Objects/Pickup_Obj.cs" />
+        <option value="$PROJECT_DIR$/Assets/Organized/Scripts/Enemy/Boss/SlothBoi/MothBomb.cs" />
+        <option value="$PROJECT_DIR$/Assets/Organized/Scripts/Enemy/Boss/SlothBoi/Sloth_Boi_Bombs.cs" />
+        <option value="$PROJECT_DIR$/Assets/Organized/Scripts/Enemy/Boss/SlothBoi/SlothBoi_Arms_And_Bombs.cs" />
+        <option value="$PROJECT_DIR$/Assets/Organized/Scripts/Inventory/Objects/Usable_Item_Base.cs" />
+        <option value="$PROJECT_DIR$/Assets/Organized/Scripts/Weapon/Sword_Object.cs" />
+        <option value="$PROJECT_DIR$/Assets/Organized/Scripts/Enemy/Boss/SlothBoi/SlothBoi_Arm_Slap.cs" />
+        <option value="$PROJECT_DIR$/Assets/Organized/Scripts/Objects/Bomb_Obj.cs" />
+        <option value="$PROJECT_DIR$/Assets/Organized/Scripts/PlayerMovement/GetIntoVehicle.cs" />
         <option value="$PROJECT_DIR$/Assets/Organized/Scripts/PlayerMovement/PlayerMovementManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Organized/Scripts/PlayerMovement/Weapon_Manager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Organized/Scripts/PlayerMovement/Player_Pickup.cs" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="x" value="-10" />
     <option name="width" value="1320" />
     <option name="height" value="1040" />
@@ -732,6 +449,11 @@
               <item name="" type="ad4990d8:FileSystemViewPaneBase$ProjectViewPaneTreeStructure$createRoot$1" />
               <item name="Experimenting" type="483dac07:UnityExplorerNode$Root" />
               <item name="" type="1045f7f1:UnityExplorerNode" />
+            </path>
+            <path>
+              <item name="" type="ad4990d8:FileSystemViewPaneBase$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="Experimenting" type="483dac07:UnityExplorerNode$Root" />
+              <item name="" type="1045f7f1:UnityExplorerNode" />
               <item name="" type="1045f7f1:UnityExplorerNode" />
             </path>
             <path>
@@ -739,11 +461,6 @@
               <item name="Experimenting" type="483dac07:UnityExplorerNode$Root" />
               <item name="" type="1045f7f1:UnityExplorerNode" />
               <item name="" type="1045f7f1:UnityExplorerNode" />
-              <item name="" type="1045f7f1:UnityExplorerNode" />
-            </path>
-            <path>
-              <item name="" type="ad4990d8:FileSystemViewPaneBase$ProjectViewPaneTreeStructure$createRoot$1" />
-              <item name="Experimenting" type="483dac07:UnityExplorerNode$Root" />
               <item name="" type="1045f7f1:UnityExplorerNode" />
             </path>
           </expand>
@@ -825,12 +542,14 @@
       <workItem from="1574354426286" duration="6419000" />
       <workItem from="1574365270956" duration="1307000" />
       <workItem from="1574443489332" duration="4308000" />
-      <workItem from="1574464858211" duration="18382000" />
+      <workItem from="1574464858211" duration="19092000" />
+      <workItem from="1574527273866" duration="9613000" />
+      <workItem from="1574707675008" duration="2815000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22690000" />
+    <option name="totallyTimeSpent" value="35828000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -842,8 +561,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="0" width="1056" height="832" extended-state="1" />
-    <editor active="true" />
+    <frame x="-8" y="0" width="1056" height="832" extended-state="0" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="right" id="Errors In Solution" order="3" />
@@ -852,7 +570,7 @@
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25502008" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26506025" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Unity" order="7" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -905,262 +623,298 @@
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/Assets/SkyeStuff/Puzzles/Scripts/Pushing_Script.cs</url>
           <line>59</line>
-          <properties documentPath="$PROJECT_DIR$/Assets/SkyeStuff/Puzzles/Scripts/Pushing_Script.cs" initialLine="52">
-            <startOffsets>
-              <startOffset value="1549" />
-            </startOffsets>
-            <endOffsets>
-              <endOffset value="1550" />
-            </endOffsets>
-          </properties>
+          <properties documentPath="$PROJECT_DIR$/Assets/SkyeStuff/Puzzles/Scripts/Pushing_Script.cs" initialLine="52" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Player/Jump.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="825">
-          <caret line="58" column="24" selection-start-line="58" selection-start-column="24" selection-end-line="58" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Player/GetInVehicle.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/SkyeStuff/PlayerManager/Scripts/PlayerMovementManager.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="24" column="8" lean-forward="true" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Player/MasterPlayerScript.cs">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/SkyeStuff/PlayerManager/SCene/PlayerMovement.unity">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/SkyeStuff/PlayerManager/Scripts/MonobehaviourObject.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="61" selection-start-line="16" selection-start-column="61" selection-end-line="16" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/SkyeStuff/PlayerManager/Scripts/Jump_Object.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="32" column="5" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/SkyeStuff/PlayerManager/Scripts/WalkRun_Object.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="40" column="18" selection-start-line="40" selection-start-column="18" selection-end-line="40" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Player/Jump.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="5" column="33" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/SkyeStuff/PlayerManager/Scripts/MovementScripts.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Player/EightWayMovement.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="16" column="26" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Player/Dash.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="10" selection-start-line="10" selection-end-line="11" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/SkyeStuff/Inventory/Scripts/Weapon/Weapon_Manager.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="7" selection-start-line="7" selection-end-line="11" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/SkyeStuff/PlayerManager/Scripts/PlayerMovementManager.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="41" column="58" selection-start-line="41" selection-start-column="58" selection-end-line="41" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/SkyeStuff/Inventory/Scripts/Inventory/QuickSelectToggle.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/SkyeStuff/Updated_Player_Health.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="4" selection-start-line="4" selection-end-line="40" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Player/PlayerHealth.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="17" column="37" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/SkyeStuff/Updated_Damage_To_Player.cs">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Player/DamageToPlayer.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="20" column="115" selection-start-line="20" selection-start-column="115" selection-end-line="20" selection-end-column="115" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Player/PickUpObject.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="91" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/SkyeStuff/PlayerManager/Player_Pickup.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1256">
-          <caret line="88" column="23" selection-start-line="88" selection-start-column="23" selection-end-line="88" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Player/BombPickUp.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-633">
-          <caret line="16" selection-start-line="16" selection-end-line="18" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/UsedScripts/Objects/Pickup_Obj.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Player/Bomb.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/UsedScripts/Objects/Bomb_Obj.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="39" column="41" selection-start-line="39" selection-start-column="41" selection-end-line="39" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/SkyeStuff/Updated_Player_Health.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Player/PlayerHealth.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/SkyeStuff/Updated_Damage_To_Player.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Player/DamageToPlayer.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Player/PickUpObject.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/SkyeStuff/PlayerManager/Player_Pickup.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Player/BombPickUp.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/UsedScripts/Objects/Pickup_Obj.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Player/Bomb.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/UsedScripts/Objects/Bomb_Obj.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Doors/SceneController.cs">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Doors/Door.cs">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/UsedScripts/PlayerMovement/Dash.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="581">
-          <caret line="130" column="1" selection-start-line="130" selection-start-column="1" selection-end-line="130" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/UsedScripts/PlayerMovement/Player_Pickup.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="431">
-          <caret line="95" column="5" selection-start-line="95" selection-start-column="5" selection-end-line="95" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/UsedScripts/PlayerMovement/PlayerMovementManager.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1031">
-          <caret line="98" column="5" selection-start-line="98" selection-start-column="5" selection-end-line="98" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/SkyeStuff/Inventory/Scripts/Items/Usable_Item_Base.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="11" column="31" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/UsedScripts/PlayerMovement/Weapon_Manager.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="401">
-          <caret line="82" column="29" selection-start-line="82" selection-start-column="16" selection-end-line="82" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Player/Kamakazi.cs">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Player/GetInVehicle.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="6" selection-start-line="6" selection-end-line="76" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/UsedScripts/PlayerMovement/Dash.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/UsedScripts/PlayerMovement/Player_Pickup.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/UsedScripts/PlayerMovement/PlayerMovementManager.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/SkyeStuff/Inventory/Scripts/Items/Usable_Item_Base.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/UsedScripts/PlayerMovement/Weapon_Manager.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Player/Kamakazi.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Player/GetInVehicle.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Organized/Scripts/PlayerMovement/EightWayMovement.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
           <caret line="16" column="11" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Player/GetIntoVehicle.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Player/VehicleObject.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/SkyeStuff/Inventory/Scripts/Weapon/Boomerang_Object.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/SkyeStuff/Inventory/Scripts/Weapon/Shield_Object.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/SkyeStuff/Inventory/Scripts/Weapon/Sword_Object.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/SkyeStuff/Inventory/Scripts/Weapon/YoYo_Object.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/SkyeStuff/Puzzles/Scripts/Pushing_Script.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Organized/Scripts/Saving/Player_Skills_List.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Organized/Scripts/Scriptable_Objects/BoolData.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="27" column="24" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Organized/Scripts/Enemy/DamageToPlayer.cs">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Organized/Scripts/Enemy/Boss/Base/BossDamage.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Organized/Scripts/Inventory/UI/QuickSelectToggle.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1699" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Organized/Scripts/Enemy/Boss/SlothBoi/ArmDamage.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Organized/Scripts/Scriptable_Objects/IntData.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="37" column="19" selection-start-line="37" selection-start-column="19" selection-end-line="37" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Organized/Scripts/Enemy/Boss/SlothBoi/HealthHolder.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Organized/Scripts/Enemy/Boss/SlothBoi/BossPartHealth.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Enemies/EnemyHealth/DamageToEnemy.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Organized/Scripts/Enemy/Boss/SlothBoi/MothBomb.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="585">
+          <caret line="42" column="23" selection-start-line="42" selection-start-column="23" selection-end-line="42" selection-end-column="23" />
           <folding>
-            <marker date="1574480931094" expanded="false" signature="6:107" ph="..." />
-            <marker date="1574480931094" expanded="true" signature="154:2036" ph="{...}" />
-            <marker date="1574480931094" expanded="true" signature="453:513" ph="{...}" />
-            <marker date="1574480931094" expanded="true" signature="537:803" ph="{...}" />
-            <marker date="1574480931094" expanded="true" signature="565:797" ph="{...}" />
-            <marker date="1574480931094" expanded="true" signature="885:1017" ph="{...}" />
-            <marker date="1574480931094" expanded="true" signature="1038:1148" ph="{...}" />
-            <marker date="1574480931094" expanded="true" signature="1179:1315" ph="{...}" />
-            <marker date="1574480931094" expanded="true" signature="1334:1513" ph="{...}" />
-            <marker date="1574480931094" expanded="true" signature="1530:1619" ph="{...}" />
-            <marker date="1574480931094" expanded="true" signature="1635:1832" ph="{...}" />
-            <marker date="1574480931094" expanded="true" signature="1696:1754" ph="{...}" />
-            <marker date="1574480931094" expanded="true" signature="1767:1825" ph="{...}" />
-            <marker date="1574480931094" expanded="true" signature="1866:1895" ph="{...}" />
-            <marker date="1574480931094" expanded="true" signature="1928:1956" ph="{...}" />
-            <marker date="1574480931094" expanded="true" signature="1990:2024" ph="{...}" />
+            <marker date="1574532707873" expanded="false" signature="6:100" ph="..." />
+            <marker date="1574532707873" expanded="true" signature="206:1113" ph="{...}" />
+            <marker date="1574532707873" expanded="true" signature="491:633" ph="{...}" />
+            <marker date="1574532707873" expanded="true" signature="673:836" ph="{...}" />
+            <marker date="1574532707873" expanded="true" signature="700:830" ph="{...}" />
+            <marker date="1574532707873" expanded="true" signature="889:1111" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Organized/Scripts/Objects/Pickup_Obj.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="31" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
+          <folding>
+            <marker date="1574532383573" expanded="true" signature="6:104" ph="..." />
+            <marker date="1574532383573" expanded="true" signature="182:301" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Organized/Scripts/Enemy/Boss/SlothBoi/SlothBoi_Arms_And_Bombs.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="23" column="32" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
+          <folding>
+            <marker date="1574536573892" expanded="false" signature="6:78" ph="..." />
+            <marker date="1574536573892" expanded="true" signature="182:11699" ph="{...}" />
+            <marker date="1574536573892" expanded="true" signature="859:1819" ph="{...}" />
+            <marker date="1574536573892" expanded="true" signature="1891:11386" ph="{...}" />
+            <marker date="1574536573892" expanded="true" signature="2070:11371" ph="{...}" />
+            <marker date="1574536573892" expanded="true" signature="2110:2238" ph="{...}" />
+            <marker date="1574536573892" expanded="true" signature="2255:2383" ph="{...}" />
+            <marker date="1574536573892" expanded="true" signature="2784:3017" ph="{...}" />
+            <marker date="1574536573892" expanded="true" signature="3140:3984" ph="{...}" />
+            <marker date="1574536573892" expanded="true" signature="3784:3858" ph="{...}" />
+            <marker date="1574536573892" expanded="true" signature="4339:4593" ph="{...}" />
+            <marker date="1574536573892" expanded="true" signature="4666:7887" ph="{...}" />
+            <marker date="1574536573892" expanded="true" signature="4896:5071" ph="{...}" />
+            <marker date="1574536573892" expanded="true" signature="5092:5268" ph="{...}" />
+            <marker date="1574536573892" expanded="true" signature="5657:6110" ph="{...}" />
+            <marker date="1574536573892" expanded="true" signature="6207:6283" ph="{...}" />
+            <marker date="1574536573892" expanded="true" signature="6304:6380" ph="{...}" />
+            <marker date="1574536573892" expanded="true" signature="6580:7710" ph="{...}" />
+            <marker date="1574536573892" expanded="true" signature="7114:7692" ph="{...}" />
+            <marker date="1574536573892" expanded="true" signature="7178:7410" ph="{...}" />
+            <marker date="1574536573892" expanded="true" signature="7439:7670" ph="{...}" />
+            <marker date="1574536573892" expanded="true" signature="7925:8544" ph="{...}" />
+            <marker date="1574536573892" expanded="true" signature="8008:8530" ph="{...}" />
+            <marker date="1574536573892" expanded="true" signature="8137:8259" ph="{...}" />
+            <marker date="1574536573892" expanded="true" signature="8331:8453" ph="{...}" />
+            <marker date="1574536573892" expanded="true" signature="8922:9284" ph="{...}" />
+            <marker date="1574536573892" expanded="true" signature="9839:10201" ph="{...}" />
+            <marker date="1574536573892" expanded="true" signature="10578:10811" ph="{...}" />
+            <marker date="1574536573892" expanded="true" signature="10928:11258" ph="{...}" />
+            <marker date="1574536573892" expanded="true" signature="11456:11697" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Organized/Scripts/Inventory/Objects/Usable_Item_Base.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+          <folding>
+            <marker date="1574536730732" expanded="false" signature="6:78" ph="..." />
+            <marker date="1574536730732" expanded="true" signature="130:412" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Organized/Scripts/Weapon/Sword_Object.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="22" column="52" selection-start-line="22" selection-start-column="52" selection-end-line="22" selection-end-column="52" />
+          <folding>
+            <marker date="1574536779993" expanded="false" signature="6:78" ph="..." />
+            <marker date="1574536779993" expanded="true" signature="180:1130" ph="{...}" />
+            <marker date="1574536779993" expanded="true" signature="415:923" ph="{...}" />
+            <marker date="1574536779993" expanded="true" signature="1011:1128" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Organized/Scripts/Enemy/Boss/SlothBoi/Sloth_Boi_Bombs.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="22" selection-start-line="22" selection-end-line="24" selection-end-column="33" />
+          <folding>
+            <marker date="1574536179641" expanded="false" signature="6:78" ph="..." />
+            <marker date="1574536179641" expanded="true" signature="170:1960" ph="{...}" />
+            <marker date="1574536179641" expanded="true" signature="444:863" ph="{...}" />
+            <marker date="1574536179641" expanded="true" signature="935:1647" ph="{...}" />
+            <marker date="1574536179641" expanded="true" signature="1098:1632" ph="{...}" />
+            <marker date="1574536179641" expanded="true" signature="1226:1558" ph="{...}" />
+            <marker date="1574536179641" expanded="true" signature="1717:1958" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Organized/Scripts/Objects/Bomb_Obj.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1230">
+          <caret line="82" column="19" selection-start-line="82" selection-start-column="19" selection-end-line="82" selection-end-column="19" />
+          <folding>
+            <marker date="1574537164563" expanded="true" signature="6:104" ph="..." />
+            <marker date="1574537164563" expanded="true" signature="140:2596" ph="{...}" />
+            <marker date="1574537164563" expanded="true" signature="504:705" ph="{...}" />
+            <marker date="1574537164563" expanded="true" signature="739:788" ph="{...}" />
+            <marker date="1574537164563" expanded="true" signature="824:922" ph="{...}" />
+            <marker date="1574537164563" expanded="true" signature="957:2173" ph="{...}" />
+            <marker date="1574537164563" expanded="true" signature="1202:1970" ph="{...}" />
+            <marker date="1574537164563" expanded="true" signature="1336:1467" ph="{...}" />
+            <marker date="1574537164563" expanded="true" signature="1522:1639" ph="{...}" />
+            <marker date="1574537164563" expanded="true" signature="1693:1820" ph="{...}" />
+            <marker date="1574537164563" expanded="true" signature="1850:1960" ph="{...}" />
+            <marker date="1574537164563" expanded="true" signature="2218:2515" ph="{...}" />
+            <marker date="1574537164563" expanded="true" signature="2559:2593" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Organized/Scripts/Enemy/Boss/SlothBoi/SlothBoi_Arm_Slap.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="35" column="28" selection-start-line="35" selection-start-column="28" selection-end-line="35" selection-end-column="28" />
+          <folding>
+            <marker date="1574536911672" expanded="false" signature="6:78" ph="..." />
+            <marker date="1574536911672" expanded="true" signature="172:12640" ph="{...}" />
+            <marker date="1574536911672" expanded="true" signature="757:1692" ph="{...}" />
+            <marker date="1574536911672" expanded="true" signature="1764:11450" ph="{...}" />
+            <marker date="1574536911672" expanded="true" signature="1943:11435" ph="{...}" />
+            <marker date="1574536911672" expanded="true" signature="1983:2408" ph="{...}" />
+            <marker date="1574536911672" expanded="true" signature="2043:2187" ph="{...}" />
+            <marker date="1574536911672" expanded="true" signature="2208:2394" ph="{...}" />
+            <marker date="1574536911672" expanded="true" signature="2425:2848" ph="{...}" />
+            <marker date="1574536911672" expanded="true" signature="2484:2628" ph="{...}" />
+            <marker date="1574536911672" expanded="true" signature="2649:2834" ph="{...}" />
+            <marker date="1574536911672" expanded="true" signature="3251:3484" ph="{...}" />
+            <marker date="1574536911672" expanded="true" signature="3609:4453" ph="{...}" />
+            <marker date="1574536911672" expanded="true" signature="4253:4327" ph="{...}" />
+            <marker date="1574536911672" expanded="true" signature="4466:4512" ph="/* Debug.Log(&quot;Smash&quot;); ... */" />
+            <marker date="1574536911672" expanded="true" signature="4810:5061" ph="{...}" />
+            <marker date="1574536911672" expanded="true" signature="5134:8357" ph="{...}" />
+            <marker date="1574536911672" expanded="true" signature="5165:5223" ph="/* throw player ... */" />
+            <marker date="1574536911672" expanded="true" signature="5366:5541" ph="{...}" />
+            <marker date="1574536911672" expanded="true" signature="5562:5738" ph="{...}" />
+            <marker date="1574536911672" expanded="true" signature="6127:6580" ph="{...}" />
+            <marker date="1574536911672" expanded="true" signature="6677:6753" ph="{...}" />
+            <marker date="1574536911672" expanded="true" signature="6774:6850" ph="{...}" />
+            <marker date="1574536911672" expanded="true" signature="7050:8180" ph="{...}" />
+            <marker date="1574536911672" expanded="true" signature="7584:8162" ph="{...}" />
+            <marker date="1574536911672" expanded="true" signature="7648:7880" ph="{...}" />
+            <marker date="1574536911672" expanded="true" signature="7909:8140" ph="{...}" />
+            <marker date="1574536911672" expanded="true" signature="8395:9036" ph="{...}" />
+            <marker date="1574536911672" expanded="true" signature="8475:8997" ph="{...}" />
+            <marker date="1574536911672" expanded="true" signature="8604:8726" ph="{...}" />
+            <marker date="1574536911672" expanded="true" signature="8798:8920" ph="{...}" />
+            <marker date="1574536911672" expanded="true" signature="9062:9113" ph="/* reset hand ... */" />
+            <marker date="1574536911672" expanded="true" signature="9416:9778" ph="{...}" />
+            <marker date="1574536911672" expanded="true" signature="9791:9840" ph="/* move back ... */" />
+            <marker date="1574536911672" expanded="true" signature="10335:10697" ph="{...}" />
+            <marker date="1574536911672" expanded="true" signature="10723:10773" ph="/* move down ... */" />
+            <marker date="1574536911672" expanded="true" signature="11076:11309" ph="{...}" />
+            <marker date="1574536911672" expanded="true" signature="11520:12638" ph="{...}" />
+            <marker date="1574536911672" expanded="true" signature="12235:12573" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Organized/Scripts/Enemy/Boss/Base/Phase_Manager.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
+          <folding>
+            <marker date="1574530839274" expanded="false" signature="6:92" ph="..." />
+            <marker date="1574530839274" expanded="true" signature="136:1509" ph="{...}" />
+            <marker date="1574530839274" expanded="true" signature="374:442" ph="{...}" />
+            <marker date="1574530839274" expanded="true" signature="473:543" ph="{...}" />
+            <marker date="1574530839274" expanded="true" signature="580:759" ph="{...}" />
+            <marker date="1574530839274" expanded="true" signature="794:1037" ph="{...}" />
+            <marker date="1574530839274" expanded="true" signature="1073:1440" ph="{...}" />
+            <marker date="1574530839274" expanded="true" signature="1331:1386" ph="{...}" />
+            <marker date="1574530839274" expanded="true" signature="1397:1435" ph="{...}" />
+            <marker date="1574530839274" expanded="true" signature="1469:1503" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Organized/Scripts/PlayerMovement/Dash.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="24" column="23" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
+        <state>
           <folding>
             <marker date="1574481200640" expanded="false" signature="6:78" ph="..." />
             <marker date="1574481200640" expanded="true" signature="113:3480" ph="{...}" />
@@ -1189,138 +943,106 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Player/GetIntoVehicle.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Organized/Scripts/PlayerMovement/GetIntoVehicle.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="433">
-          <caret line="50" column="9" selection-start-line="50" selection-start-column="9" selection-end-line="50" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Player/VehicleObject.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Organized/Scripts/PlayerMovement/Player_Pickup.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="566">
-          <caret line="107" column="24" selection-start-line="107" selection-start-column="24" selection-end-line="107" selection-end-column="24" />
+        <state relative-caret-position="330">
+          <caret line="58" column="34" selection-start-line="58" selection-start-column="34" selection-end-line="58" selection-end-column="34" />
           <folding>
-            <marker date="1574481430494" expanded="false" signature="6:104" ph="..." />
-            <marker date="1574481430494" expanded="true" signature="148:2765" ph="{...}" />
-            <marker date="1574481430494" expanded="true" signature="576:692" ph="{...}" />
-            <marker date="1574481430494" expanded="true" signature="721:832" ph="{...}" />
-            <marker date="1574481430494" expanded="true" signature="906:1771" ph="{...}" />
-            <marker date="1574481430494" expanded="true" signature="975:1357" ph="{...}" />
-            <marker date="1574481430494" expanded="true" signature="1041:1093" ph="{...}" />
-            <marker date="1574481430494" expanded="true" signature="1110:1347" ph="{...}" />
-            <marker date="1574481430494" expanded="true" signature="1416:1764" ph="{...}" />
-            <marker date="1574481430494" expanded="true" signature="1820:2133" ph="{...}" />
-            <marker date="1574481430494" expanded="true" signature="1877:2127" ph="{...}" />
-            <marker date="1574481430494" expanded="true" signature="2181:2335" ph="{...}" />
-            <marker date="1574481430494" expanded="true" signature="2240:2329" ph="{...}" />
-            <marker date="1574481430494" expanded="true" signature="2375:2411" ph="{...}" />
-            <marker date="1574481430494" expanded="true" signature="2445:2483" ph="{...}" />
-            <marker date="1574481430494" expanded="true" signature="2509:2763" ph="{...}" />
-            <marker date="1574481430494" expanded="true" signature="2582:2707" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/SkyeStuff/Inventory/Scripts/Weapon/Boomerang_Object.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-199" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/SkyeStuff/Inventory/Scripts/Weapon/Shield_Object.cs">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/SkyeStuff/Inventory/Scripts/Weapon/Sword_Object.cs">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/SkyeStuff/Inventory/Scripts/Weapon/YoYo_Object.cs">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/SkyeStuff/Puzzles/Scripts/Pushing_Script.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1935">
-          <caret line="131" column="33" selection-start-line="131" selection-start-column="33" selection-end-line="131" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Organized/Scripts/Saving/Player_Skills_List.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="54" selection-start-line="18" selection-start-column="54" selection-end-line="18" selection-end-column="54" />
-          <folding>
-            <marker date="1574483732574" expanded="true" signature="6:78" ph="..." />
-            <marker date="1574483732574" expanded="true" signature="132:496" ph="{...}" />
-            <marker date="1574483732574" expanded="true" signature="255:494" ph="{...}" />
-            <marker date="1574483732574" expanded="true" signature="346:386" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Organized/Scripts/Scriptable_Objects/BoolData.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="20" column="23" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
-          <folding>
-            <marker date="1572016143957" expanded="false" signature="6:78" ph="..." />
-            <marker date="1572016143957" expanded="true" signature="161:379" ph="{...}" />
-            <marker date="1572016143957" expanded="true" signature="213:247" ph="{...}" />
-            <marker date="1572016143957" expanded="true" signature="275:310" ph="{...}" />
-            <marker date="1572016143957" expanded="true" signature="341:377" ph="{...}" />
+            <marker date="1574708558904" expanded="false" signature="6:78" ph="..." />
+            <marker date="1574708558904" expanded="true" signature="123:2427" ph="{...}" />
+            <marker date="1574708558904" expanded="true" signature="463:507" ph="{...}" />
+            <marker date="1574708558904" expanded="true" signature="539:1614" ph="{...}" />
+            <marker date="1574708558904" expanded="true" signature="566:1607" ph="{...}" />
+            <marker date="1574708558904" expanded="true" signature="603:1122" ph="{...}" />
+            <marker date="1574708558904" expanded="true" signature="666:886" ph="{...}" />
+            <marker date="1574708558904" expanded="true" signature="1139:1597" ph="{...}" />
+            <marker date="1574708558904" expanded="true" signature="1202:1582" ph="{...}" />
+            <marker date="1574708558904" expanded="true" signature="1663:2187" ph="{...}" />
+            <marker date="1574708558904" expanded="true" signature="1710:2181" ph="{...}" />
+            <marker date="1574708558904" expanded="true" signature="1973:2171" ph="{...}" />
+            <marker date="1574708558904" expanded="true" signature="2235:2425" ph="{...}" />
+            <marker date="1574708558904" expanded="true" signature="2282:2419" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Organized/Scripts/PlayerMovement/PlayerMovementManager.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+        <state relative-caret-position="371">
+          <caret line="106" column="34" selection-start-line="106" selection-start-column="34" selection-end-line="106" selection-end-column="34" />
           <folding>
-            <marker date="1574482566015" expanded="false" signature="6:100" ph="..." />
-            <marker date="1574482566015" expanded="true" signature="152:3169" ph="{...}" />
-            <marker date="1574482566015" expanded="true" signature="1483:2464" ph="{...}" />
-            <marker date="1574482566015" expanded="true" signature="2505:2548" ph="{...}" />
-            <marker date="1574482566015" expanded="true" signature="2593:2772" ph="{...}" />
-            <marker date="1574482566015" expanded="true" signature="2619:2686" ph="{...}" />
-            <marker date="1574482566015" expanded="true" signature="2699:2766" ph="{...}" />
-            <marker date="1574482566015" expanded="true" signature="2812:2865" ph="{...}" />
-            <marker date="1574482566015" expanded="true" signature="2906:2948" ph="{...}" />
-            <marker date="1574482566015" expanded="true" signature="2991:3162" ph="{...}" />
-            <marker date="1574482566015" expanded="true" signature="3017:3080" ph="{...}" />
-            <marker date="1574482566015" expanded="true" signature="3093:3156" ph="{...}" />
+            <marker date="1574708883823" expanded="false" signature="6:100" ph="..." />
+            <marker date="1574708883823" expanded="true" signature="152:3464" ph="{...}" />
+            <marker date="1574708883823" expanded="true" signature="1483:2464" ph="{...}" />
+            <marker date="1574708883823" expanded="true" signature="2505:2548" ph="{...}" />
+            <marker date="1574708883823" expanded="true" signature="2593:2772" ph="{...}" />
+            <marker date="1574708883823" expanded="true" signature="2619:2686" ph="{...}" />
+            <marker date="1574708883823" expanded="true" signature="2699:2766" ph="{...}" />
+            <marker date="1574708883823" expanded="true" signature="2812:2865" ph="{...}" />
+            <marker date="1574708883823" expanded="true" signature="2906:2948" ph="{...}" />
+            <marker date="1574708883823" expanded="true" signature="2991:3241" ph="{...}" />
+            <marker date="1574708883823" expanded="true" signature="3017:3119" ph="{...}" />
+            <marker date="1574708883823" expanded="true" signature="3132:3235" ph="{...}" />
+            <marker date="1574708883823" expanded="true" signature="3285:3349" ph="{...}" />
+            <marker date="1574708883823" expanded="true" signature="3393:3457" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Organized/Scripts/PlayerMovement/Weapon_Manager.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="35" column="53" selection-start-line="35" selection-start-column="53" selection-end-line="35" selection-end-column="53" />
+        <state relative-caret-position="102">
+          <caret line="33" column="19" selection-start-line="33" selection-start-column="19" selection-end-line="33" selection-end-column="19" />
           <folding>
-            <marker date="1574481511087" expanded="false" signature="6:107" ph="..." />
-            <marker date="1574481511087" expanded="true" signature="152:2488" ph="{...}" />
-            <marker date="1574481511087" expanded="true" signature="529:723" ph="{...}" />
-            <marker date="1574481511087" expanded="true" signature="749:786" ph="{...}" />
-            <marker date="1574481511087" expanded="true" signature="818:2004" ph="{...}" />
-            <marker date="1574481511087" expanded="true" signature="883:916" ph="{...}" />
-            <marker date="1574481511087" expanded="true" signature="971:1767" ph="{...}" />
-            <marker date="1574481511087" expanded="true" signature="1059:1126" ph="{...}" />
-            <marker date="1574481511087" expanded="true" signature="1207:1757" ph="{...}" />
-            <marker date="1574481511087" expanded="true" signature="1314:1522" ph="{...}" />
-            <marker date="1574481511087" expanded="true" signature="1543:1742" ph="{...}" />
-            <marker date="1574481511087" expanded="true" signature="1780:1997" ph="{...}" />
-            <marker date="1574481511087" expanded="true" signature="1868:1987" ph="{...}" />
-            <marker date="1574481511087" expanded="true" signature="2049:2325" ph="{...}" />
-            <marker date="1574481511087" expanded="true" signature="2103:2266" ph="{...}" />
-            <marker date="1574481511087" expanded="true" signature="2197:2256" ph="{...}" />
-            <marker date="1574481511087" expanded="true" signature="2358:2400" ph="{...}" />
-            <marker date="1574481511087" expanded="true" signature="2433:2476" ph="{...}" />
+            <marker date="1574708972613" expanded="false" signature="6:107" ph="..." />
+            <marker date="1574708972613" expanded="true" signature="152:2495" ph="{...}" />
+            <marker date="1574708972613" expanded="true" signature="529:723" ph="{...}" />
+            <marker date="1574708972613" expanded="true" signature="749:786" ph="{...}" />
+            <marker date="1574708972613" expanded="true" signature="818:2011" ph="{...}" />
+            <marker date="1574708972613" expanded="true" signature="883:923" ph="{...}" />
+            <marker date="1574708972613" expanded="true" signature="978:1774" ph="{...}" />
+            <marker date="1574708972613" expanded="true" signature="1066:1133" ph="{...}" />
+            <marker date="1574708972613" expanded="true" signature="1214:1764" ph="{...}" />
+            <marker date="1574708972613" expanded="true" signature="1321:1529" ph="{...}" />
+            <marker date="1574708972613" expanded="true" signature="1550:1749" ph="{...}" />
+            <marker date="1574708972613" expanded="true" signature="1787:2004" ph="{...}" />
+            <marker date="1574708972613" expanded="true" signature="1875:1994" ph="{...}" />
+            <marker date="1574708972613" expanded="true" signature="2056:2332" ph="{...}" />
+            <marker date="1574708972613" expanded="true" signature="2110:2273" ph="{...}" />
+            <marker date="1574708972613" expanded="true" signature="2204:2263" ph="{...}" />
+            <marker date="1574708972613" expanded="true" signature="2365:2407" ph="{...}" />
+            <marker date="1574708972613" expanded="true" signature="2440:2483" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Organized/Scripts/PlayerMovement/Player_Pickup.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="70" column="52" selection-start-line="70" selection-start-column="52" selection-end-line="70" selection-end-column="52" />
+          <folding>
+            <marker date="1574710421973" expanded="false" signature="6:104" ph="..." />
+            <marker date="1574710421973" expanded="true" signature="148:4124" ph="{...}" />
+            <marker date="1574710421973" expanded="true" signature="645:761" ph="{...}" />
+            <marker date="1574710421973" expanded="true" signature="790:941" ph="{...}" />
+            <marker date="1574710421973" expanded="true" signature="1023:2808" ph="{...}" />
+            <marker date="1574710421973" expanded="true" signature="1050:2801" ph="{...}" />
+            <marker date="1574710421973" expanded="true" signature="1171:1715" ph="{...}" />
+            <marker date="1574710421973" expanded="true" signature="1245:1282" ph="{...}" />
+            <marker date="1574710421973" expanded="true" signature="1303:1701" ph="{...}" />
+            <marker date="1574710421973" expanded="true" signature="1747:2720" ph="{...}" />
+            <marker date="1574710421973" expanded="true" signature="1799:2266" ph="{...}" />
+            <marker date="1574710421973" expanded="true" signature="2287:2706" ph="{...}" />
+            <marker date="1574710421973" expanded="true" signature="2857:3330" ph="{...}" />
+            <marker date="1574710421973" expanded="true" signature="2914:3208" ph="{...}" />
+            <marker date="1574710421973" expanded="true" signature="3267:3324" ph="{...}" />
+            <marker date="1574710421973" expanded="true" signature="3378:3695" ph="{...}" />
+            <marker date="1574710421973" expanded="true" signature="3437:3574" ph="{...}" />
+            <marker date="1574710421973" expanded="true" signature="3621:3679" ph="{...}" />
+            <marker date="1574710421973" expanded="true" signature="3735:3771" ph="{...}" />
+            <marker date="1574710421973" expanded="true" signature="3805:3843" ph="{...}" />
+            <marker date="1574710421973" expanded="true" signature="3869:4122" ph="{...}" />
+            <marker date="1574710421973" expanded="true" signature="3906:4031" ph="{...}" />
           </folding>
         </state>
       </provider>

@@ -1,12 +1,12 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-[CreateAssetMenu(menuName = "Boss/SlothBoi/Phase2")]
+[CreateAssetMenu(menuName = "Boss/SlothBoi/ArmBombPhase")]
 public class SlothBoi_Arms_And_Bombs : Phase
 {
     private GameObject player, r_hand, l_hand, current_hand, 
         r_playertransform, l_playertransform, current_playertransform,
-        mothBombObj;
+        mothBombObj, r_wall, l_wall;
     public string phaseName;
     private float restTime, hoverTime, time = 0, handheight, 
         groundHeight, offset, inBetweenTime, scaling;
@@ -16,9 +16,12 @@ public class SlothBoi_Arms_And_Bombs : Phase
     private Quaternion newrot, origrot;
     public GameObject mothBomb;
     private int numOfBombs;
+    public IntData RightArmHealth, LeftArmHealth;
     
     public override IEnumerator StartPhase(List<GameObject> objs)
     {
+        RightArmHealth.value = 25;
+        LeftArmHealth.value = 25;
         handheight = 10;
         groundHeight = .5f;
         restTime = .5f;
@@ -31,6 +34,11 @@ public class SlothBoi_Arms_And_Bombs : Phase
         l_hand = objs[2];
         r_playertransform = objs[3];
         l_playertransform = objs[4];
+        r_wall = objs[5];
+        l_wall = objs[6];
+        //handcolliders
+        objs[7].SetActive(true);
+        objs[8].SetActive(true);
         righthandorig = r_hand.transform.position;
         lefthandorig = l_hand.transform.position;
         origrot = r_hand.transform.rotation;
@@ -122,11 +130,13 @@ public class SlothBoi_Arms_And_Bombs : Phase
                 {
                     newrot = Quaternion.Euler(0,0,90);
                     destination.x -= 5;
+                    l_wall.SetActive(true);
                 }
                 else
                 {
                     newrot = Quaternion.Euler(0,0,-90);
                     destination.x += 5;
+                    r_wall.SetActive(true);
                 }
                 playergrabbed.value = false;
                 while (!((current_hand.transform.position.y > destination.y - .1f) &&
@@ -171,14 +181,28 @@ public class SlothBoi_Arms_And_Bombs : Phase
                         }
                     }
                 } 
-                player.GetComponent<EightWayMovement>().ResumeControls();
+                player.GetComponent<PlayerMovementManager>().MovementEnable(true);
+                player.GetComponent<PlayerMovementManager>().DashEnable(true);
             }
             //if not
             else
             {   
-                Debug.Log("Wait");
-                yield return new WaitForSeconds(restTime);
-                //raise
+                time = restTime;
+                while (time > 0)
+                {
+                    time -= Time.deltaTime;
+                    if (rightArmTurn && RightArmHealth.value <= 0)
+                    {
+                        //perform animation
+                        time = 0;
+                    }
+                    else if (!rightArmTurn && LeftArmHealth.value <= 0)
+                    {
+                        //perform animation
+                        time = 0;
+                    }
+                    yield return new WaitForFixedUpdate();
+                }
             }
             
             //reset hand

@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
+using UnityEngine.Events;
 
 [RequireComponent(typeof(NavMeshAgent))]
 public class MothBomb : MonoBehaviour
@@ -13,6 +14,7 @@ public class MothBomb : MonoBehaviour
     private float groundHeight = .5f;
     private NavMeshAgent agent;
     public Rigidbody BombRigid;
+    public UnityEvent OnHit;
     
     private void Start()
     {
@@ -38,6 +40,6 @@ public class MothBomb : MonoBehaviour
         Hit = true;
         BombRigid.useGravity = true;
         BombRigid.isKinematic = false;
-        
+        OnHit.Invoke();
     }
 }

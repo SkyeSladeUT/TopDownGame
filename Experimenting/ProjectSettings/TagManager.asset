@@ -13,6 +13,8 @@ TagManager:
   - PushableTrigger
   - Pickup
   - Vehicle
+  - Boss
+  - ItemContainer
   layers:
   - Default
   - TransparentFX
