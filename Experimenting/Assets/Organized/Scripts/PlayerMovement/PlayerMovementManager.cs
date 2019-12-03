@@ -51,7 +51,7 @@ public class PlayerMovementManager : MonoBehaviour
     private void Start()
     {
         jump = gameObject.AddComponent<Jump>();
-        jump.SetVals(jumpSpeed, MAX_JUMPS, wallJump);
+        jump.SetVals(jumpSpeed, MAX_JUMPS, wallJump, this);
         eightWayMovement = gameObject.AddComponent<EightWayMovement>();
         eightWayMovement.SetVals(walkingspeed, turnSpeed, RunningSpeed);
         dash = gameObject.AddComponent<Dash>();

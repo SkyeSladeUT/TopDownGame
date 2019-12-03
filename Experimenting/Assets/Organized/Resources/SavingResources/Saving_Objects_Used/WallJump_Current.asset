@@ -12,4 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 490d89225c15d814e81d69859f0da91f, type: 3}
   m_Name: WallJump_Current
   m_EditorClassIdentifier: 
-  value: 0
+  value: 1

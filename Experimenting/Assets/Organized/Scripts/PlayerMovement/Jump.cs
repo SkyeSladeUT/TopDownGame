@@ -12,7 +12,7 @@ public class Jump : MonoBehaviour
     public BoolData wallJump;
     private int currentJump = 0;
     private Vector3 jumpDirection;
-    private EightWayMovement playermove;
+    private PlayerMovementManager manager;
     private Vector3 newRot;
     private float gravity = 0;
     private Vector3 velocity;
@@ -20,17 +20,17 @@ public class Jump : MonoBehaviour
     void Start()
     {
         canJump = true;
-        playermove = GetComponent<EightWayMovement>();
         onGround = true;
         rigidBody = GetComponent<Rigidbody>();
         StartCoroutine(JumpFunc());
     }
 
-    public void SetVals(float jumpSpeed, int MaxJumps, BoolData wallJump)
+    public void SetVals(float jumpSpeed, int MaxJumps, BoolData wallJump, PlayerMovementManager manager)
     {
         this.jumpSpeed = jumpSpeed;
         this.MAX_JUMPS = MaxJumps;
         this.wallJump = wallJump;
+        this.manager = manager;
     }
 
     public void StartJump()
@@ -64,17 +64,17 @@ public class Jump : MonoBehaviour
                     {
                         gravity = 0;
                         Debug.Log("Wall Jump");
-                        playermove.CancelControls();
+                        manager.MovementEnable(false);
                         jumpDirection = GetDirection(transform.rotation.eulerAngles.y);
                         newRot = transform.rotation.eulerAngles;
                         newRot.y = (newRot.y + 180) % 360;
                         transform.rotation = Quaternion.Euler(newRot);
-                        jumpDirection *= -.5f;
-                        jumpDirection.y = 1;
+                        jumpDirection *= -1f;
+                        jumpDirection.y = 1.5f;
                         jumpDirection *= jumpSpeed;
                         rigidBody.AddForce(jumpDirection, ForceMode.Impulse);
-                        yield return new WaitForSeconds(.01f);
-                        playermove.ResumeControls();
+                        yield return new WaitForSeconds(.25f);
+                        manager.MovementEnable(true);
                     }
                 }
             }
@@ -118,6 +118,15 @@ public class Jump : MonoBehaviour
             collided = true;
         }
     }
+
+    /*private void OnTriggerEnter(Collider other)
+    {
+        if (other.CompareTag("Wall") && wallJump.value)
+        {
+            gravity = 0;
+            collided = true;
+        }
+    }*/
 
     private void OnCollisionExit(Collision other)
     {

@@ -15,6 +15,7 @@ TagManager:
   - Vehicle
   - Boss
   - ItemContainer
+  - Wall
   layers:
   - Default
   - TransparentFX
