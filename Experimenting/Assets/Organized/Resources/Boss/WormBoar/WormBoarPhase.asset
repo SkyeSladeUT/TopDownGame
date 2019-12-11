@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0afd382b59d4fa3499784a3e4ca4590b, type: 3}
+  m_Name: WormBoarPhase
+  m_EditorClassIdentifier: 
+  finishStart: 0
+  finishEnd: 0
+  currentPhase: 1
+  phaseName: WormBoarPhase
+  chargeWaitTime: 5
+  TunnelTime: 5
+  chargeSpeed: 5
+  dazeTime: 2
+  followSpeed: 4
+  TunnelPauseTime: 1
+  hitWall: {fileID: 11400000, guid: 1cc34e5b932ed60468cb0ff0ca2b3ccf, type: 2}
+  RubblePrefab: {fileID: 3552785563915997423, guid: 4dff075e561ebfe419268263bc968bd8,
+    type: 3}
