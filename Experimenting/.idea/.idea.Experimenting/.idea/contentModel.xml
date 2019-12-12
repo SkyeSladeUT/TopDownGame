@@ -35,6 +35,7 @@
               </e>
               <e p="DamageToPlayer.cs" t="Include" />
               <e p="WormBoar" t="Include">
+                <e p="PlayerSmack.cs" t="Include" />
                 <e p="RubbleScript.cs" t="Include" />
                 <e p="WormBoar.cs" t="Include" />
               </e>

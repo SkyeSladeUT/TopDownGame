@@ -40,50 +40,50 @@ public class Dash : MonoBehaviour
         {
             if (canDash)
             {
-                if (Input.GetKeyDown(KeyCode.D) && moveDirection != "D")
+                if ((Input.GetKeyDown(KeyCode.D)||(Input.GetKeyDown(KeyCode.RightArrow))) && moveDirection != "D")
                 {
 
                     moveDirection = "D";
                     time = 0;
                 }
-                else if (Input.GetKeyDown(KeyCode.W) && moveDirection != "W")
+                else if ((Input.GetKeyDown(KeyCode.W)||(Input.GetKeyDown(KeyCode.UpArrow))) && moveDirection != "W")
                 {
 
                     moveDirection = "W";
                     time = 0;
                 }
-                else if (Input.GetKeyDown(KeyCode.S) && moveDirection != "S")
+                else if ((Input.GetKeyDown(KeyCode.S)||(Input.GetKeyDown(KeyCode.DownArrow))) && moveDirection != "S")
                 {
 
                     moveDirection = "S";
                     time = 0;
                 }
-                else if (Input.GetKeyDown(KeyCode.A) && moveDirection != "A")
+                else if ((Input.GetKeyDown(KeyCode.A)||(Input.GetKeyDown(KeyCode.LeftArrow))) && moveDirection != "A")
                 {
 
                     moveDirection = "A";
                     time = 0;
                 }
 
-                else if (Input.GetKeyDown(KeyCode.D) && moveDirection == "D")
+                else if ((Input.GetKeyDown(KeyCode.D)||(Input.GetKeyDown(KeyCode.RightArrow))) && moveDirection == "D")
                 {
                     //Debug.Log("Dash D");
                     StartCoroutine(DashAct("D"));
                 }
 
-                else if (Input.GetKeyDown(KeyCode.W) && moveDirection == "W")
+                else if ((Input.GetKeyDown(KeyCode.W)||(Input.GetKeyDown(KeyCode.UpArrow))) && moveDirection == "W")
                 {
                     //Debug.Log("Dash W");
                     StartCoroutine(DashAct("W"));
                 }
 
-                else if (Input.GetKeyDown(KeyCode.S) && moveDirection == "S")
+                else if ((Input.GetKeyDown(KeyCode.S)||(Input.GetKeyDown(KeyCode.DownArrow))) && moveDirection == "S")
                 {
                     //Debug.Log("Dash S");
                     StartCoroutine(DashAct("S"));
                 }
 
-                else if (Input.GetKeyDown(KeyCode.A) && moveDirection == "A")
+                else if ((Input.GetKeyDown(KeyCode.A)||(Input.GetKeyDown(KeyCode.LeftArrow))) && moveDirection == "A")
                 {
                     // Debug.Log("Dash A");
                     StartCoroutine(DashAct("A"));

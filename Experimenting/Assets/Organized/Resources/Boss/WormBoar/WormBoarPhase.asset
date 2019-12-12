@@ -19,9 +19,9 @@ MonoBehaviour:
   chargeWaitTime: 5
   TunnelTime: 5
   chargeSpeed: 5
-  dazeTime: 2
-  followSpeed: 4
-  TunnelPauseTime: 1
+  dazeTime: 5
+  followSpeed: 3.5
+  TunnelPauseTime: 5
   hitWall: {fileID: 11400000, guid: 1cc34e5b932ed60468cb0ff0ca2b3ccf, type: 2}
   RubblePrefab: {fileID: 3552785563915997423, guid: 4dff075e561ebfe419268263bc968bd8,
     type: 3}

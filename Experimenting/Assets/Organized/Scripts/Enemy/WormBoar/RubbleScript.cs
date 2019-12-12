@@ -13,7 +13,7 @@ public class RubbleScript : MonoBehaviour
 
     private IEnumerator setInactive()
     {
-        Debug.Log("startCountdown");
+        //Debug.Log("startCountdown");
         yield return new WaitForSeconds(timeActive);
         gameObject.SetActive(false);
     }

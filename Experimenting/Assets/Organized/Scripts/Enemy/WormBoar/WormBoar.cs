@@ -5,16 +5,17 @@ using UnityEngine;
 public class WormBoar : Phase
 {
     public string phaseName;
-    public float chargeWaitTime=5, TunnelTime=5, chargeSpeed=5, dazeTime=2, followSpeed=2, TunnelPauseTime=2;
+    public float chargeWaitTime=5, TunnelTime=5, chargeSpeed=5, dazeTime=5, followSpeed=2, TunnelPauseTime=5;
     private float timeLeft, timeToSet, ypos, scale, origy;
     private GameObject playerObj, creatureObj, frontPos, backPos;
     public BoolData hitWall;
-    private Vector3 newDest, rubblepos;
+    private Vector3 newDest, rubblepos, digDirection;
     private Rigidbody ridg;
     private BoxCollider creatureCollider;
     public GameObject RubblePrefab;
     private List<GameObject> Rubbles;
     private int RubbleCount;
+    private Quaternion rotationAngle, origRotation;
     public override IEnumerator StartPhase(List<GameObject> objs)
     {
             Rubbles = new List<GameObject>();
@@ -31,6 +32,7 @@ public class WormBoar : Phase
         playerObj = objs[0];
         creatureObj = objs[1];
         origy = creatureObj.transform.position.y;
+        origRotation = creatureObj.transform.rotation;
         frontPos = objs[2];
         backPos = objs[3];
         ridg = creatureObj.GetComponent<Rigidbody>();
@@ -49,7 +51,7 @@ public class WormBoar : Phase
         while (currentPhase)
         {
             //Charge
-            /*if (Random.Range(0, 2) < 1)
+            if (Random.Range(0, 2) < 1)
             {
                 Debug.Log("Charge");
                 timeLeft = chargeWaitTime;
@@ -74,11 +76,19 @@ public class WormBoar : Phase
                 }
                 ridg.velocity = Vector3.zero;
                 ridg.AddForce(-(creatureObj.transform.forward*(chargeSpeed)), ForceMode.Impulse);
-                yield return new WaitForSeconds(dazeTime);       
-            }*/
+                yield return new WaitForSeconds(.5f);
+                ridg.velocity = Vector3.zero;
+                ridg.useGravity = false;
+                ridg.isKinematic = true;
+                //creatureCollider.isTrigger = true;
+                yield return new WaitForSeconds(dazeTime); 
+                ridg.useGravity = true;
+                ridg.isKinematic = false;
+                //creatureCollider.isTrigger = false;
+            }
             //Tunnel
-            //else
-            //{
+            else
+            {
                 ridg.useGravity = false;
                 ridg.isKinematic = true;
                 creatureCollider.isTrigger = true;
@@ -86,26 +96,29 @@ public class WormBoar : Phase
                 //Go Underground
             newDest = creatureObj.transform.position;
             newDest.y -= 2;
-            timeToSet = 10;
             rubblepos = frontPos.transform.position;
             rubblepos.y = RubblePrefab.transform.position.y;
             SetRubble(rubblepos);
+            scale = 1;
                 while (!(creatureObj.transform.position.y >= newDest.y - .01f
                        && creatureObj.transform.position.y <= newDest.y + .01f))
                 {
-                    if (timeToSet % 10 == 0)
-                    {
                         rubblepos = frontPos.transform.position;
                         rubblepos.y = RubblePrefab.transform.position.y;
-                        SetRubble(rubblepos);
-                        timeToSet += 5;                       
-                    }
-                    scale = 1;
+                        SetRubble(rubblepos);                    
+
+                    digDirection = newDest + creatureObj.transform.forward;
+                    rotationAngle = Quaternion.LookRotation(digDirection - creatureObj.transform.position); // we get the angle has to be rotated
+                    creatureObj.transform.rotation = Quaternion.Slerp(creatureObj.transform.rotation, rotationAngle, Time.deltaTime * 5);
                     creatureObj.transform.position =
                         Vector3.Lerp(creatureObj.transform.position, newDest, 3*scale*Time.deltaTime);
                     yield return new WaitForFixedUpdate();
-                    scale +=  2f*Time.deltaTime;
+                    scale +=  Time.deltaTime;
                 }
+
+            rotationAngle = origRotation;
+            rotationAngle.y = creatureObj.transform.rotation.y;
+            creatureObj.transform.rotation = rotationAngle;
             creatureObj.transform.position = newDest;
             ypos = creatureObj.transform.position.y;
             timeLeft = .5f;
@@ -130,10 +143,10 @@ public class WormBoar : Phase
                         SetRubble(rubblepos);
                         timeToSet -= .25f;
                     }
-                    var rotationAngle = Quaternion.LookRotation(playerObj.transform.position - creatureObj.transform.position); // we get the angle has to be rotated
+                    rotationAngle = Quaternion.LookRotation(playerObj.transform.position - creatureObj.transform.position); // we get the angle has to be rotated
                     rotationAngle.x = creatureObj.transform.rotation.x;
                     rotationAngle.z = creatureObj.transform.rotation.z;
-                    creatureObj.transform.rotation = Quaternion.Slerp(creatureObj.transform.rotation, rotationAngle, Time.deltaTime * 5); // we rotate the rotationAngle 
+                    creatureObj.transform.rotation = Quaternion.Slerp(creatureObj.transform.rotation, rotationAngle, scale *Time.deltaTime * 5); // we rotate the rotationAngle 
                     newDest = creatureObj.transform.position + (creatureObj.transform.forward*followSpeed);
                     newDest.y = ypos;
                     creatureObj.transform.position = Vector3.Slerp(creatureObj.transform.position, newDest, Time.deltaTime);
@@ -144,6 +157,7 @@ public class WormBoar : Phase
             timeLeft = .5f;
             while (timeLeft > 0)
             {
+                
                 rubblepos = frontPos.transform.position;
                 rubblepos.y = RubblePrefab.transform.position.y;
                 SetRubble(rubblepos);
@@ -153,32 +167,45 @@ public class WormBoar : Phase
                 Debug.Log("Rise");
                 newDest = creatureObj.transform.position;
             newDest.y = origy;
-            timeToSet = 10;
+            scale = 1;
             while (!(creatureObj.transform.position.y >= newDest.y - .01f
                      && creatureObj.transform.position.y <= newDest.y + .01f))
             {
-                if (timeToSet % 10 == 0)
-                {
                     rubblepos = frontPos.transform.position;
                     rubblepos.y = RubblePrefab.transform.position.y;
                     SetRubble(rubblepos);
                     timeToSet += .5f;                       
-                }
-                scale = 1;
+                digDirection = newDest + creatureObj.transform.forward;
+                rotationAngle = Quaternion.LookRotation(digDirection - creatureObj.transform.position);
+                creatureObj.transform.rotation = Quaternion.Slerp(creatureObj.transform.rotation, rotationAngle, Time.deltaTime * scale);
                 creatureObj.transform.position =
                     Vector3.Lerp(creatureObj.transform.position, newDest, 3*scale*Time.deltaTime);
                 yield return new WaitForFixedUpdate();
-                scale += 2f*Time.deltaTime;
+                scale += Time.deltaTime;
             }
 
+            scale = 1;
+
+            creatureCollider.isTrigger = false;
+            timeLeft = TunnelPauseTime;
+            newDest = frontPos.transform.position;
+            digDirection = newDest + creatureObj.transform.forward;
+            digDirection.y = origy;
+            rotationAngle = Quaternion.LookRotation(digDirection - creatureObj.transform.position);
+            //Debug.Log("Rotation Angle: " + rotationAngle);
+            while(timeLeft > 0){
+                creatureObj.transform.rotation = Quaternion.Slerp(creatureObj.transform.rotation, rotationAngle, Time.deltaTime * 5 * scale);
+                yield return new WaitForFixedUpdate();
+                scale += Time.deltaTime;
+                timeLeft -= Time.deltaTime;
+            }
+            ridg.useGravity = true;
+            ridg.isKinematic = false;
+            creatureObj.transform.rotation = rotationAngle;
             creatureObj.transform.position = newDest;
-                creatureCollider.isTrigger = false;
-                ridg.useGravity = true;
-                ridg.isKinematic = false;
-                yield return new WaitForSeconds(TunnelPauseTime);
-            
+         
                 
-            //}
+            }
         }
     }
     
@@ -191,6 +218,7 @@ public class WormBoar : Phase
         //Insert Stop Stuff Here
         yield return new WaitForSeconds(1);
         finishEnd = true;
+        Destroy(creatureObj);
     }
 
     private void SetRubble(Vector3 position)
